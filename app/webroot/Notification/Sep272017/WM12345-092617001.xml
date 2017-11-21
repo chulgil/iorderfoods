@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><Response><Say voice="alice">Dear store owner,</Say> <Pause length="1"></Pause> <Say voice="alice">you have received an order</Say> <Pause length="1"></Pause> <Say voice="alice">order id W,M,1,2,3,4,5,-,0,9,2,6,1,7,0,0,1</Say> <Pause length="1"></Pause> <Say voice="alice">order total $54. Thank you!</Say></Response>

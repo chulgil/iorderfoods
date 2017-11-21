@@ -1,0 +1,102 @@
+.logoimg{float: left !important;}
+.logotxt{line-height: 65px;}
+.headerRightText{line-height:95px;font-weight:bold;color:white;float:right;margin-right:80px;font-size:20px;}
+.side-nav {top: 76px;}
+.huge {
+    font-size: 40px; text-align:center;
+}
+
+.panel-primary1 {
+    border-color: #fff;
+}
+
+.panel-primary1 > .panel-heading1 {
+    background-color: #ff7878;
+    color: #ffffff;
+	border:none !important
+}
+
+.panel-heading1 {
+  
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}
+
+
+.panel1 {
+    background-color: #ffffff;
+        border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.btns{ background:#09F; border:none; border-radius:5px; padding:10px; color:#fff;}
+
+.heading{ font-size: 18px;
+        position: absolute;
+    top: 11px; color:#666;}
+	
+	.heading1{ font-size: 18px;
+            top: 11px; color:#666;}
+	
+.fts20{ font-size:20px;}
+.fts22{ font-size:16px; color:#09F; font-weight:normal;}	
+	
+.spacer10{ height:10px;}
+.spacer20{ height:20px;}
+.spacer30{ height:30px;}
+.spacer40{ height:40px;}
+.spacer50{ height:50px;}	
+
+
+.admin-nav-header-left {}
+
+/*********** 29/10/2015 *********/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0; line-height:normal; }
+ul, li, ol { list-style: none inside none; }
+a, a:hover { text-decoration:none; -webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s; outline:none; }
+a:focus { outline:none; text-decoration:none; }
+.front-page-body { background-color:#f3f3f3; background-image:none; margin-top:0; font-family: 'Roboto', sans-serif; font-weight:400; font-size:14px; }
+.wrap { margin:0 auto; }
+.header { background-color:#f3f3f3; padding:10px 0; -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow:0px 3px 3px 0px rgba(0, 0, 0, 0.2); box-shadow:0px 3px 3px 0px rgba(0, 0, 0, 0.2); }
+.header .logoimg  { float:none !important; margin:0; color:#000; }
+.header h1 { font-size: 36px; font-weight: 900; color:#ff3300; }
+.header h1 a {color:#ff3300; }
+
+.front-nav { background-color:#ff3300; }
+.front-nav ul { padding:0; margin:0; }
+.front-nav ul li { display:inline-block; font-size:16px; min-width:120px; text-align:center; }
+.front-nav ul li a { display:block; padding:10px 20px; color:#fff; }
+.front-nav ul li a:hover, .front-nav ul li.active a { color:#fff; background-color:#0D0D0D; }
+
+.content { padding:30px 0; }
+
+#contentChange.container { margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; float:none; background-color:transparent; box-shadow:none;  } 
+
+/****** 02/11/2015 *****/
+#contentChange.container { margin-bottom:0; }
+
+
+/**********4-12-15 ***************/
+.net-record-font-size{  font-size: 12px;  font-weight: bold;}
+/*.table-bordered td, .net-record-font-size { line-height: 1 !important; padding: 6px !important; vertical-align: middle !important;}*/
+.table-net-record-modify td, .net-record-font-size {  padding: 3px !important;vertical-align: middle !important;}
+.table-net-tr {background-color: rgb(255, 255, 255) ! important;}
+.table-net-td {border: medium none ! important;}
+
+.upload-img-wrap { border-bottom:1px solid #dfdfdf;padding:25px 0;}
+.upload-img-txt { float:left;width:300px;}
+.upload-img-frame { position:relative;width:100px;height:100px;float:right;}
+.upload-img-frame img { width:100%;height:100%;}
+.upload-img-frame a { position: absolute; color: rgb(255, 255, 255); border-radius: 50%; padding:2px 6px; background-color: rgba(0, 0, 0, 0.8); border: 2px solid rgb(255, 255, 255); box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4); font-weight: bold; right: -14px; top: -5px;font-size:11px;}
+
+
+
+
+@media (min-width: 768px) { #contentChange.container, .wrap { width: 750px; } }
+@media (min-width: 992px) { #contentChange.container, .wrap { width: 970px; } }
+@media (min-width: 1200px) { #contentChange.container, .wrap { width: 1170px; } }
+
+@media (max-width: 767px) { #contentChange.container, .wrap { width:90%; } }

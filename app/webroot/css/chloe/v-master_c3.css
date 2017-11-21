@@ -1,0 +1,137 @@
+.IOF-C3-V { background-color:#ffffff;}
+.IOF-C3-V.chole-main .CHT3 .center-title > h3 {  color: #fff;  font-family: 'Kaushan Script', cursive;  font-size: 100px;  font-weight: 900;  text-align: center;}
+.IOF-C3-V.chole-main .CHT3 .order-link {background-color: rgb(175,198,68);border: 0 none;}
+.IOF-C3-V.chole-main .CHT3 .simple-banner-bg.cbanner-1 { background-image:url(../img/ct3bg.jpg);}
+.IOF-C3-V.chole-main .CHT3 .open-hours-card {display: none;}
+.IOF-C3-V.chole-main .CHT3 .center-title h3 { display: none;}
+.IOF-C3-V.chole-main .CHT3 .center-title .cht2-title{ color: #fff;  font-family: "Kaushan Script",cursive;  font-size: 85px;  font-weight: 900;  text-align: center; display:block;margin-bottom: 22px;}
+.IOF-C3-V.chole-main .CHT3 { font-family: 'Roboto', sans-serif !important;}
+.IOF-C3-V.chole-main .CHT3 .order-link {font-family:inherit;}
+.IOF-C3-V .CHT3 .main-menu-list { width:100%;background-color: transparent;}
+.IOF-C3-V.chole-main .CHT3.Chole-theme-three .cd-logo1 { display: none;}
+.IOF-C3-V.chole-main .CHT3.Chole-theme-three .crm-wrap-bottom > p {font-size: 18px;}
+.IOF-C3-V.chole-main .CHT3 .chole-recommended-menu .open-mid{background-image: none;padding: 0;}
+.IOF-C3-V.chole-main .CHT3 .time-list li { border-bottom: none; padding: 5px 0;}
+.IOF-C3-V.chole-main .CHT3 .open-mid .lft-txt .fa.fa-calendar-o { display: none;}
+.IOF-C3-V.chole-main .CHT3 .lft-txt {float: left;font-size: 17px;font-weight: 600;}
+.IOF-C3-V.chole-main .CHT3 .rgt-txt {font-size: 15px;font-weight: 500;}
+.IOF-C3-V.chole-main .CHT3 .store-last-rgt .open-hours-card { display: block;}
+.IOF-C3-V .profile-btn-section button.p-cancle { background-color:#f7f7f7;}
+.IOF-C3-V .add-menu { background-color:#afc644;color:#ffffff;}
+.IOF-C3-V.chole-main .right-menu .continue .cont-btn { background-color:#afc644;color:#ffffff;}
+.IOF-C3-V.chole-main .arrow-down .fa.fa-caret-down { color:#afc644;}
+.IOF-C3-V .confirm { padding-bottom:40px;}
+.IOF-C3-V .confirm .submit .confirm-btn { background-color:#afc644;color:#ffffff;}
+.IOF-C3-V .pay-check [type="checkbox"]:not(:checked) + label::before,
+.IOF-C3-V .pay-check [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-C3-V .pay-check span [type="checkbox"]:not(:checked) + label::before,
+.IOF-C3-V .pay-check span [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-C3-V .pay-check span [type="checkbox"]:not(:checked) + label::after,
+.IOF-C3-V .pay-check span [type="checkbox"]:checked + label::after { top:12px;}
+.IOF-C3-V .panel-body.nested-ac .pay-wrap { padding:15px 10px;}
+.IOF-C3-V #OTDetail .pay-wrap.select-order { padding:15px 15px;}
+.IOF-C3-V .common-input > p { font-size:16px;font-weight: normal;margin-bottom: 8px;}
+.IOF-C3-V .continue > div#desktop_continue a,
+.IOF-C3-V .continue > div#pay-credit-card button { display:inline-block;width:100%;max-width:250px;float:none;background-color:#afc644;}
+.IOF-C3-V .card-input.exp-date .SumoSelect { width:25%;}
+.IOF-C3-V .card-input.exp-date .SumoSelect ~ .SumoSelect { margin-left:15px;margin-right:0;}
+.IOF-C3-V .card-detail .card-input .error { display:block;padding-left:40%;padding-top:2px;}
+.IOF-C3-V .card-detail .card-input { margin-bottom:12px;}
+.IOF-C3-V .navbar-collapse { padding-left:0;padding-right:0;}
+.IOF-C3-V .profile-input { margin-top:15px;}
+.IOF-C3-V .profile-input.popup-checkbox.clearfix label { padding-left:32px !important;}
+.IOF-C3-V .btn-primary.save-order { float:right;}
+.IOF-C3-V .chlole-lft-menu .continue { float:left;width:100%;margin-bottom:15px;}
+.IOF-C3-V .saveOrderType { margin-top:10px;background-color:#afc644;color:#ffffff;}
+.IOF-C3-V .pay-wrap.select-order ul { float:left;width:100%;}
+.IOF-C3-V .pay-wrap.select-order ul li label { width:60px;}
+.IOF-C3-V .deliver-access { padding:20px 0;}
+.IOF-C3-V .sign-input { background-color:#ffffff;border:1px solid #a8a8a8;}
+.IOF-C3-V .reg-btn .sign-up-custom { background-color: #242424;color: #fff;}
+.IOF-C3-V .SumoSelect { width:25%;padding-bottom:5px;height:39px;}
+.IOF-C3-V #UsersRegistration .SumoSelect { width:100%;}
+.IOF-C3-V #UsersRegistration .SumoSelect > .CaptionCont > label > i { left:20px;}
+.IOF-C3-V .SumoSelect + .form-control.phone { width:73.5%;float:right;}
+.IOF-C3-V .SumoSelect > .CaptionCont { height:100%;border-color:#dfdfdf;}
+.IOF-C3-V .SumoSelect > .CaptionCont > label { top:-1px;}
+.IOF-C3-V .profile-btn-section { padding:0 35px 35px;}
+.IOF-C3-V .chole-login-popup { border: 5px solid #afc644;border-radius: 20px;max-width: 550px;padding: 30px 50px;background-color:#ffffff;}
+.IOF-C3-V .chole-login-popup h2 { text-align:center;margin-bottom:20px;text-transform:uppercase;font-size:24px;;font-weight:bold;}
+.IOF-C3-V .chole-login-popup .form-group { margin-bottom:3px;}
+.IOF-C3-V .chole-login-popup .form-group label { color:#000000;font-size:14px;padding-top:5px;}
+.IOF-C3-V .chole-login-popup .form-group .form-control { border-radius:0;border:1px solid #dfdfdf;}
+.IOF-C3-V .chole-login-popup .form-group .checkbox { margin:0;}
+.IOF-C3-V .chole-login-popup .form-group .checkbox label { padding-top:0;padding-left:0;padding-right:20px;color:#000000;font-size:14px;}
+.IOF-C3-V .chole-login-popup .chole-lf-btm { border-top:1px solid rgb(152,25,28);padding-top:20px;margin-top:20px;}
+.margin-top-20 { margin-top:20px;}
+.IOF-C3-V .chole-login-popup .link-forgot-password { padding-bottom:5px;border-bottom:2px solid #dfdfdf;}
+.IOF-C3-V .chole-login-popup .link-forgot-password:hover { border-bottom-color:#ffffff;}
+.IOF-C3-V .chole-login-popup.modal-dialog .close { right:13px;top:6px;}
+.IOF-C3-V .chole-login-popup .form-group .checkbox [type="checkbox"]:not(:checked),
+.IOF-C3-V .chole-login-popup .form-group .checkbox [type="checkbox"]:checked { left:inherit;margin-left:-13px;top: -2px;}
+.IOF-C3-V .check-out .chlole-lft-menu { border-right: 1px solid #acacac;position: relative;right:-1px;background-color:#ffffff;}
+.IOF-C3-V .check-out .chole-rgt-menu { background-color:#ffffff;}
+.IOF-C3-V .confirm-btn { background-color:#afc644;}
+.IOF-C3-V .main-menu-list { width:100%;}
+.IOF-C3-V.chole-main .simple-banner-bg { height:540px;}
+.IOF-C3-V .product-detail-btn #continue.d-access-guest { background-color:#afc644;color:#ffffff;}
+.IOF-C3-V [type="checkbox"]:not(:checked) + label::after,
+.IOF-C3-V [type="checkbox"]:checked + label::after { color:#afc644;}
+.IOF-C3-V .continue .save-order,
+.IOF-C3-V .special-comment .save-order { width:100%;max-width:250px;background-color:#afc644;}
+.IOF-C3-V .editOrderType.cont-btn.theme-color-1 { margin-top:15px;}
+.IOF-C3-V #credit_payment1 .card-input:first-child .SumoSelect { width:60%;}
+.IOF-C3-V .fav-order-history .reorder i,
+.IOF-C3-V .reorder.orderColor:hover { color:rgb(175,198,68);}
+.IOF-C3-V.chole-main #slide .owl-controls.clickable { left:0;right:0;top:50%;}
+.IOF-C3-V .modal-body #slide .owl-theme .owl-controls .owl-buttons div:hover { background-color:#afc644;}
+.IOF-C3-V .title-box .btn-info { background-color:#afc644;color:#ffffff;}
+.IOF-C3-V.chole-main .chole-black-top .account-access a:hover { background-color:#afc644;}
+.IOF-C3-V .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover { background-color:#afc644;}
+.IOF-C3-V .ps-additional-info .common-title { padding:12px 15px;}
+.IOF-C3-V .ps-additional-info .common-title > h3 { font-size: 24px;}
+.IOF-C3-V .ps-additional-info .add-check-list > li { font-size:18px !important;width:100%;}
+.IOF-C3-V .ps-additional-info .select-left { float: left;width: 85%;padding-right:0 !important;}
+.IOF-C3-V .ps-additional-info .add-check-list .select-left label { width:auto;}
+.IOF-C3-V .ps-additional-info .add-check-list > li .select-left span.topPrice { float: right;font-size: 18px !important;margin-right: 10px;color:#424242 !important;}
+.IOF-C3-V.chole-main .footer-1 { background-color:#afc644;}
+.CHT3 .cd-logo2 {display: none;}
+.CHT3 .cd-logo3 { width: 150px!important; float: left;}
+.chole-main .CHT3 .black-bg-top { background-color: #262626; color: #fff;}
+.banner-content-cht3 > h3 { font-size: 90px;  color: #62615e;}
+.banner-content-cht3 {background-color:rgba(255,255,255,.9);margin: 118px auto 0;padding: 42px 30px;text-align: center; width: 70%;}
+.banner-content-cht3 > p {  font-size: 36px;  color: #aca298; margin-bottom:25px; }
+.CHT3 .recommend-menu.chole-recommended-menu {  margin-top: -65px;  position:relative;z-index: 5444;}
+.chole-main .CHT3 .order-link { background-color: #afc644;  border: 0 none;}
+.IOF-C3-V .banner-content-cht3 { margin: -113px auto 0;height: 400px;}
+.IOF-C3-V.chole-main .CHT3.Chole-theme-three .crm-top-mid .crm-wrap-bottom .time-list li { padding: 0;}
+.IOF-C3-V.chole-main .common-title.pink-bg { background-color:rgb(175,198,68);}
+.IOF-C3-V.chole-main .my-order .cp-code-inner { border-top-color:rgb(175,198,68);border-bottom-color:rgb(175,198,68);}
+.IOF-C3-V.chole-main .s-total li + li,
+.IOF-C3-V.chole-main thead tr { border-bottom-color:rgb(175,198,68);}
+.IOF-C3-V.chole-main .address { border-bottom-color:rgb(175,198,68);}
+.IOF-C3-V .deliver-access { padding:20px;}
+.IOF-C3-V .cont-btn { background-color: rgb(175, 198, 68);color: #fff;font-size: 14px;padding: 6px 20px;}
+.IOF-C3-V .confirm .submit .cont-btn { font-size:18px;padding:20px;}
+.IOF-C3-V .success-payment-options .theme-color-1.p-save { background: rgb(175, 198, 68) none repeat scroll 0 0;border: medium none;color: #ffffff;font-size: 18px;padding: 15px 20px;}
+.IOF-C3-V #paypal-express-btn .btn-primary.save-order { display:block;float:none;margin:0 auto;}
+.IOF-C3-V #desktop_save { display: block;padding: 0;}
+.IOF-C3-V.chole-main .Chole-theme-three .custom-header .black-bg .main-container { overflow:hidden;width:0px;margin-top:0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.IOF-C3-V.chole-main .Chole-theme-three .custom-header .black-bg.vt-header.open .main-container { width:200px;}
+.IOF-C3-V .menu-control { background-color: #ffffff;border-bottom-right-radius: 12px;border-top-right-radius: 12px;box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.2);font-size: 24px;padding: 10px; position: absolute;right: -44px;top: 0;}
+.IOF-C3-V .title-bar { display:none;}
+.IOF-C3-V.chole-main .add-deal { background-color:rgb(175, 198, 68);color: #ffffff;cursor: pointer;}
+.IOF-C3-V.chole-main .deal-info > h3 { color:rgb(175, 198, 68);}
+@media screen and (max-width:768px){
+.IOF-C3-V .main-container { width:100%;padding:0 25px;}
+.IOF-C3-V .navbar-toggle { top:60px;position:fixed;left:12px;background-color:#000000;z-index:1000;}
+.IOF-C3-V .navbar-collapse.custom-colapse.collapse,
+.IOF-C3-V .navbar-collapse.custom-colapse.collapsing { position:fixed !important;top:111px !important;background-color:#242424 !important;left:0 !important;right:0 !important;z-index:10000 !important;}
+.IOF-C3-V.chole-main .main-menu-list > li a { color:#ffffff !important;}
+.IOF-C3-V.chole-main .main-menu-list > li { display:block;margin-bottom:0;}
+.IOF-C3-V.chole-main .right-menu .continue .cont-btn { padding:7px 10px;width: 100%;}
+.IOF-C3-V #Deliveryaddress .profile-input button { font-size:18px;width:220px;}
+.IOF-C3-V #AdminId .col-lg-2.col-sm-6.col-xs-12,
+.IOF-C3-V #AdminId #UserKeyword { margin:10px 0;}
+.IOF-C3-V .SOCIAL-MEDIA > li { margin:0 8px 8px;}
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/** Login Page **/
+body{padding:0; margin:0; /*background:#f5f5f5;*/}
+.login-panel {
+    margin-bottom: 25%;
+    margin-top: 42%;
+}
+.user-name {
+    background: url("../../img/admin/user-icon.jpg") no-repeat right center;
+    padding: 0 35px 0 11px;
+}
+.user-password {
+    background: url("../../img/admin/password.jpg") no-repeat right center;
+    padding: 0 35px 0 11px;
+}
+
+
+/*custom media query for small devies*/
+@media (max-width:850px) {
+	.login-panel {
+		margin-top: 30%;
+		margin-bottom: 10%;
+	}
+	.footer-copy {
+		padding-left:20px;
+	}
+}
+
+@media (max-width:480px) {
+	.login-panel {
+		margin-top: 50%;
+	}
+}
+
+
+.flashError, div .error{
+    font-weight:normal;
+    color:#FF0000;
+    font-size:12px;
+    padding: 2px 5px ;
+}
+.form-control{
+    font-size:14px !important;
+}
+ 
+/* Jquery Validation */
+.form_margin
+{
+   height: 50px;
+   margin: 0 0 5px;
+}
+
+/* Jquery Validation */ 

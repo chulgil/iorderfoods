@@ -1,0 +1,178 @@
+          .fl_left{
+    float:left;
+}
+.fl_right{
+    float:right;
+}
+.addbutton{
+    float:right;
+    padding-bottom:10px;
+}
+.text_center
+{
+    text-align:center;
+}
+.required{
+    color:#FF0000;
+}
+
+/* Jquery Validation */ 
+.flashError, div .error, .error-message{
+    font-weight:normal;
+    color:#FF0000;
+    font-size:12px;
+    padding: 2px 5px ;
+}
+/*.form-control{
+    font-size:14px !important;
+    color: #555555 !important;
+    padding: 6px 12px !important;
+}
+  */
+.form-control:-moz-placeholder {
+    color: #999999 !important;
+}
+
+.form_margin
+{
+   height: 75px;
+   margin: 0 0 5px;
+}
+
+/* Jquery Validation */
+
+
+.alert-success
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 7px 9px;
+}
+
+
+.alert-danger
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 7px 9px;
+}
+
+.alert-info
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 7px 9px;
+}
+
+.pagination{
+margin:5px 0px;
+
+float:right;
+}
+
+.pagination li span{padding:0;}
+.pagination li .current{padding:6px 12px; display:block;}
+.pagination li .disabled{padding:6px 12px; display:block;}
+.pagination li span a{padding:6px 12px; display:block;}
+.side-nav a span{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+
+.form_comm {
+    height: 39px;
+    margin: 0 0 5px;
+}
+
+
+.form-control_comm {
+    float: left;
+    font-size: 14px !important;
+    margin-left: 5px;
+    padding: 6px 5px;
+    width: 30%; 
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    height: 34px;
+    line-height: 1.42857;
+    vertical-align: middle;
+    
+    
+}
+.form_margin_span {
+    float: right;
+    padding: 7px 18px 7px 0;
+}
+.fee_label
+{
+    float:left;
+    margin: 7px 5px 7px 0;
+}
+
+
+.fee_seller_select{
+  padding: 6px 2px;
+    width: 39%;
+    float: left;    
+}
+.fee_seller_container{height:auto;}  
+ .form-group.control_comm {
+    float: left;
+    width: 100%;
+    height:auto;
+}
+.fee-seller-center{text-align:center; padding: 0 0 0 53px;}
+.fee-seller-center span {float:none;}
+.fee-seller-center input {float:none;}
+.control_comm span input {margin:0 6px; vertical-align: middle;}
+.control-res{float:right !important; width:28% !important;}   
+.control-res input{width: 60%;}
+.form-group.form_margin.control_comm > label {float:left;}
+
+
+.item_type_label
+{
+    float:left;
+    margin: 7px 5px 0px 0;
+}
+
+.th_checkbox
+{
+    text-align:center;
+}
+
+.padding_btm_20
+{
+    padding-bottom:20px;
+}
+.table td a{padding: 0 2px;}
+.table th a{color: #FFFFFF;}
+.table{margin-bottom:0;}
+.table thead{background: #222222; color:#fff;}
+.blue{color:#2A70BB; font-size: 12px; font-style: italic;}
+.oprdiv{padding:0px 14px 12px 14px;}
+.actiondivinr{background:#222222; padding:5px 10px;}
+/**18-02-2014**/
+.form-label{padding:7px 0; text-align:left;}
+.form-box{padding:0;}
+.form-spacing {margin-bottom:5px; overflow:hidden;}
+.breadcrumb > li + li:before {content:  "\00BB" !important;}
+/*.table th:hover{ color: #000 !important;}*/
+.picfancydiv{border:1px solid #222222;width:130px;float:left; margin: 20px;}
+.poph2backgrnd{background: #000; color:#fff; padding: 6px;}
+.deldivimg{border:1px dotted #000;padding: 5px;}
+.imgverticaltop{vertical-align: top;}
+.checkbox-inline{padding-top:8px; }
+.letters {border-bottom: 1px solid #E6E6E6; border-top: 1px solid #E6E6E6; margin: 0 18px 0 16px;padding: 5px 0;}
+.letters li{float: left;list-style: none outside none;text-align: left; width: 3%;}
+.letters li.widthFirst{width: 13%; }
+.activeAlpha{color: red;}
+
+/*.table th:hover a { color:#000; }*/
+.fileUpload {	position: relative;	overflow: hidden;	margin: 10px;}
+.fileUpload input.upload {	position: absolute;	top: 0;	right: 0;	margin: 0;	padding: 0;	font-size: 20px;	cursor: pointer;	opacity: 0;	filter: alpha(opacity=0);}
+.newtempwdth{text-align: right;width: 100%;}
+.red{color:red;}
+.fltrght{float: right;}
+.navbar-nav > li > a {padding-bottom: 10px; padding-top: 10px;}

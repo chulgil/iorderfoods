@@ -1,0 +1,100 @@
+/* login modal popup */
+.modal-dialog {background-color: #e4e4e4;}
+
+.IOF-A2-V { background-color:rgb(228,228,228);}
+.IOF-A2-V .dasol-liw { background-color:#ffffff;}
+/*.IOF-A2-V .main-container h2 { font-size:24px;border-bottom:1px solid #dfdfdf;padding:10px 15px;}*/
+.IOF-A2-V .main-container .dasol-liw { overflow:hidden;margin:30px 0;}
+.IOF-A2-V .main-container .dasol-liw ul { width:auto;overflow-x:auto;overflow-y:hidden;white-space:nowrap;padding:15px 0 0 0;}
+/*.IOF-A2-V .main-container .dasol-liw ul li { display:inline-block;margin-left:-4px;width:240px;}*/
+/*.IOF-A2-V .main-container .dasol-liw ul.remove-space-btwn-items li { margin-left:0px;}*/
+.IOF-A2-V .main-container .dasol-liw ul li .dasol-img-frame { height:180px;width:200px;display:table-cell;vertical-align:middle;background-color:#f7f7f7; padding:0px;border:1px solid #f2f2f2;padding:15px;}
+.IOF-A2-V .main-container .dasol-liw ul li .dasol-img-frame img { max-width:100%;max-height:100%;}
+.IOF-A2-V .main-container .dasol-liw ul li .dasol-txt-frame { background-color:rgb(36,36,36);color:#ffffff;padding:8px;}
+.IOF-A2-V .main-container .dasol-liw ul li h3 { font-size: 18px;margin-top:0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 202px;}
+.IOF-A2-V .main-container .dasol-liw ul li h3 + small { display: block;font-size: 85%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 200px;}
+.IOF-A2-V .confirm .submit .confirm-btn { font-size:24px;background-color:rgb(139,47,1);color:#ffffff;margin-bottom:25px;}
+.IOF-A2-V input[type="radio"]:checked + label span { background-color:rgb(139,47,1);}
+.IOF-A2-V .pay-check [type="checkbox"]:not(:checked) + label::before,
+.IOF-A2-V .pay-check [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-A2-V .pay-check span [type="checkbox"]:not(:checked) + label::before,
+.IOF-A2-V .pay-check span [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-A2-V .pay-check span [type="checkbox"]:not(:checked) + label::after,
+.IOF-A2-V .pay-check span [type="checkbox"]:checked + label::after { top:12px;}
+.IOF-A2-V .pay-wrap.select-order ul li label { width:70px;}
+.IOF-A2-V #PaymentExpiryMonth { width:15%;}
+.IOF-A2-V #PaymentExpiryYear { width:40%;float:right;}
+.IOF-A2-V #PaymentPaymentSectionForm .card-detail .card-input .error { display:block;padding-left:40%;padding-top:2px;}
+.IOF-A2-V .card-input { margin-bottom:15px;}
+.IOF-A2-V .AH2 .carousel-control.right { padding-top:25%;top:-90px;font-size:25px;}
+.IOF-A2-V .AH2 .Slider-text { height:100%;}
+.IOF-A2-V .AH2 .main-menu-list { display:table;width:100%;}
+.IOF-A2-V .AH2 .main-menu-list > li { display:table-cell;padding:20px 30px;}
+.IOF-A2-V .theme-one .fav-order-history .nav-tabs > li > a::after { background:rgb(139,47,1);}
+.IOF-A2-V .theme-one .reorder.orderColor:hover { color:rgb(139,47,1);}
+.IOF-A2-V .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-A2-V .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-A2-V .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span { background-color:rgb(139,47,1);color: #ffffff;}
+.IOF-A2-V .AH2 .arron-white-header { padding:5px 0;}
+.IOF-A2-V .custom-header { position:relative;}
+.IOF-A2-V .custom-header:before { content:'';width:100%;height:1px;left:0;top:70px;background-color:rgb(36,36,36);position:absolute;}
+.IOF-A2-V .AH2.theme-two [type="checkbox"]:checked + label::after { color:rgb(139,47,1);}
+/*.IOF-A2-V .add-check-list > li { width:100%;}*/
+.IOF-A2-V .sub-menu-listing .check-more.countAddOns .add-check-list > li { min-height:36px;}
+.IOF-A2-V .sub-menu-listing .check-more.countAddOns .add-check-list > li label { width:85%;}
+.IOF-A2-V .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice { color:#000000;margin-top: 4px;font-size:18px;float:right;}
+/*.IOF-A2-V [type="checkbox"]:not(:checked) + label::after,
+.IOF-A2-V [type="checkbox"]:checked + label::after { color:rgb(139,47,1);}*/
+.IOF-A2-V .product-detail-btn #continue.d-access-guest { background-color:rgb(139,47,1);color:#ffffff;}
+
+/* header */
+.IOF-A2-V .log-in-header { padding:20px 0 20px;}
+.IOF-A2-V .main-header-menu { padding-top:0;}
+/*.IOF-A2-V .AVT2 .custom-header .vt-header { width:0px;top:69px;position:fixed;height:100%;overflow:hidden;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}*/
+.IOF-A2-V .AVT2 .custom-header { height:69px;}
+.IOF-A2-V .AVT2 .custom-header .white-bg { height:100%;}
+/*.IOF-A2-V .AVT2 .custom-header .vt-header.open { width:200px;}*/
+/*.IOF-A2-V .AVT2 .logo { left:0;width:100%;padding:15px;top:5px;position:relative;}*/
+/*.IOF-A2-V .AVT2 .main-menu-list > li { padding:0;}
+.IOF-A2-V .AVT2 .main-menu-list > li a { padding:15px;display:block;}
+.IOF-A2-V .AVT2 .main-menu-list > li a:hover { color:#ffffff;}*/
+.IOF-A2-V a.menu-control { position:fixed;top:24px;margin-right:15px;left:15px;font-size:20px;}
+/*.IOF-A2-V .logo a { display:block;}
+.IOF-A2-V .logo a img { width:100%;}*/
+.IOF-A2-V .title-bar { display:none;}
+.IOF-A2-V .inner-wrap { margin-top:35px;}
+
+/* other */
+
+.IOF-A2-V .theme-one .item-1 .btn.btn-default { border-color:#802c00;color:#802c00;}
+.IOF-A2-V .theme-one .inner-wrap.myDeliveryAddress .form-section a:hover { color:#802c00;}
+.IOF-A2-V .owl-controls.clickable .owl-pagination { display:none;}
+
+/* arron 2 V */
+@media screen and (max-width:768px){
+.IOF-A2-V .main-container { width:100%;padding:0 25px;}
+.IOF-A2-V .inner-wrap { margin-top:100px;}
+.IOF-A2-V .SOCIAL-MEDIA > li { margin:0 8px 8px;}
+.IOF-A2-V .right-menu .continue > div { padding:0 15px;}
+.IOF-A2-V .right-menu .continue .cont-btn { display:block;margin:0 0 10px;font-size:18px;color:#ffffff;border:none;}
+.IOF-A2-V .price { padding:0 5px;}
+.IOF-A2-V .price .price-q { padding-right:0;}
+.IOF-A2-V .my-order { margin-bottom:0;}
+.IOF-A2-V .responsive-table { overflow:auto;}
+.IOF-A2-V #AdminId .col-lg-2.col-sm-6.col-xs-12,
+.IOF-A2-V #AdminId #UserKeyword { margin:10px 0;}
+.IOF-A2-V #AdminId .col-lg-2.col-sm-6.col-xs-12 + .col-lg-4 { width:100%;float:left;}
+.IOF-A2-V .user-detail { font-size:16px;padding:6px 15px;}
+.IOF-A2-V .ostat { display:inline-block;margin-top:10px;}
+.IOF-A2-V .continue #mobile_save { margin:10px 0 0;width: 100%;float: left;}
+.IOF-A2-V .continue #desktop_continue { width:100%;float:left;}
+}
+
+@media screen and (max-width:480px){
+.IOF-A2-V .inner-wrap.order-type { width:100%;}
+.IOF-A2-V .inner-wrap.order-type .order-detail { padding:55px 25px;}
+.IOF-A2-V .inner-wrap.order-type .order-detail .order-input.hlf-row { width:100%;}
+.IOF-A2-V .inner-wrap.order-type .order-detail .order-bnt button { width:100%;margin-top:10px;}
+.IOF-A2-V .order-input.hlf-row select,
+.IOF-A2-V .time-setting .user-detail { width:100%;}
+}

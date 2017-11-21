@@ -1,0 +1,270 @@
+<?php
+
+App::uses('AppController', 'Controller');
+
+class StoreAppController extends AppController {
+
+    public $components = array('Session', 'Auth', 'Paginator', 'Common', 'Security', 'Paypal', 'Cookie');
+    public $helpers = array('Common');
+    public $store_layout;
+    public $store_inner_pages;
+
+    public function beforeFilter() {
+        parent::beforeFilter();
+        //echo "Start of Store App Controller<br>";
+
+        $nzsafe_data_app = $this->NZSafe();
+        $this->set(compact('nzsafe_data_app'));
+
+        $cartcount = $this->cartCount();
+        $this->set(compact('cartcount'));
+
+        $nowAvail = $this->blackOutDays();
+        $this->set(compact('nowAvail'));
+
+        $this->_countStoreReviewImages();
+
+        if ($this->Session->check('admin_time_zone_id')) {
+            $this->gmtdiff();
+        }
+
+
+        if ($this->params['controller'] == 'users' && $this->params['action'] == 'store') {
+
+            $this->setFrontStore($this->params->url);
+        } elseif ($this->params['controller'] == 'stores' && $this->params['action'] == 'store') {
+            $this->setBackStore($this->params->url);
+        }
+
+        //Store Static Pages
+        if ($this->Session->check('store_url')) {
+            $store_data_app = $this->getStoreData($this->Session->read('store_url'));
+            //pr($store_data_app);
+            $Design = $store_data_app['StoreTheme']['layout'];
+            $navigation = $store_data_app['Store']['navigation'];
+            define('NAVIGATION', $navigation);  // 1- Verticle , 2- Horizontal
+            if ($navigation == 1) {
+                define('KEYWORD', $store_data_app['StoreTheme']['keyword'] . "V");
+            } else {
+                define('KEYWORD', $store_data_app['StoreTheme']['keyword'] . "H");
+            }
+            define('DESIGN', $Design);
+            if (DESIGN == 4) {
+                if ($store_data_app['Store']['navigation'] == 1) { //vertical
+                    $store_layout = 'vertical';
+                    $store_inner_pages = 'front_inner_1';
+                } else { //horizontal
+                    $store_layout = 'horizontal';
+                    $store_inner_pages = 'front_inner';
+                }
+            } else if (DESIGN == 1) {
+                $store_layout = 'aaronlayout';
+                $store_inner_pages = 'aaronlayout';
+            } else if (DESIGN == 2) {
+                $store_layout = 'chloelayout';
+                $store_inner_pages = 'chloelayout';
+            } else if (DESIGN == 3) {
+                $store_layout = 'dasollayout';
+                $store_inner_pages = 'dasollayout';
+            }
+            $this->store_layout = $store_layout;
+            $this->store_inner_pages = $store_inner_pages;
+
+            $this->set(compact('store_data_app'));
+            $timeZoneInfo = $this->Store->find('first', array('conditions' => array("Store.id" => $this->Session->read('store_id')), 'fields' => array('Store.time_zone_id'), 'recursive' => -1));
+            $this->Session->write('front_time_zone_id', $timeZoneInfo['Store']['time_zone_id']);
+        }
+
+
+        if (($this->Session->check('admin_store_id')) && ($this->params['controller'] == 'stores')) {
+            $this->assignBackAuth();
+        } elseif (($this->Session->check('store_id')) && ($this->params['controller'] == 'users')) {
+            $this->assignFrontAuth();
+        }
+
+
+        if ($this->Session->read('Auth.User.role_id') == 4) {
+            $this->loadModel("Store");
+            $timeZoneInfo = $this->Store->find('first', array('conditions' => array("Store.id" => $this->Session->read('store_id')), 'fields' => array('Store.time_zone_id'), 'recursive' => -1));
+            $this->Session->write('front_time_zone_id', $timeZoneInfo['Store']['time_zone_id']);
+        }
+
+        if ($this->Session->read('Auth.Admin.role_id') == 3) {
+            $this->loadModel("Store");
+            $timeZoneInfo = $this->Store->find('first', array('conditions' => array("Store.id" => $this->Session->read('admin_store_id')), 'fields' => array('Store.time_zone_id'), 'recursive' => -1));
+            $this->Session->write('admin_time_zone_id', $timeZoneInfo['Store']['time_zone_id']);
+        }
+
+        $this->assignAuth();
+
+        //echo "End of Store App Controller<br>";
+    }
+
+    function cartCount() {
+        $cartcount = 0;
+        if ($this->Session->check('store_id') && $this->Session->check('cart')) {
+            $cart = $this->Session->read('cart');
+            foreach ($cart as $key => $itemarr) {
+                if (!empty($itemarr['Item']['quantity']))
+                    $cartcount+=$itemarr['Item']['quantity'];
+            }
+        }
+        return $cartcount;
+    }
+
+    function _countStoreReviewImages() {
+        $store_id = $this->Session->read('store_id');
+        if (!empty($store_id)) {
+            $this->loadModel('StoreReviewImage');
+            $count = $this->StoreReviewImage->countStoreReviewImages($store_id);
+            $this->set('imageCount', $count);
+        } else {
+            $this->set('imageCount', 0);
+        }
+    }
+
+    /* BlackOut Days */
+
+    function blackOutDays() {
+        if ($this->Session->check('Order.order_type')) {
+            $this->loadModel('Store');
+            $ordeType = $this->Session->read('Order.order_type');
+            $NowAvail = $this->Store->getNowAvailability($ordeType, $this->Session->read('store_id'));
+            return $NowAvail;
+        }
+    }
+
+    /* ---------------------------------------------
+      Function name:checkAddress
+      Description:To verify the address
+      ----------------------------------------------- */
+
+    function checkAddress($address = null, $state = null, $city = null, $zip = null) {
+        $this->autoRender = false;
+        if (isset($_POST)) {
+            $zipCode = ltrim($zip, " ");
+            $stateName = $state;
+            $cityName = strtolower($city);
+            $cityName = ucwords($cityName);
+            $dlocation = $address . " " . $cityName . " " . $stateName . " " . $zipCode;
+            $adjuster_address2 = str_replace(' ', '+', $dlocation);
+            $geocode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address=' . $adjuster_address2 . '&sensor=false');
+            $output = json_decode($geocode);
+            if ($output->status == "ZERO_RESULTS" || $output->status != "OK") {
+                echo 2;
+                die; // Bad Address
+            } else {
+                $latitude = @$output->results[0]->geometry->location->lat;
+                $longitude = @$output->results[0]->geometry->location->lng;
+                $formated_address = @$output->results[0]->formatted_address;
+                if ($latitude) {
+                    echo 1;
+                    die; // Good Address
+                }
+            }
+        }
+    }
+
+    public function getStoreData($storeUrl) {
+        $this->loadModel('Store');
+        $this->Store->bindModel(array('belongsTo' => array('StoreTheme')), false);
+        $this->Store->bindModel(array('belongsTo' => array('StoreFont')), false);
+        $this->Store->bindModel(array('hasOne' => array('SocialMedia')), false);
+        $this->Store->bindModel(array('hasMany' => array('StoreGallery' => array('conditions' => array('is_active' => 1, 'is_deleted' => 0)), 'StoreContent' => array('fields' => array('name', 'id', 'page_position'), 'conditions' => array('is_active' => 1, 'is_deleted' => 0)))), false);
+        $store_result = $this->Store->fetchStoreImage($storeUrl);
+        return $store_result;
+    }
+
+    /* Assign Login auth to Store Admin Panel */
+
+    function assignBackAuth() {
+        AuthComponent::$sessionKey = 'Auth.Admin';
+        $this->Auth->authenticate = array(
+            'Form' => array(
+                'userModel' => 'User',
+                'fields' => array('username' => 'email', 'password' => 'password', 'store_id'),
+                'scope' => array('User.store_id' => $this->Session->read('admin_store_id'), 'User.role_id' => 3, 'User.is_active' => 1, 'User.is_deleted' => 0)
+            )
+        );
+    }
+
+    /* Assign Login auth to Store Front */
+
+    function assignFrontAuth() {
+        AuthComponent::$sessionKey = 'Auth.User';
+        $this->Auth->authenticate = array(
+            'Form' => array(
+                'userModel' => 'User',
+                'fields' => array('username' => 'email', 'password' => 'password', 'store_id'),
+                'scope' => array('User.merchant_id' => $this->Session->read('merchant_id'), 'User.role_id' => array('4', '5'), 'User.is_active' => 1, 'User.is_deleted' => 0)
+            )
+        );
+    }
+
+    /* Identify & Set session for Store panel panel  */
+
+    function setBackStore() {
+        $subdomain = $_SERVER['SERVER_NAME'];
+	    if ($subdomain) {
+		$store_name = $subdomain;
+	    } else {
+		$requestParam = explode('/', $this->params->url);
+		$store_name = trim($requestParam[0]); // Name of the store which we will change later with Saas
+	    }
+	    $StoreAdminid=$this->Session->read('Auth.Admin.id');
+        if ($store_name && !$StoreAdminid) {
+            $this->loadModel('Store');
+            $store_result = $this->Store->store_info($store_name);
+            if ($store_result) {
+                $storeName = $store_result['Store']['store_name'];
+                $this->Session->write('admin_domainname', $store_name);
+                $this->Session->write('admin_storeName', $storeName);
+                $this->Session->write('admin_store_id', $store_result['Store']['id']);
+                $this->Session->write('admin_merchant_id', $store_result['Store']['merchant_id']);
+            } else {
+                $this->redirect(array('controller' => 'users', 'action' => 'selectStore'));
+            }
+        }
+    }
+
+    /* Identify & Set session for Store Front panel  */
+
+    function setFrontStore($params) {
+
+
+        $requestParam = explode('/', $this->params->url);
+        $store_name = trim($requestParam[0]); // Name of the store which we will change later with Saas
+        $sid = $this->Session->read('store_id');
+        $urlParts = parse_url($store_name);
+        if (!empty($urlParts['host'])) {
+            $store_name = preg_replace('/^www\./', '', $urlParts['host']);
+        }
+        $Storeuserid = $this->Session->read('Auth.User.id');
+        if ($store_name) {
+            $this->loadModel('Store');
+            $store_result = $this->Store->store_info($store_name);
+            if ($store_result) {
+                $storeName = $store_result['Store']['store_name'];
+                $store_url = $store_result['Store']['store_url'];
+                $store_phone = $store_result['Store']['phone'];
+                if (isset($store_result['Store']['service_fee'])) {
+                    $this->Session->write('service_fee', $store_result['Store']['service_fee']);
+                }
+                if (isset($store_result['Store']['delivery_fee'])) {
+                    $this->Session->write('delivery_fee', $store_result['Store']['delivery_fee']);
+                }
+                $this->Session->write('minprice', $store_result['Store']['minimum_order_price']);
+                $this->Session->write('storeName', $storeName);
+                $this->Session->write('store_url', $store_url);
+                $this->Session->write('store_phone', $store_phone);
+                $this->Session->write('store_id', $store_result['Store']['id']);
+                $this->Session->write('merchant_id', $store_result['Store']['merchant_id']);
+                $this->Cookie->write('storecookiename', $store_url);
+                $this->Session->write('front_time_zone_id', $store_result['Store']['time_zone_id']);
+            } else {
+                $this->redirect(array('controller' => 'users', 'action' => 'selectStore'));
+            }
+        }
+    }
+
+}

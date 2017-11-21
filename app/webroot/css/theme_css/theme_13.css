@@ -1,0 +1,488 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+
+/* title */
+.ext-menu-title {padding-top: 30px;text-transform: uppercase;}
+.ext-menu.inner-title-padding .ext-menu-title { padding-top:0;}
+
+/* radio */
+input[type="radio"] + label span { margin:-3px 11px 0 0;}
+
+/* Order Overview */
+.pay-wrap.select-order,
+.pay-wrap.payment-opt { padding:15px;}
+.delivery-date > label { float: left;font-size: 18px;font-weight: normal;width: 60%;}
+.pay-select input[type="radio"] + label span { margin-top:0;margin-bottom:0;}
+
+/* buttons */
+.btn-primary { background-color:#ffb400 !important;border:1px solid #e9a400;}
+.btn-secondary { background-color:#ededed !important;border:1px solid #dfdfdf;}
+
+/* my delivery address */
+.IOF-COLOR-1 .form-inner-action-btn a:hover { background-color:#FFB400;}
+input[type="radio"]:checked + label span { background-color:#FFB400;border:1px solid #3c3b39;}
+
+/* header */
+.IOF-THEME-13 .main-menu-list > li a { text-transform:uppercase;}
+.IOF-THEME-13 .main-menu-list > li:hover a,
+.IOF-THEME-13 .main-menu-list > li.active a { color:#abc210;font-weight:normal;transition: all 0.3s ease 0s;border-bottom:3px solid;padding-bottom:7px;}
+
+/* vertical header */
+.IOF-THEME-13.IOF-V .custom-header .vt-header { width:0px;top:43px;position:fixed;height:100%;overflow:hidden;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;z-index:10000;}
+.IOF-THEME-13.IOF-V .custom-header .vt-header .main-container { padding:0 15px;}
+.IOF-THEME-13.IOF-V a.menu-control { position:fixed;top:10px;margin-right:15px;left:15px;font-size:20px;z-index:1000000;}
+.IOF-THEME-13.IOF-V .custom-header .vt-header.open { width:300px;overflow:auto;}
+.IOF-THEME-13.IOF-V .main-header-menu { padding:20px 0 50px 0;}
+.IOF-THEME-13.IOF-V .custom-header .logo { position:relative;width:100%;text-align:center;}
+
+/* home page */
+.IOF-THEME-13 .common-item-box { display:inline-block;float:none;margin-right:10px;width:200px;}
+.IOF-THEME-13 .title-bg { height:60px !important;}
+.IOF-THEME-13 .menu-items { text-align:center;}
+.IOF-THEME-13 .menu-items .common-item-box .title-bg { padding:10px;line-height:12px;}
+.IOF-THEME-13 .home-page-container { margin-bottom:50px;padding-bottom:50px !important;}
+.IOF-THEME-13 .slider-bg .online-order-wrap { bottom:140px;}
+
+/* home page slider */
+.IOF-THEME-13 .carousel-control { height:100%;margin-top:0;border:none;opacity:1;border-radius:0;width:10% !important;}
+.IOF-THEME-13 .carousel-control.right { right:0px ! important;background:rgba(255, 255, 255, 0) url("../../img/arrow-right-t13.png") no-repeat scroll center center !important;}
+.IOF-THEME-13 .carousel-control.left { border-radius:0px;left:0px ! important;background: rgba(255, 255, 255, 0) url("../../img/arrow-left-t13.png") no-repeat scroll center center !important;}
+.IOF-THEME-13.IOF-H .slider-bg ol { display:none;}
+.IOF-THEME-13.IOF-V .slider-bg ol { bottom:0;left:auto;margin:0;right:10%;text-align:center;top:0;width:36px;padding-top:20%;}
+.IOF-THEME-13.IOF-V .slider-bg ol li { margin:6px 0;background-color:transparent;}
+.IOF-THEME-13.IOF-V .carousel-control { display:none;}
+
+/* img gallery */
+.IOF-THEME-13 .main-container.home-page-container { background-color:#ffffff;box-shadow:0 0 35px 0 rgba(0, 0, 0, 0.5);margin-top:-90px;padding-left:10px;padding-right:10px;}
+.IOF-THEME-13 .main-container.home-page-container .dasol-liw h2 { text-align:center;font-size:22px;margin-top:20px;}
+.IOF-THEME-13 .main-container .dasol-liw ul { text-align:center;}
+.IOF-THEME-13 .main-container .dasol-liw ul li { display:inline-block;width:200px;margin:0 10px;vertical-align:bottom;}
+.IOF-THEME-13 .main-container .dasol-liw ul li h3 { font-size:18px;height:100%;margin-top:0;overflow:hidden;width:100%;}
+.IOF-THEME-13 .main-container .dasol-liw ul.remove-space-btwn-items li h3 { height:auto;}
+.IOF-THEME-13 .main-container .dasol-liw ul li h3 a { white-space:pre-line;}
+.IOF-THEME-13 .main-container .dasol-liw ul li h3 + small { display:block;font-size:85%;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;}
+.IOF-THEME-13 .main-container .dasol-liw ul li .dasol-txt-frame { color:#ffffff;padding:8px;height:60px;}
+.IOF-THEME-13 .dasol-liw { background-color:#ffffff;}
+.IOF-THEME-13 .main-container .dasol-liw { overflow:hidden;margin:30px 0;}
+.IOF-THEME-13 .main-container .dasol-liw ul { width:auto;overflow-x:auto;overflow-y:hidden;white-space:nowrap;padding:15px 0 0 0;}
+.IOF-THEME-13 .main-container .dasol-liw ul.remove-space-btwn-items li { margin-left:0px;}
+.IOF-THEME-13 .main-container .dasol-liw ul li .dasol-img-frame { height:180px;width:100%;display:table-cell;vertical-align:middle;background-color:#f7f7f7; padding:0px;border:1px solid #f2f2f2;padding:15px;}
+.IOF-THEME-13 .main-container .dasol-liw ul li .dasol-img-frame img { max-width:100%;max-height:100%;}
+.IOF-THEME-13 .main-container .dasol-liw ul li h3 { }
+.IOF-THEME-13 .main-container .dasol-liw ul li h3 + small { display: block;font-size: 85%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 200px;}
+
+/* inner pages */
+.IOF-THEME-13.IOF-H .inner-wrap { margin-top:80px;}
+
+/* store info */
+.IOF-THEME-13 .store-last-rgt .open-bottom { display: none;}
+.IOF-THEME-13 .store-last-lft { float: left;padding-top: 48px;}
+.IOF-THEME-13 .store-last-rgt { float:right;}
+.IOF-THEME-13 .store-contact-info > h3 { color: #fff;font-size: 25px;margin-bottom: 20px;}
+.IOF-THEME-13 .store-contact-info > p { color: #fff;margin-bottom: 4px;}
+.IOF-THEME-13 .open-mid > h3 { margin-bottom: 30px;}
+.IOF-THEME-13 .store-last-rgt .open-top { display: none;padding: 3px 0;}
+.IOF-THEME-13 .store-last-rgt .open-mid { background-image: url("../../img/clock-transparent.png");background-position: right top;background-repeat: no-repeat;}
+.IOF-THEME-13 .store-last-rgt .open-bottom { display: none;}
+.IOF-THEME-13 .store-last-lft { float: left;padding-top: 48px;}
+.IOF-THEME-13 .store-contact-info > h3 { color: #fff;font-size: 25px;margin-bottom: 20px;}
+.IOF-THEME-13 .store-contact-info > p { color: #fff;margin-bottom: 4px;}
+.IOF-THEME-13 .ext-menu { background-color:#fff;color:#991b1e;margin-bottom:0;padding:30px 0 0;}
+.IOF-THEME-13 .ext-menu .ext-menu-img { display: block;margin-left: auto;margin-right: auto;margin-top: 25px;position:relative;overflow:hidden;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-tbl { height:100%;z-index:2;margin:0 auto;max-width:800px;display:table;position:relative;z-index:2;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-overlay { background-color:rgba(0,0,0,0.5);position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-tbl .emi-tbl-cell { display:table-cell;vertical-align:middle;padding:10px 75px;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-tbl h3 { white-space:nowrap;color:#ffffff;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-tbl p { color:#ffffff;}
+.IOF-THEME-13 .store-last-rgt .open-hours-card { display:block;}
+.IOF-THEME-13 .open-mid { padding:30px 30px 15px;}
+.IOF-THEME-13 .store-mid-last { background-color:#a7a7a7;padding:0;}
+.IOF-THEME-13 .main-body .main-container { position:relative;top:0;}
+.IOF-THEME-13 .ext-menu-title > h4 { font-family: "Nanum Gothic","Noto Serif",sans-serif,serif;font-size: 45px;text-align: center;}
+.IOF-THEME-13 .store-last-rgt .open-hours-card { background-color: #555555;box-shadow: 8px 8px 7px 0 rgba(50, 50, 50, 0.35);color: #fff;padding: 28px 0 0;position: static;right: 30px;top: 60px;width: 327px;}
+.IOF-THEME-13 .store-last-rgt .time-list li { float:left;margin-bottom:2px;width:100%;border-bottom: medium none;padding:5px 0;}
+.IOF-THEME-13 .lft-txt { float: left;font-size: 17px;font-weight: 600;}
+.IOF-THEME-13 .rgt-txt { font-size: 15px;font-weight: 500;float: right;}
+.IOF-THEME-13 .open-mid { background-image: url("../../img/clock-transparent.png");background-p: right top;background-repeat: no-repeat;}
+
+/* order detail */
+.IOF-THEME-13 .right-menu .continue .cont-btn { font-size:24px;}
+
+/* menu page */
+.IOF-THEME-13 [id*="collaspe"] .panel-body .price { padding:0;}
+
+/* popup */
+.IOF-THEME-13 .add-info label { font-size:18px;font-weight:normal;width:100%;}
+.IOF-THEME-13 #addReviewRating .profile-input { margin-bottom:15px;}
+
+/* theme 1 */
+.IOF-THEME-13.IOF-COLOR-1 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-1 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-1 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-1 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-1 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-1 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-1 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-1.IOF-V .slider-bg ol li.active { background-color:#AACDAA !important;}
+.IOF-THEME-13.IOF-COLOR-1 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-1 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-13.IOF-COLOR-1 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-1 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-1 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-1 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-1 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-1 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-1 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-1 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-1 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-1 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-1 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-1 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-1 .ext-menu-title > h4,
+.IOF-THEME-13.IOF-COLOR-1 .main-menu-list > li.active a { color:#AACDAA !important;}
+.IOF-THEME-13.IOF-COLOR-1 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-1 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-1 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-1 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-1.IOF-V .slider-bg ol li.active { border-color:#AACDAA !important;}
+
+/* theme 2 */
+.IOF-THEME-13.IOF-COLOR-2 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-2 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-2 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-2 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-2 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-2 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-2 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-2 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-2.IOF-V .slider-bg ol li.active { background-color:#FF3300 !important;}
+.IOF-THEME-13.IOF-COLOR-2 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-2 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-13.IOF-COLOR-2 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-2 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-2 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-2 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-2 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-2 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-2 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-2 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-2 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-2 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-2 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-2 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-2 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-2 .ext-menu-title > h4 { color:#FF3300 !important;}
+.IOF-THEME-13.IOF-COLOR-2 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-2 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-2 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-2 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-2.IOF-V .slider-bg ol li.active { border-color:#FF3300 !important;}
+
+/* theme 3 */
+.IOF-THEME-13.IOF-COLOR-3 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-3 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-3 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-3 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-3 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-3 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-3 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-3 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-3.IOF-V .slider-bg ol li.active { background-color:#F99C40 !important;}
+.IOF-THEME-13.IOF-COLOR-3 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-3 .theme-bg-2 { background-color:#F4E1CF !important;}
+.IOF-THEME-13.IOF-COLOR-3 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-3 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-3 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-3 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-3 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-3 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-3 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-3 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-3 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-3 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-3 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-3 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-3 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-3 .ext-menu-title > h4 { color:#F99C40 !important;}
+.IOF-THEME-13.IOF-COLOR-3 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-3 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-3 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-3 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-3.IOF-V .slider-bg ol li.active { border-color:#F99C40 !important;}
+
+/* theme 4 */
+.IOF-THEME-13.IOF-COLOR-4 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-4 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-4 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-4 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-4 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-4 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-4 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-4 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-4.IOF-V .slider-bg ol li.active { background-color:#5F3711 !important;}
+.IOF-THEME-13.IOF-COLOR-4 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-4 .theme-bg-2 { background-color:#E1D5C1 !important;}
+.IOF-THEME-13.IOF-COLOR-4 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-4 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-4 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-4 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-4 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-4 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-4 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-4 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-4 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-4 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-4 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-4 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-4 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-4 .ext-menu-title > h4 { color:#5F3711 !important;}
+.IOF-THEME-13.IOF-COLOR-4 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-4 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-4 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-4 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-4.IOF-V .slider-bg ol li.active { border-color:#5F3711 !important;}
+
+/* theme 5 */
+.IOF-THEME-13.IOF-COLOR-5 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-5 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-5 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-5 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-5 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-5 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-5 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-5 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-5.IOF-V .slider-bg ol li.active { background-color:#FBEBD5 !important;}
+.IOF-THEME-13.IOF-COLOR-5 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-5 .theme-bg-2 { background-color:#DA4D2F !important;}
+.IOF-THEME-13.IOF-COLOR-5 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-5 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-5 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-5 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-5 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-5 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-5 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-5 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-5 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-5 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-5 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-5 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-5 .ext-menu-title > h4 { color:#FBEBD5 !important;}
+.IOF-THEME-13.IOF-COLOR-5 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-5 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-5 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-5.IOF-V .slider-bg ol li.active { border-color:#FBEBD5 !important;}
+
+/* theme 6 */
+.IOF-THEME-13.IOF-COLOR-6 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-6 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-6 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-6 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-6 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-6 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-6 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-6 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-6.IOF-V .slider-bg ol li.active { background-color:#e8e8e8 !important;}
+.IOF-THEME-13.IOF-COLOR-6 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-6 .theme-bg-2 { background-color:#0c0636 !important;color:#ffffff;}
+.IOF-THEME-13.IOF-COLOR-6 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-6 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-6 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-6 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-6 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-6 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-6 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-6 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-6 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-6 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-6 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-6 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-6 .ext-menu-title > h4 { color:#e8e8e8 !important;}
+.IOF-THEME-13.IOF-COLOR-6 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-6 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-6 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-6.IOF-V .slider-bg ol li.active { border-color:#e8e8e8 !important;}
+
+/* theme 7 */
+.IOF-THEME-13.IOF-COLOR-7 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-7 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-7 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-7 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-7 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-7 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-7 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-7 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-7.IOF-V .slider-bg ol li.active { background-color:#DAA520 !important;}
+.IOF-THEME-13.IOF-COLOR-7 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-7 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-13.IOF-COLOR-7 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-7 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-7 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-7 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-7 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-7 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-7 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-7 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-7 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-7 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-7 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-7 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-7 .ext-menu-title > h4 { color:#DAA520 !important;}
+.IOF-THEME-13.IOF-COLOR-7 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-7 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-7 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-7.IOF-V .slider-bg ol li.active { border-color:#DAA520 !important;}
+
+/* theme 8 */
+.IOF-THEME-13.IOF-COLOR-8 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-8 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-8 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-8 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-8 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-8 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-8 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-8 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-8.IOF-V .slider-bg ol li.active { background-color:#990100 !important;}
+.IOF-THEME-13.IOF-COLOR-8 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-8 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-13.IOF-COLOR-8 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-8 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-8 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-8 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-8 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-8 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-8 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-8 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-8 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-8 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-8 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-8 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-8 .ext-menu-title > h4 { color:#990100 !important;}
+.IOF-THEME-13.IOF-COLOR-8 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-8 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-8 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-8.IOF-V .slider-bg ol li.active { border-color:#990100 !important;}
+
+/* theme 9 */
+.IOF-THEME-13.IOF-COLOR-9 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-9 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-9 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-9 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-9 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-9 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-9 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-9 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-9.IOF-V .slider-bg ol li.active { background-color:#46382B !important;}
+.IOF-THEME-13.IOF-COLOR-9 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-9 .theme-bg-2 { background-color:#717F3E !important;}
+.IOF-THEME-13.IOF-COLOR-9 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-9 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-9 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-9 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-9 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-9 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-9 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-9 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-9 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-9 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-9 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-9 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-9 .ext-menu-title > h4 { color:#46382B !important;}
+.IOF-THEME-13.IOF-COLOR-9 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-9 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-9 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-9.IOF-V .slider-bg ol li.active { border-color:#46382B !important;}
+
+/* theme 10 */
+.IOF-THEME-13.IOF-COLOR-10 .theme-bg-1,
+.IOF-THEME-13.IOF-COLOR-10 input[type="radio"]:checked + label span,
+.IOF-THEME-13.IOF-COLOR-10 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-13.IOF-COLOR-10 .menu-items .common-item-box .title-bg,
+.IOF-THEME-13.IOF-COLOR-10 .modal-body .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-10 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-13.IOF-COLOR-10 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-13.IOF-COLOR-10 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-13.IOF-COLOR-10.IOF-V .slider-bg ol li.active { background-color:#FECE06 !important;}
+.IOF-THEME-13.IOF-COLOR-10 .theme-bg-1:hover,
+.IOF-THEME-13.IOF-COLOR-10 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-13.IOF-COLOR-10 .theme-txt-col-1,
+.IOF-THEME-13.IOF-COLOR-10 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-13.IOF-COLOR-10 .nav-tabs > li > a:hover,
+.IOF-THEME-13.IOF-COLOR-10 .fav-order-history .reorder i,
+.IOF-THEME-13.IOF-COLOR-10 .reorder.orderColor:hover,
+.IOF-THEME-13.IOF-COLOR-10 .rating-container .rating-stars,
+.IOF-THEME-13.IOF-COLOR-10 .main-menu-list > li:hover a,
+.IOF-THEME-13.IOF-COLOR-10 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-13.IOF-COLOR-10 [type="checkbox"]:checked + label::after,
+.IOF-THEME-13.IOF-COLOR-10 .account-access li a:hover,
+.IOF-THEME-13.IOF-COLOR-10 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-13.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-10 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-10 .ext-menu-title > h4 { color:#FECE06 !important;}
+.IOF-THEME-13.IOF-COLOR-10 .theme-border-1,
+.IOF-THEME-13.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-13.IOF-COLOR-10 .carousel-control,
+.IOF-THEME-13.IOF-COLOR-10 .main-menu-list > li.active a,
+.IOF-THEME-13.IOF-COLOR-10.IOF-V .slider-bg ol li.active { border-color:#FECE06 !important;}
+
+/* media quries */
+@media screen and (max-width:1024px){
+.IOF-THEME-13 .main-menu-list > li { padding:0 15px;}
+.IOF-THEME-13.IOF-V a.menu-control { top:11px;}
+.inner-wrap .form-section .profile-input label { width:100%;}
+.account-access { margin:3px 0;}
+.IOF-THEME-13.IOF-V .log-head-left { padding-left:35px;}
+}
+
+@media screen and (max-width:768px){
+.IOF-THEME-13 .main-container { padding:0 15px;}
+.IOF-THEME-13 .navbar-toggle { margin-right:0;padding:0;position:absolute;right:0;top:-29px;}
+.IOF-THEME-13 .main-menu-list > li { display:block;text-align:right;padding:15px 0 !important;}
+.IOF-THEME-13 .main-menu-list > li:last-child { padding-right:15px;}
+.IOF-THEME-13 .navbar-collapse.custom-colapse.collapse { display:none !important;}
+.IOF-THEME-13 .navbar-collapse.custom-colapse.collapse.in {  display:block !important;}
+.IOF-THEME-13 .navbar-collapse { border:none;box-shadow:none;}
+.IOF-THEME-13 .slider-text { top:100px;}
+.IOF-THEME-13 .navbar-nav .open .dropdown-menu.dropdown-cart { background-color:#ffffff;border:1px solid rgba(0, 0, 0, 0.15);box-shadow:0 6px 12px rgba(0, 0, 0, 0.176);margin-top:25px;position:absolute;left:auto;right:0;}
+.IOF-THEME-13 .main-body .home-page-container { margin-left:20px;margin-right:20px;}
+.IOF-THEME-13.IOF-V .inner-wrap .form-section .profile-input label { width:100%;}
+#gallery-modal .modal-dialog { width:auto;margin:50px 20px;}
+.IOF-THEME-13 .price-q { position:relative;top:5px;}
+}
+
+@media screen and (max-width:736px){
+#login-modal .modal-dialog,
+#guest-sign-up-modal .modal-dialog { width:90%;padding:50px 10px;height:auto;}
+.sign-up-btn { float:right;height:50px;width:100%;margin-bottom:25px;}
+#chkOrderUserLogin .input-fields,
+#GuestUser .input-fields { padding-right:0;width:100%;}
+.IOF-THEME-13.IOF-V .inner-wrap { margin:0 0 20px 0;}
+}
+
+@media screen and (max-width:480px){
+.IOF-THEME-13 .slider-text { top:50px;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-tbl { display:block;overflow:auto;}
+.IOF-THEME-13 .ext-menu .ext-menu-img .emi-tbl .emi-tbl-cell { display:block;}
+.IOF-THEME-13 .store-mid-last { height:auto !important;}
+.IOF-THEME-13 .store-last-lft,
+.IOF-THEME-13 .store-last-rgt { width:100%;text-align:center;}
+.IOF-THEME-13 .store-last-rgt .open-hours-card { margin:20px auto 0;}
+.IOF-THEME-13 .inner-title-padding { padding-top:105px;}
+}

@@ -1,0 +1,789 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+
+/* radio */
+input[type="radio"] + label span { margin:-3px 11px 0 0;}
+
+/* Order Overview */
+.pay-wrap.select-order,
+.pay-wrap.payment-opt { padding:15px;}
+.delivery-date > label { float: left;font-size: 18px;font-weight: normal;width: 60%;}
+.pay-select input[type="radio"] + label span { margin-top:0;margin-bottom:0;}
+
+/* common */
+.IOF-THEME-11.IOF-V .container { width:1400px;}
+.IOF-THEME-11 .main-container { padding:0 15px;}
+.IOF-THEME-11.IOF-V .main-menu-list > li { padding:12px 15px;display:block;}
+.IOF-THEME-11 a.menu-control { position:fixed;top:21px;margin-right:15px;left:15px;font-size:20px;z-index:1000;}
+.IOF-THEME-11 .dasol-liw { background-color:transparent !important;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-img-frame { width:240px !important;}
+.IOF-THEME-11 .main-menu-list > li a { font-size:17px;text-transform:uppercase;}
+.IOF-THEME-11 .main-menu-list > li li a { font-size:16px;color:#ffffff;}
+.IOF-THEME-11 .main-container h2 { font-size:25px;padding:100px 15px 10px 15px;text-align:center;text-transform:uppercase;font-weight:800;}
+.IOF-THEME-11 #MediaPlayer.main-container,
+.IOF-THEME-11 #MediaPlayer .main-container { padding:0;}
+.IOF-THEME-11 .main-container .dasol-liw ul { text-align:center;}
+.IOF-THEME-11 .main-container .dasol-liw ul li { float:left;width:240px;height:357px;margin-right:10px;vertical-align:bottom;}
+.IOF-THEME-11 .main-container .dasol-liw ul li h3 { color: #000000;font-size: 20px;font-weight: 800;height: 100%;margin-bottom: 20px;margin-top: 0;overflow: hidden;text-overflow: ellipsis;text-transform: uppercase;white-space: nowrap;width: 100%;}
+.IOF-THEME-11 .main-container .dasol-liw.hm-deals-wrap ul li h3 { font-size:22px;margin-bottom:15px;}
+.IOF-THEME-11 .main-container .dasol-liw ul.remove-space-btwn-items li h3 { height:auto;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-txt-frame { color:#ffffff;padding:20px 8px;height:auto;}
+.IOF-THEME-11 .main-container .dasol-liw.hm-deals-wrap ul li .dasol-txt-frame { padding:35px 8px 45px;position:relative;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart,
+.IOF-THEME-11 .add-to-cart-btn { border-radius:3px;bottom: 45px;display: inline-block;left: 50%;margin-left:-75px;padding: 5px 20px;position: absolute;text-transform: uppercase;width:150px;line-height:21px;height:35px;border-radius:17px;font-size:15px;letter-spacing:0.05em;border-width:2px;border-style:solid;font-weight:bold;}
+.IOF-THEME-11 .add-to-cart-btn { bottom:auto;left:0;margin:0 auto;position:relative;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11 .add-to-cart-btn:hover { }
+.IOF-THEME-11 .ext-menu-title { margin:30px 0;}
+.IOF-THEME-11 .ext-menu-title h4 { text-transform:uppercase;}
+.IOF-THEME-11 .inner-wrap { margin-top:0;}
+.IOF-THEME-11 .inner-wrap.no-border { border:none;}
+.IOF-THEME-11 .slider-bg { height:auto;}
+.IOF-THEME-11 a.restaurant-logo-square { height:auto;}
+.IOF-THEME-11 .online-order { margin:70px 0 100px;}
+.panel-body .inner-menu li { line-height:17px;}
+
+/* header vertical */
+.IOF-THEME-11.IOF-V { padding-left:300px;background-size:cover;}
+.IOF-THEME-11.IOF-V a.menu-control { display:none;}
+
+/* home page slider */
+.IOF-THEME-11 .carousel-control.left:after { content:'<';}
+.IOF-THEME-11 .carousel-control.right:after { content:'>';}
+.IOF-THEME-11 .slider-bg .carousel-inner,
+.IOF-THEME-11 .slider-bg .carousel-inner .carousel-item { height:100%;}
+.IOF-THEME-11 .slider-bg .carousel-inner .carousel-item img { width:100%;max-width:inherit;}
+
+/* home page bottom gallery */
+.IOF-A1-H .main-container .dasol-liw.hm-deals-wrap { height:auto;}
+.main-container .dasol-liw ul.hp-deals-wrap { overflow:visible !important;white-space:normal !important;}
+.IOF-THEME-11 .main-container .dasol-liw ul.hp-deals-wrap li { width:482px;height:240px;margin-right:20px;margin-bottom:20px;margin-top:0;}
+.IOF-THEME-11 .main-container .dasol-liw ul.hp-deals-wrap li:last-child { margin-bottom:100px;}
+.IOF-THEME-11 .main-container .dasol-liw ul.hp-deals-wrap li:nth-child(2n) { margin-right:0;}
+.IOF-THEME-11 .main-container .dasol-liw ul.hp-deals-wrap li .dasol-img-frame { float:left;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-txt-frame { background-color:#ffffff;}
+.IOF-THEME-11 .main-container .dasol-liw ul.hp-deals-wrap li .dasol-txt-frame { float:left;width:240px;height:100%;}
+
+/* store info */
+.IOF-THEME-11 .store-last-rgt .open-bottom { display: none;}
+.IOF-THEME-11 .store-last-lft { float: left;padding-top: 48px;}
+.IOF-THEME-11 .store-last-rgt { float:right;}
+.IOF-THEME-11 .store-contact-info > h3 { color: #fff;font-size: 25px;margin-bottom: 20px;}
+.IOF-THEME-11 .store-contact-info > p { color: #fff;margin-bottom: 4px;}
+.IOF-THEME-11 .open-mid > h3 { margin-bottom: 30px;}
+.IOF-THEME-11 .store-last-rgt .open-top { display: none;padding: 3px 0;}
+.IOF-THEME-11 .store-last-rgt .open-mid { background-image: url("../../img/clock-transparent.png");background-position: right top;background-repeat: no-repeat;}
+.IOF-THEME-11 .store-contact-info > h3 { color: #fff;font-size: 25px;margin-bottom: 20px;}
+.IOF-THEME-11 .store-contact-info > p { color: #fff;margin-bottom: 4px;}
+.IOF-THEME-11 .ext-menu .ext-menu-img { display: block;margin-left: auto;margin-right: auto;margin-top: 25px;position:relative;overflow:hidden;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-tbl { height:100%;z-index:2;margin:0 auto;max-width:800px;display:table;position:relative;z-index:2;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-overlay { background-color:rgba(0,0,0,0.5);position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-tbl .emi-tbl-cell { display:table-cell;vertical-align:middle;padding:10px 75px;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-tbl h3 { white-space:nowrap;color:#ffffff;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-tbl p { color:#ffffff;}
+.IOF-THEME-11 .store-last-rgt .open-hours-card { display:block;}
+.IOF-THEME-11 .open-mid { padding:30px 30px 15px;}
+.IOF-THEME-11 .store-mid-last { background-color:#a7a7a7;padding:0;}
+.IOF-THEME-11 .main-body .main-container { position:relative;top:0;}
+.IOF-THEME-11 .ext-menu-title > h4 { font-family:'Source Sans Pro','Noto Sans',sans-serif,Arial;font-size:25px;text-align:center;font-weight:700;letter-spacing:0.05em;}
+.IOF-THEME-11 .store-last-rgt .open-hours-card { background-color: #555555;box-shadow: 8px 8px 7px 0 rgba(50, 50, 50, 0.35);color: #fff;padding: 28px 0 0;position: static;right: 30px;top: 60px;width: 327px;}
+.IOF-THEME-11 .store-last-rgt .time-list li { float:left;margin-bottom:2px;width:100%;border-bottom: medium none;padding:5px 0;}
+.IOF-THEME-11 .lft-txt { float: left;font-size: 17px;font-weight: 600;}
+.IOF-THEME-11 .rgt-txt { font-size: 15px;font-weight: 500;float: right;}
+.IOF-THEME-11 .open-mid { background-image: url("../../img/clock-transparent.png");background-position:right top;background-repeat: no-repeat;}
+.message-form { width:600px;}
+.message-form .user-detail { float:left;border:1px solid #ffffff;color:#ffffff;margin-top:10px;}
+.message-form .input-group { width:32%;float:left;position:relative;margin-top:10px;}
+.message-form .input-group input.user-detail { width:100%;margin:0;top:0;}
+.message-form .user-detail-center { margin-left:2%;margin-right:2%;}
+.message-form .user-detail-txtarea { width:66%;height:70px;display:block;}
+.message-form .user-detail-txtarea textarea { width:100%;height:100%;top:0;}
+.message-form .btm-msg-txt { width:32%;float:right;margin-top:20px;}
+.message-form .txtbx-msg { font-size:12px;color:#ffffff;margin-top:5px;}
+.message-form input[type="submit"] { padding:5px 20px;display:block;margin:10px 0 5px;color:#ffffff;width:100%;}
+.message-form .input-group label.error { bottom:-17px;font-size:12px;left:0;position:absolute;right:0;top:auto;margin:0;font-weight:100;}
+.message-form .input-group.user-detail-txtarea label.error { bottom:-24px;}
+
+/* vertical header */
+.IOF-THEME-11.IOF-V .main-header-menu { padding-top:18px;}
+.IOF-THEME-11.IOF-V .log-in-header { padding:23px 0;}
+.IOF-THEME-11.IOF-V .custom-header { height:69px;}
+.IOF-THEME-11.IOF-V .custom-header .white-bg { height:100%;}
+.IOF-THEME-11.IOF-V .custom-header .vt-header { width:300px;top:0;position:fixed;left:0;height:100%;overflow:hidden;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.IOF-THEME-11.IOF-V .custom-header .vt-header.open { width:300px;}
+.IOF-THEME-11.IOF-V .logo { left:0;width:100%;top:0;position:relative;}
+.IOF-THEME-11.IOF-V .menu-right { margin-top:0;width:100%;float:left;}
+.IOF-THEME-11.IOF-V .logo a img { width:100%;}
+.IOF-THEME-11.IOF-V .title-bar { display:none;}
+.IOF-THEME-11.IOF-V .inner-wrap { margin-top:35px;}
+.IOF-THEME-11.IOF-V a.restaurant-logo-rectangle { width:250px;height:150px;}
+.IOF-THEME-11.IOF-V .main-menu-list li ul { padding-top:6px;position:relative;right:0;top:0;}
+.IOF-THEME-11.IOF-V .main-menu-list > li:last-child::after { right:0;top:20px;}
+
+/* img gallery */
+.IOF-THEME-11 .dasol-liw { background-color:#ffffff;}
+.IOF-THEME-11 .main-container .dasol-liw h2 img { display:inline-block;margin-bottom:20px;position:relative;right:-1px;width:60px;height:60px;}
+.IOF-THEME-11 .main-container .dasol-liw { overflow:hidden;margin:0 !important;height:auto;background-size:cover;background-attachment:fixed;background-position:center center;}
+.IOF-THEME-11 .main-container .dasol-liw.hm-deals-wrap { height:auto;}
+.IOF-THEME-11 .main-container .dasol-liw ul { width:auto;padding:15px 0 0 0;}
+.IOF-THEME-11 .main-container .dasol-liw:not(.hm-deals-wrap):not(:last-child) ul { padding-bottom:100px;}
+.IOF-THEME-11 .main-container .dasol-liw ul.remove-space-btwn-items li { margin-left:0px;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-img-frame { height:240px;width:100%;display:table-cell;vertical-align:middle;background-color:#f7f7f7; padding:0px;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-img-frame a { display:block;height:100%;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-img-frame img { width:100%;height:100%;}
+.IOF-THEME-11 .main-container .dasol-liw ul li h3 + small { color: #000000;display: block;font-size:18px;font-weight: 200;line-height: 20px;}
+.IOF-THEME-11 #gallery-modal .modal-dialog { margin-top:100px;}
+.IOF-THEME-11 .carousel-control { border:none;bottom:auto;height:40px;margin-top:-20px;top:50%;}
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11 .main-container .dasol-liw ul li .dasol-txt-frame .add-to-cart-btn:hover { background-color:transparent !important;}
+
+/* buttons */
+.btn-primary { background-color:#ffb400 !important;border:1px solid #e9a400;}
+.btn-secondary { background-color:#ededed !important;border:1px solid #dfdfdf;}
+
+/* my delivery address */
+.IOF-COLOR-11 .form-inner-action-btn a:hover { background-color:#FFB400;}
+.IOF-COLOR-11 input[type="radio"]:checked + label span { background-color:#FFB400;border:1px solid #3c3b39;}
+
+/* profile */
+.IOF-THEM.E-11 .form-section.profile-fsection { padding-bottom:0;}
+
+/* menu page */
+.panel-group .panel-group .panel.panel-default > .panel-heading { padding:10px 20px !important;}
+.panel-body { padding-top:0;}
+.panel-body .inner-menu .item-description { text-align:left;line-height:18px;}
+.pos-right { position:absolute;right:20px;text-align:right;top:10px;}
+.panel-group .panel { box-shadow:none;}
+.pos-right strong { display:inline-block;}
+.pos-right a { margin-left:20px;}
+.pos-right sup { top:-4px;left:-3px;}
+.food-img img { width:150px;height:150px;}
+.nested-ac .panel-default .panel-collapse .panel-body { padding-top:0;}
+.food-img + .item-description.extra-height { min-height:89px;}
+.food-img { width:150px;margin-right:30px;}
+.nested-ac .panel-heading h4 { font-size:16px;}
+.right-menu .continue .cont-btn { border:none;color:#ffffff;}
+.panel-group .panel-default:last-child { border:none;}
+.panel-heading .arrow-down { top:6px;}
+.right-menu #getOrderType .common-input > p,
+.right-menu #getOrderType .time-setting label { font-size:13px !important;}
+.right-menu .panel-group .panel-heading.active { background-color:#fff !important;border-bottom:1px solid #acacac;}
+.right-menu .panel.panel-default > .panel-heading h4 { font-size:22px;font-weight:bold;letter-spacing:0;}
+.right-menu .panel.panel-default > .panel-heading h4 .arrow-down { display:none;}
+.right-menu .deliver-access { margin-bottom:20px;}
+.store-contact-info-ele { margin:15px 0;}
+.store-contact-info-ele h3 { font-size:15px;font-weight:bold;}
+.store-contact-info-ele p { font-size:14px;}
+.menu-offer-wrap { position:relative;}
+.menu-offer-wrap .add-menu { position:absolute;right:0;bottom:0;}
+
+/* review page */
+.modal-close-button .close { position:absolute;top:1px;z-index:100;}
+
+/* deals page */
+.IOF-THEME-11 .deal-container { padding:0;}
+
+#MediaPlayer.main-container { max-width:100%;}
+
+/* reset password */
+#UsersResetPasswordForm .profile-input { margin-bottom:15px;}
+#UsersResetPasswordForm .form-space { padding-bottom:0;}
+#UsersResetPasswordForm .profile-btn-section { margin-bottom:0;}
+.reset-password-wrap { border:none;}
+
+.footer-top ul.social-media li { margin:4px;}
+
+/* login popup */
+.txt-forgot-pass { color:#6d6e71 !important;font-weight:bold;}
+
+/* theme 1 */
+.IOF-THEME-11.IOF-COLOR-1 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-1 .oow-button,
+.IOF-THEME-11.IOF-COLOR-1 .online-btn,
+.IOF-THEME-11.IOF-COLOR-1 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-1 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-1 .oid,
+.IOF-THEME-11.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-1 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-1 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-1 .saveComment,
+.IOF-THEME-11.IOF-COLOR-1 .add-deal,
+.IOF-THEME-11.IOF-COLOR-1 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-1 .dropdown-menu > .active > a { background-color:#AACDAA !important;}
+.IOF-THEME-11.IOF-COLOR-1 .theme-bg-1:not(.modal-body):not(.add-cart):not(.add-to-cart-btn):hover,
+.IOF-THEME-11.IOF-COLOR-1 .theme-bg-2:not(.ext-menu),
+.IOF-THEME-11.IOF-COLOR-1 .main-menu-list li ul { background-color:#E05B5E !important;color:#ffffff;}
+.IOF-THEME-11.IOF-COLOR-1 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-1 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-1 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-1 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-1 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-1 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-1 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-1 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-1 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-1 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-1 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-1 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-1 .ext-menu-title > h4,
+.IOF-THEME-11.IOF-COLOR-1 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-1 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-1 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-1 .sub-menu-listing .btn.btn-default i.fa { color:#AACDAA !important;}
+.IOF-THEME-11.IOF-COLOR-1 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-1 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-1 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-1 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-1 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-1 .sub-menu-listing .btn.btn-default { border-color:#AACDAA !important;}
+
+/* theme 2 */
+.IOF-THEME-11.IOF-COLOR-2 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-2 .oow-button,
+.IOF-THEME-11.IOF-COLOR-2 .online-btn,
+.IOF-THEME-11.IOF-COLOR-2 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-2 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-2 .oid,
+.IOF-THEME-11.IOF-COLOR-2 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-2 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-2 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-2 .saveComment,
+.IOF-THEME-11.IOF-COLOR-2 .add-deal,
+.IOF-THEME-11.IOF-COLOR-2 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-2 .dropdown-menu > .active > a { background-color:#FF3300 !important;}
+.IOF-THEME-11.IOF-COLOR-2 .theme-bg-2,
+.IOF-THEME-11.IOF-COLOR-2 .main-menu-list li ul { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-11.IOF-COLOR-2 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-2 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-2 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-2 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-2 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-2 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-2 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-2 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-2 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-2 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-2 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-2 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-2 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-2 .ext-menu-title > h4,
+.IOF-THEME-11.IOF-COLOR-2 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-2 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-2 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-2 .sub-menu-listing .btn.btn-default i.fa { color:#FF3300 !important;}
+.IOF-THEME-11.IOF-COLOR-2 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-2 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-2 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-2 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-2 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-2 .sub-menu-listing .btn.btn-default { border-color:#FF3300 !important;}
+
+/* theme 3 */
+.IOF-THEME-11.IOF-COLOR-3 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-3 .oow-button,
+.IOF-THEME-11.IOF-COLOR-3 .online-btn,
+.IOF-THEME-11.IOF-COLOR-3 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-3 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-3 .oid,
+.IOF-THEME-11.IOF-COLOR-3 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-3 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-3 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-3 .saveComment,
+.IOF-THEME-11.IOF-COLOR-3 .add-deal,
+.IOF-THEME-11.IOF-COLOR-3 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-3 .dropdown-menu > .active > a { background-color:#F99C40 !important;}
+.IOF-THEME-11.IOF-COLOR-3 .theme-bg-2,
+.IOF-THEME-11.IOF-COLOR-3 .main-menu-list li ul { background-color:#F4E1CF !important;}
+.IOF-THEME-11.IOF-COLOR-3 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-3 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-3 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-3 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-3 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-3 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-3 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-3 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-3 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-3 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-3 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-3 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-3 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-3 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-3 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-3 .sub-menu-listing .btn.btn-default i.fa { color:#F99C40 !important;}
+.IOF-THEME-11.IOF-COLOR-3 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-3 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-3 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-3 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-3 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-3 .sub-menu-listing .btn.btn-default { border-color:#F99C40 !important;}
+
+/* theme 4 */
+.IOF-THEME-11.IOF-COLOR-4 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-4 .oow-button,
+.IOF-THEME-11.IOF-COLOR-4 .online-btn,
+.IOF-THEME-11.IOF-COLOR-4 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-4 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-4 .oid,
+.IOF-THEME-11.IOF-COLOR-4 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-4 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-4 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-4 .saveComment,
+.IOF-THEME-11.IOF-COLOR-4 .add-deal,
+.IOF-THEME-11.IOF-COLOR-4 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-4 .dropdown-menu > .active > a { background-color:#5F3711 !important;}
+.IOF-THEME-11.IOF-COLOR-4 .theme-bg-2,
+.IOF-THEME-11.IOF-COLOR-4 .main-menu-list li ul { background-color:#E1D5C1 !important;}
+.IOF-THEME-11.IOF-COLOR-4 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-4 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-4 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-4 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-4 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-4 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-4 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-4 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-4 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-4 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-4 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-4 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-4 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-4 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-4 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-4 .sub-menu-listing .btn.btn-default i.fa { color:#5F3711 !important;}
+.IOF-THEME-11.IOF-COLOR-4 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-4 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-4 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-4 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-4 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-4 .sub-menu-listing .btn.btn-default { border-color:#5F3711 !important;}
+
+/* theme 5 */
+.IOF-THEME-11.IOF-COLOR-5 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-5 .oow-button,
+.IOF-THEME-11.IOF-COLOR-5 .online-btn,
+.IOF-THEME-11.IOF-COLOR-5 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-5 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-5 .oid,
+.IOF-THEME-11.IOF-COLOR-5 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-5 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-5 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-5 .saveComment,
+.IOF-THEME-11.IOF-COLOR-5 .add-deal,
+.IOF-THEME-11.IOF-COLOR-5 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-5 .dropdown-menu > .active > a  { background-color:#FBEBD5 !important;}
+.IOF-THEME-11.IOF-COLOR-5 .theme-bg-2 { background-color:#DA4D2F !important;}
+.IOF-THEME-11.IOF-COLOR-5 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-5 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-5 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-5 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-5 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-5 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-5 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-5 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-5 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-5 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-5 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-5 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-5 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-5 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-5 .sub-menu-listing .btn.btn-default i.fa { color:#FBEBD5 !important;}
+.IOF-THEME-11.IOF-COLOR-5 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-5 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-5 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-5 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-5 .sub-menu-listing .btn.btn-default { border-color:#FBEBD5 !important;}
+
+/* theme 6 */
+.IOF-THEME-11.IOF-COLOR-6 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-6 .oow-button,
+.IOF-THEME-11.IOF-COLOR-6 .online-btn,
+.IOF-THEME-11.IOF-COLOR-6 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-6 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-6 .oid,
+.IOF-THEME-11.IOF-COLOR-6 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-6 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-6 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-6 .saveComment,
+.IOF-THEME-11.IOF-COLOR-6 .add-deal,
+.IOF-THEME-11.IOF-COLOR-6 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-6 .dropdown-menu > .active > a  { background-color:#e8e8e8 !important;}
+.IOF-THEME-11.IOF-COLOR-6 .theme-bg-2 { background-color:#0c0636 !important;}
+.IOF-THEME-11.IOF-COLOR-6 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-6 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-6 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-6 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-6 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-6 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-6 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-6 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-6 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-6 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-6 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-6 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-6 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-6 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-6 .sub-menu-listing .btn.btn-default i.fa { color:#e8e8e8 !important;}
+.IOF-THEME-11.IOF-COLOR-6 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-6 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-6 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-6 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-6 .sub-menu-listing .btn.btn-default { border-color:#e8e8e8 !important;}
+
+/* theme 7 */
+.IOF-THEME-11.IOF-COLOR-7 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-7 .oow-button,
+.IOF-THEME-11.IOF-COLOR-7 .online-btn,
+.IOF-THEME-11.IOF-COLOR-7 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-7 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-7 .oid,
+.IOF-THEME-11.IOF-COLOR-7 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-7 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-7 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-7 .saveComment,
+.IOF-THEME-11.IOF-COLOR-7 .add-deal,
+.IOF-THEME-11.IOF-COLOR-7 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-7 .dropdown-menu > .active > a  { background-color:#DAA520 !important;}
+.IOF-THEME-11.IOF-COLOR-7 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-11.IOF-COLOR-7 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-7 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-7 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-7 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-7 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-7 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-7 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-7 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-7 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-7 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-7 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-7 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-7 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-7 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-7 .sub-menu-listing .btn.btn-default i.fa { color:#DAA520 !important;}
+.IOF-THEME-11.IOF-COLOR-7 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-7 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-7 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-7 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-7 .sub-menu-listing .btn.btn-default { border-color:#DAA520 !important;}
+
+/* theme 8 */
+.IOF-THEME-11.IOF-COLOR-8 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-8 .oow-button,
+.IOF-THEME-11.IOF-COLOR-8 .online-btn,
+.IOF-THEME-11.IOF-COLOR-8 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-8 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-8 .oid,
+.IOF-THEME-11.IOF-COLOR-8 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-8 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-8 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-8 .saveComment,
+.IOF-THEME-11.IOF-COLOR-8 .add-deal,
+.IOF-THEME-11.IOF-COLOR-8 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-8 .dropdown-menu > .active > a  { background-color:#990100 !important;}
+.IOF-THEME-11.IOF-COLOR-8 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-11.IOF-COLOR-8 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-8 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-8 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-8 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-8 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-8 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-8 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-8 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-8 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-8 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-8 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-8 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-8 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-8 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-8 .sub-menu-listing .btn.btn-default i.fa { color:#990100 !important;}
+.IOF-THEME-11.IOF-COLOR-8 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-8 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-8 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-8 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-8 .sub-menu-listing .btn.btn-default { border-color:#990100 !important;}
+
+/* theme 9 */
+.IOF-THEME-11.IOF-COLOR-9 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-9 .oow-button,
+.IOF-THEME-11.IOF-COLOR-9 .online-btn,
+.IOF-THEME-11.IOF-COLOR-9 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-9 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-9 .oid,
+.IOF-THEME-11.IOF-COLOR-9 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-9 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-9 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-9 .saveComment,
+.IOF-THEME-11.IOF-COLOR-9 .add-deal,
+.IOF-THEME-11.IOF-COLOR-9 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-9 .dropdown-menu > .active > a  { background-color:#46382B !important;}
+.IOF-THEME-11.IOF-COLOR-9 .theme-bg-2 { background-color:#717F3E !important;}
+.IOF-THEME-11.IOF-COLOR-9 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-9 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-9 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-9 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-9 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-9 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-9 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-9 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-9 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-9 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-9 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-9 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-9 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-9 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-9 .sub-menu-listing .btn.btn-default i.fa { color:#46382B !important;}
+.IOF-THEME-11.IOF-COLOR-9 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-9 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-9 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-9 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-9 .sub-menu-listing .btn.btn-default { border-color:#46382B !important;}
+
+/* theme 10 */
+.IOF-THEME-11.IOF-COLOR-10 .theme-bg-1,
+.IOF-THEME-11.IOF-COLOR-10 .oow-button,
+.IOF-THEME-11.IOF-COLOR-10 .online-btn,
+.IOF-THEME-11.IOF-COLOR-10 input[type="radio"]:checked + label span,
+.IOF-THEME-11.IOF-COLOR-10 .btn-primary,
+.IOF-THEME-11.IOF-COLOR-10 .oid,
+.IOF-THEME-11.IOF-COLOR-10 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-11.IOF-COLOR-10 #btnUserLogin,
+.IOF-THEME-11.IOF-COLOR-10 .saveOrderType,
+.IOF-THEME-11.IOF-COLOR-10 .saveComment,
+.IOF-THEME-11.IOF-COLOR-10 .add-deal,
+.IOF-THEME-11.IOF-COLOR-10 .carousel-indicators > li.active,
+.IOF-THEME-11.IOF-COLOR-10 .dropdown-menu > .active > a  { background-color:#FECE06 !important;}
+.IOF-THEME-11.IOF-COLOR-10 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-11.IOF-COLOR-10 .theme-txt-col-1,
+.IOF-THEME-11.IOF-COLOR-10 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-11.IOF-COLOR-10 .nav-tabs > li > a:hover,
+.IOF-THEME-11.IOF-COLOR-10 .fav-order-history .reorder i,
+.IOF-THEME-11.IOF-COLOR-10 .reorder.orderColor:hover,
+.IOF-THEME-11.IOF-COLOR-10 .rating-container .rating-stars,
+.IOF-THEME-11.IOF-COLOR-10 .main-menu-list > li a:hover,
+.IOF-THEME-11.IOF-COLOR-10 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-11.IOF-COLOR-10 [type="checkbox"]:checked + label::after,
+.IOF-THEME-11.IOF-COLOR-10 .account-access li a:hover,
+.IOF-THEME-11.IOF-COLOR-10 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-11.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-10 .btn.btn-default.quantity i.fa,
+.IOF-THEME-11.IOF-COLOR-10 .main-container .dasol-liw ul li .dasol-txt-frame .add-cart:hover,
+.IOF-THEME-11.IOF-COLOR-10 .add-to-cart-btn:hover,
+.IOF-THEME-11.IOF-COLOR-10 .sub-menu-listing .btn.btn-default i.fa { color:#FECE06 !important;}
+.IOF-THEME-11.IOF-COLOR-10 .theme-border-1,
+.IOF-THEME-11.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-11.IOF-COLOR-10 .carousel-control,
+.IOF-THEME-11.IOF-COLOR-10 .panel-body .inner-menu,
+.IOF-THEME-11.IOF-COLOR-10 .add-to-cart-btn,
+.IOF-THEME-11.IOF-COLOR-10 .sub-menu-listing .btn.btn-default { border-color:#FECE06 !important;}
+
+/* media quries */
+@media screen and (max-width:1280px){
+#getOrderType .col-lg-6.col-sm-6 { width:100%;}
+}
+
+@media screen and (max-width:1024px){
+.IOF-THEME-11 .main-menu-list > li { padding:0 15px;}
+.IOF-THEME-11.IOF-V a.menu-control { top:11px;}
+.inner-wrap .form-section .profile-input label { width:100%;}
+.account-access { margin:3px 0;}
+.IOF-THEME-11.IOF-V .log-head-left { padding-left:35px;}
+}
+
+@media screen and (max-width:760px){
+.IOF-THEME-11 .main-container { padding:0 15px;}
+.IOF-THEME-11 .navbar-toggle { margin-right:0;padding:0;position:absolute;right:0;top:-35px;}
+.IOF-THEME-11 .main-menu-list > li { display:block;padding:15px 0 !important;}
+.IOF-THEME-11 .main-menu-list > li:last-child { padding-right:15px;}
+.IOF-THEME-11 .navbar-collapse.custom-colapse.collapse { display:none !important;}
+.IOF-THEME-11 .navbar-collapse.custom-colapse.collapse.in {  display:block !important;}
+.IOF-THEME-11 .navbar-collapse { border:none;box-shadow:none;}
+.IOF-THEME-11 .slider-text { top:100px;}
+.IOF-THEME-11 .navbar-nav .open .dropdown-menu.dropdown-cart { background-color:#ffffff;border:1px solid rgba(0, 0, 0, 0.15);box-shadow:0 6px 12px rgba(0, 0, 0, 0.176);margin-top:25px;position:absolute;left:auto;right:0;}
+.IOF-THEME-11 .main-body .home-page-container { margin-left:0;margin-right:0;}
+.IOF-THEME-11.IOF-V .inner-wrap .form-section .profile-input label { width:100%;}
+#gallery-modal .modal-dialog { width:auto;margin:50px 20px;}
+.IOF-THEME-11 .price-q { position:relative;top:5px;}
+.main-menu-list > li:last-child::after { right:auto;left:0px;top:25px;}
+.main-menu-list li ul { right:0;top:0;position:relative;width:100%;}
+.IOF-THEME-11 .main-menu-list > li li a { font-size:14px;padding-right:0;}
+.IOF-THEME-11.IOF-V { padding-left:0;}
+.IOF-THEME-11.IOF-V .custom-header .vt-header { width:0px;}
+.IOF-THEME-11.IOF-V .log-head-left { padding-left:15px;}
+.IOF-THEME-11.IOF-V a.menu-control { top:22px;left:2px;display:block;}
+.IOF-THEME-11.IOF-V a.menu-control.mc-active { left:270px;}
+.main-menu-list > li:last-child::after { display:none;}
+}
+
+@media screen and (max-width:736px){
+#login-modal .modal-dialog,
+#guest-sign-up-modal .modal-dialog { width:90%;padding:50px 10px;height:auto;}
+.sign-up-btn { float:right;height:50px;width:100%;margin-bottom:25px;}
+#chkOrderUserLogin .input-fields,
+#GuestUser .input-fields { padding-right:0;width:100%;}
+.IOF-THEME-11.IOF-V .inner-wrap { margin:0 0 20px 0;}
+}
+
+@media screen and (max-width:480px){
+.IOF-THEME-11 .slider-text { top:50px;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-tbl { display:block;overflow:auto;}
+.IOF-THEME-11 .ext-menu .ext-menu-img .emi-tbl .emi-tbl-cell { display:block;}
+.IOF-THEME-11 .store-mid-last { height:auto !important;}
+.IOF-THEME-11 .store-last-lft,
+.IOF-THEME-11 .store-last-rgt { width:100%;text-align:center;}
+.IOF-THEME-11 .store-last-rgt .open-hours-card { margin:20px auto 0;}
+.IOF-THEME-11 .inner-title-padding { padding-top:105px;}
+}
+
+
+
+/* Added SCOTT */
+body  { max-width:3000px; margin:0 auto;}
+.IOF-THEME-11  { background-color: #f4f5fb;}
+.IOF-THEME-11 .item-container { background-color: #ffffff; }
+.IOF-THEME-11 .main-container .hm-deals-wrap .item-container { padding:0;}
+.IOF-THEME-11 .main-container .item-container { padding-bottom: 30px; text-align: center; margin-bottom: 10px;}
+
+.IOF-THEME-11 .main-container .item-container h3 { font-size:22px; margin-top: 20px; margin-bottom: 20px; text-transform: uppercase;}
+.IOF-THEME-11 .main-container .item-container h3 + small { color: #000000;display: block;font-size:18px;font-weight: 200;line-height: 20px; margin-top: 10px; margin-bottom: 10px; }
+.IOF-THEME-11 .main-container .item-container .btn-cart-container { height: 50px; padding-top: 20px;}
+.IOF-THEME-11 .main-container .item-container .btn-cart-container a { color: #ffffff; background-color: #000000; border-color: #000000; padding: 5px 20px;text-transform: uppercase;width:150px;line-height:21px;border-radius:17px;font-size:15px;letter-spacing:0.05em;border-width:2px;border-style:solid;font-weight:bold;}
+.IOF-THEME-11 .main-container .item-container .btn-cart-container a:hover { color:#000000; background-color: #ffffff; }
+.IOF-THEME-11 .main-container .item-container a.add-to-cart-btn { color:#ffffff; background-color: #000000; padding: 5px 20px;text-transform: uppercase;width:150px;line-height:21px;border-radius:17px;font-size:15px;letter-spacing:0.05em;border-width:2px;border-style:solid;font-weight:bold;}
+.IOF-THEME-11 .main-container .item-container a.add-to-cart-btn:hover {  color:#000000; background-color: #ffffff; border-color: #000000; }
+
+.IOF-THEME-11 .main-container .item-container img {display: block;margin: 0 auto;}
+.slider-text { top:0px; padding:0px; top: 40%; transform: translateY(-40%);}
+a.restaurant-logo-square {width : 100%}
+.main-menu-list > li:last-child { padding-right: 20px;}
+.logo { width:100px;}
+.IOF-THEME-11 .slider-bg .carousel-inner, .IOF-THEME-11 .slider-bg .carousel-inner .carousel-item img {
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.IOF-THEME-11 .slider-bg .carousel-inner .slider-text { max-width: 1400px; margin: 0 auto;}
+.IOF-THEME-11 .ext-menu .ext-menu-img { display: none;}
+.IOF-THEME-11.IOF-COLOR-2 .ext-menu-title > h4 { color: #ffffff; }
+.store-mid-map { height: 420px !important; }
+.store-mid-last { height: 100% !important; }
+.modal-open .modal a { font-size: 18px !important;}
+.panel.panel-default > .panel-heading { background-color: #5a5c61;}
+.panel.panel-default { border-bottom:  1px solid #6b6d73;}
+.left-menu { border: 1px solid #6b6d73;}
+
+.IOF-THEME-11 .main-container { max-width: 1400px; }
+.IOF-THEME-11 .main-container .hm-deals-wrap h2 { padding-top: 0px; margin-top: 40px; margin-bottom: 50px; color: #000000; }
+.IOF-THEME-11 .main-container h2 { padding-top: 0px; margin-top: 40px; margin-bottom: 50px; color: #ffffff; }
+.IOF-THEME-11 .main-container .item-container img { width:100%; }
+.IOF-THEME-11 #MediaPlayer .main-container { margin: 0 auto;}
+.main-container .container { width : 88%;}
+.IOF-THEME-11 .main-container .dasol-liw.hm-deals-wrap { padding-bottom : 50px;}
+.main-menu-list > li:last-child:after { display: none; }
+.main-menu-list > li.active { padding-bottom: 10px; border-bottom: solid 5px #f24d20; }
+.IOF-THEME-11  .carousel-indicators  li { padding:0px; width: 12px; height:12px; background-color: rgba(0, 0, 0, .3); border: solid 1px rgba(255, 255, 255, .4);}
+.IOF-THEME-11  .carousel-indicators  li.active { top:-3px; background-color: rgba(0, 0, 0, .6); }
+.add-menu { background-color: #f24d20;}
+.btn-info { background-color: #f24d20; }
+.common-config .site-map li span {display: none;}
+footer { padding: 0px; background-color: #000000;}
+.footer-top { margin: 0; padding: 50px 0 80px 0; background-color: #1a1a1a;}
+.footer-bottom { padding: 20px 0 20px 0;}
+.right-menu .continue .cont-btn { background-color: #000000;}
+.online-btn { width: auto; padding: 12px 70px; font-size:20px;}
+#mobile_continuemenu, #mobile_continue { display: none;}
+
+.IOF-THEME-11 .store-mid-last { background-color: #ffffff;  }
+
+.message-form { width:auto;}
+.message-form .btm-msg-txt button { background-color: #000000; font-size: 20px; color: #ffffff;}
+.message-form .user-detail { border: 1px solid #000000 }
+.message-form .input-group { width: 100%;}
+.user-detail { width: 100%;}
+.open-hours-card .open-top .close { display: none; }
+.scott-contact { background-color: #ffffff; max-width: 1440px; padding: 50px 65px 100px 65px; margin:0 auto;}
+.scott-contact .scott-contact-info > h3 { color:#000000; font-size: 30px; padding-top:50px; padding-bottom: 25px;}
+.scott-contact .scott-contact-info p { color:#000000; font-size: 16px;}
+.IOF-THEME-11 .rgt-txt { padding-right: 50%; }
+.message-form .btm-msg-txt { width: auto;}
+footer .container { max-width: 1400px;}
+#chkOrderUserLogin p label { font-size: 18px; }
+.btn-info { margin-top : 7px;}
+.message-form { padding-top: 50px;}
+.user-detail { height: 40px; margin-bottom: 15px;}
+
+.message-form .user-detail-txtarea { height: 230px; }
+.message-form .txtbx-msg {color:#000000;}
+.message-form .btm-msg-txt { float: left; }
+#contactUs > div:nth-child(2) > div:nth-child(1) { padding-right: 25px;}
+.modal-content { border: none;}
+.close { font-size: 30px; color:#ffffff; text-shadow: 0 1px 0 #000; opacity : .7; line-height : .75;}
+@media (max-width: 55em)
+{
+    #mobile_continue { display: none !important; }
+    #desktop_continue {display: block !important; width: 100%;}
+}
+
+@media screen and (max-width:1024px){
+    .logo a img { width:66%; height: auto;}
+    .IOF-THEME-11 .slider-bg .carousel-inner, .IOF-THEME-11 .slider-bg .carousel-inner .carousel-item img { height:350px;}
+    .IOF-THEME-11 .main-container .container { width : 100%; }
+    .IOF-THEME-11 .main-container .item-container { margin-bottom: 30px; }
+    .IOF-THEME-11 .main-container .container .row { padding:0;}
+    .IOF-THEME-11 .main-container .dasol-liw.hm-deals-wrap { padding: 0; }
+    .IOF-THEME-11 .main-container .dasol-liw.hm-deals-wrap h2 { padding-bottom: 0px; }
+    .IOF-THEME-11 .slider-bg .online-order-wrap { bottom: 60px;}
+    .main-menu-list > li.active { padding-bottom: 0px; border-style: none; }
+    #contactUs > div:nth-child(2) > div:nth-child(1) { padding-right: 0px;}
+}
+
+@media screen and (max-width:760px){
+    .IOF-THEME-11 .main-container .container { width : 100%; padding:0 60px 0px 60px; }
+    .IOF-THEME-11 .main-container .container .row { padding:0; margin-bottom:45px;}
+    .IOF-THEME-11 .slider-bg .online-order-wrap { bottom: 60px;}
+}
+
+@media screen and (max-width:736px) {
+    .logo { width:77px;}
+    .IOF-THEME-11 .main-container .container { width : 100%;  }
+    .IOF-THEME-11 .main-container .container .row { padding:0;}
+    .IOF-THEME-11 slider-bg .online-order-wrap { bottom: 40px; }
+}
+
+@media screen and (max-width:480px){
+    .IOF-THEME-11 .slider-text { display: none;}
+    .IOF-THEME-11 .slider-bg .carousel-inner, .IOF-THEME-11 .slider-bg .carousel-inner .carousel-item img { height:150px;}
+    .IOF-THEME-11 .main-container .container { width : 100%; padding:0 30px 0px 30px; }
+    .IOF-THEME-11 .main-container .container .row { padding:0;}
+    .IOF-THEME-11 .slider-bg .online-order-wrap { display: none; }
+    .IOF-THEME-11 .main-container h2 { padding : 10px 0px;}
+    .IOF-THEME-11 .rgt-txt { padding-right: 0px; }
+    .IOF-THEME-11 .rgt-txt { padding-right: 0px; }
+    .IOF-THEME-11 .main-container .item-container .btn-cart-container { margin-bottom : 20px;}
+    .IOF-THEME-11 .main-container .item-container { margin: 0 0 20px 0; padding: 0 0 20px 0; }
+    .IOF-THEME-11 a.carousel-control { display: none; }
+    .IOF-THEME-11 .online-order { margin: 0 0 60px 0;}
+
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right : 0;
+}

@@ -1,0 +1,180 @@
+<?php
+$userId = $this->Session->read('Auth.hq.id');
+$roleId = $this->Session->read('Auth.hq.role_id');
+//Hq Admin
+$hqstaffManagementPermission = $this->Common->checkPermissionByTabName('Hq Staff Management', $userId, $roleId);
+$StoreRequest = $this->Common->checkPermissionByTabName('Request New Store', $userId, $roleId);
+$manageSliderPhotos = $this->Common->checkPermissionByTabName('Manage Images', $userId, $roleId);
+$hqTransaction = $this->Common->checkPermissionByTabName('HQ Transaction', $userId, $roleId);
+$hqStorePayments = $this->Common->checkPermissionByTabName('Payments', $userId, $roleId);
+$hqReview = $this->Common->checkPermissionByTabName('HQ Reviews', $userId, $roleId);
+$hqStaticPages = $this->Common->checkPermissionByTabName('HQ Pages', $userId, $roleId);
+$hqReport = $this->Common->checkPermissionByTabName('HQ Reports', $userId, $roleId);
+$hqBacgroundImage = $this->Common->checkPermissionByTabName('HQ Background Image', $userId, $roleId);
+$hqstaticPage = $this->Common->checkPermissionByTabName('HQ Static Page', $userId, $roleId);
+$hqmanageImage = $this->Common->checkPermissionByTabName('HQ Manage Images', $userId, $roleId);
+$hqmanageLocation = $this->Common->checkPermissionByTabName('Store Locations', $userId, $roleId);
+$hqTransactionAllowPermission = $this->Common->checkTransactionAllowPermission($this->Session->read('merchantId'));
+$hqmenuBuilder = $this->Common->checkPermissionByTabName('Hq Menu Builder', $userId, $roleId);
+?>
+
+<div class="collapse navbar-collapse navbar-ex1-collapse">				
+    <ul class="nav navbar-nav side-nav">
+        <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo201"><i class="fa fa-shopping-cart"></i>&nbsp; Sales <i class="fa fa-fw fa-caret-down"></i></a>
+            <ul id="demo201" class="collapse">
+
+                <?php //if($hqstaffManagementPermission==1){?> 	
+                <li <?php if ($this->params['controller'] == 'hqorders' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-shopping-cart"></i>&nbsp; Order Management <i class=""></i>'), array('controller' => 'hqorders', 'action' => 'index'), array('escape' => false)); ?></li>     
+                <?php //} ?>
+            </ul>
+        </li>
+
+
+        <?php if ($hqstaffManagementPermission == 1) { ?>
+            <li  <?php if ($this->params['controller'] == 'hq' && ($this->params['action'] == 'manageStaff' || $this->params['action'] == 'staffList')) { ?> class="active" <?php } ?>> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo9"><i class="fa fa-fw fa-user"></i> Manage Staff <i class="fa fa-fw fa-caret-down"></i></a>
+
+
+                <ul id="demo9" class="collapse">
+                    <li><?php echo $this->Html->link(__('Add New Staff'), array('controller' => 'hq', 'action' => 'manageStaff'), array('escape' => false)); ?> </li> 
+                    <li><?php echo $this->Html->link(__('View Staff'), array('controller' => 'hq', 'action' => 'staffList'), array('escape' => false)); ?> </li>                  
+                </ul>
+            </li>
+        <?php } ?>
+
+        <?php if ($StoreRequest == 1) { ?> 
+            <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'storeRequestList') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp;&nbsp;Request New Store<i class=""></i>'), array('controller' => 'hq', 'action' => 'storeRequestList'), array('escape' => false)); ?></li>
+        <?php } ?>
+
+        <?php if ($hqStorePayments == 1) { ?>    
+            <li  <?php if ($this->params['controller'] == 'hq' && ($this->params['action'] == 'addStorePayment' || $this->params['action'] == 'addStorePayment')) { ?> class="active" <?php } ?>> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo10"><i class="fa fa-fw fa-user"></i> Payments<i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="demo10" class="collapse">
+                    <li><?php echo $this->Html->link(__('Subscription Payment'), array('controller' => 'hq', 'action' => 'PaymentList'), array('escape' => false)); ?> </li>                  
+
+                    <li><?php echo $this->Html->link(__('Add Payment'), array('controller' => 'hq', 'action' => 'addStorePayment'), array('escape' => false)); ?> </li> 
+                    <li><?php echo $this->Html->link(__('View Payment'), array('controller' => 'hq', 'action' => 'storePaymentList'), array('escape' => false)); ?> </li>                  
+                </ul>
+            </li>
+        <?php }
+        ?>
+        <?php
+        if (isset($this->params['pass']) && $this->params['pass']) {
+            $selectedStoreId = $this->params['pass'][0];
+        }
+
+        //$selectedStoreId=$this->Session->read('selectedStoreId');
+        //$selectedStoreId = $this->Encryption->encode($selectedStoreId);
+        ?>   
+
+        <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo13"><i class="fa fa-fw fa-user"></i> Merchant Configuration <i class="fa fa-fw fa-caret-down"></i></a>
+            <ul id="demo13" class="collapse">
+                <?php if ($hqstaticPage == 1) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'merchantPageList') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp;&nbsp;HQ Static Pages<i class=""></i>'), array('controller' => 'hq', 'action' => 'merchantPageList'), array('escape' => false)); ?></li> 
+                <?php } ?>
+
+                <?php if ($hqBacgroundImage == 1) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'backgroundImage') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Upload Image<i class=""></i>'), array('controller' => 'hq', 'action' => 'backgroundImage'), array('escape' => false)); ?></li>
+                <?php } ?>
+
+                <?php if ($hqmanageImage == 1) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'merchantManageSliderPhotos') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Manage Slider Images<i class=""></i>'), array('controller' => 'hq', 'action' => 'merchantManageSliderPhotos'), array('escape' => false)); ?></li>
+                <?php } ?>
+                <?php if ($hqmanageLocation == 1) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'viewStoreDetails') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp;Manage Store Locations<i class=""></i>'), array('controller' => 'hq', 'action' => 'viewStoreDetails'), array('escape' => false)); ?></li>
+                <?php } ?>
+                <li <?php if ($this->params['controller'] == 'hqtemplates' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Email Templates<i class=""></i>'), array('controller' => 'hqtemplates', 'action' => 'index'), array('escape' => false)); ?></li>
+                <li <?php if ($this->params['controller'] == 'hqtemplates' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Social Media<i class=""></i>'), array('controller' => 'hqsettings', 'action' => 'socialMedia'), array('escape' => false)); ?></li>
+                <!--<li <?php if ($this->params['controller'] == 'hqtemplates' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Store Hours<i class=""></i>'), array('controller' => 'hqsettings', 'action' => 'manageTimings'), array('escape' => false)); ?></li>-->
+                <li <?php if ($this->params['controller'] == 'hqtemplates' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Inquiry Messages<i class=""></i>'), array('controller' => 'hqtemplates', 'action' => 'enquiryMessages'), array('escape' => false)); ?></li>
+                <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo12"><i class="fa fa-fw fa-user"></i> Newsletter <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo12" class="collapse">
+                        <li <?php if ($this->params['controller'] == 'hqnewsletters' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Newsletter List<i class=""></i>'), array('controller' => 'hqnewsletters', 'action' => 'index'), array('escape' => false)); ?></li>
+                        <li <?php if ($this->params['controller'] == 'hqnewsletters' && $this->params['action'] == 'addNewsletter') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Add Newsletter<i class=""></i>'), array('controller' => 'hqnewsletters', 'action' => 'addNewsletter'), array('escape' => false)); ?></li>
+                    </ul>
+                </li>
+                
+                <li <?php if ($this->params['controller'] == 'hqtemplates' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Desing Template<i class=""></i>'), array('controller' => 'hqtemplates', 'action' => 'merchant_design'), array('escape' => false)); ?></li>
+            </ul>
+        </li>
+
+        <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo11"><i class="fa fa-fw fa-user"></i> Store Setting <i class="fa fa-fw fa-caret-down"></i></a>
+            <ul id="demo11" class="collapse">
+                <?php if ($manageSliderPhotos == 1 /* && $selectedStoreId */) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'manageSliderPhotos') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp;&nbsp;Manage Images<i class=""></i>'), array('controller' => 'hq', 'action' => 'manageSliderPhotos'), array('escape' => false)); ?></li>
+                <?php } ?>
+                <?php if ($hqTransaction == 1 && $hqTransactionAllowPermission == 1 /* && $selectedStoreId */) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'transactionList') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp;&nbsp;Transaction<i class=""></i>'), array('controller' => 'hq', 'action' => 'transactionList'), array('escape' => false)); ?></li>
+                <?php } ?>
+                <?php if ($hqReview == 1 /* && $selectedStoreId */) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'reviewRating') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Review & Ratings<i class=""></i>'), array('controller' => 'hq', 'action' => 'reviewRating'), array('escape' => false)); ?></li>
+                <?php } ?>
+                <?php if ($hqStaticPages == 1 /* && $selectedStoreId */) { ?> 
+                    <li <?php if ($this->params['controller'] == 'hq' && $this->params['action'] == 'pageList') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Static Pages<i class=""></i>'), array('controller' => 'hq', 'action' => 'pageList'), array('escape' => false)); ?></li>
+                <?php } ?>
+            </ul>
+        </li>
+
+
+        <?php if ($hqReport == 1 /* && $selectedStoreId */) { ?> 
+            <li <?php if ($this->params['controller'] == 'hqreports' && ($this->params['action'] == 'moneyReport')) { ?> class="active" <?php } ?> > <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo50"><i class="fa fa-star"></i>&nbsp;&nbsp;Reporting<i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="demo50" class="collapse">
+                    <li><?php echo $this->Html->link(__('$ Report'), array('controller' => 'hqreports', 'action' => 'moneyReport'), array('escape' => false)); ?> </li>
+                    <li><?php echo $this->Html->link(__('Product Report'), array('controller' => 'hqreports', 'action' => 'productReport'), array('escape' => false)); ?> </li>
+                    <li><?php echo $this->Html->link(__('Order Report'), array('controller' => 'hqreports', 'action' => 'orderReport'), array('escape' => false)); ?> </li>
+                    <li><?php echo $this->Html->link(__('Customer Report'), array('controller' => 'hqreports', 'action' => 'customerReport'), array('escape' => false)); ?> </li>
+
+                </ul>
+            </li>
+
+
+        <?php } ?>
+            <!--Manage Promotions-->
+        <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo19"><i class="fa fa-fw fa-user"></i> Manage Promotions <i class="fa fa-fw fa-caret-down"></i></a>
+            <ul id="demo19" class="collapse">
+                <li><?php echo $this->Html->link(__('Coupons'), array('controller' => 'hqcoupons', 'action' => 'index'), array('escape' => false)); ?> </li> 
+                <li><?php echo $this->Html->link(__('Promotions'), array('controller' => 'hqoffers', 'action' => 'index'), array('escape' => false)); ?> </li> 
+            </ul>
+        </li>
+        <!--Manage Promotions End-->
+        
+        <li>
+            <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo102">
+                <i class="fa fa-cutlery"></i>&nbsp;&nbsp;Menu Builder<i class="fa fa-fw fa-caret-down"></i></a>
+            <ul id="demo102" class="collapse">
+                <li <?php if ($this->params['controller'] == 'hqcategories' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Category<i class=""></i>'), array('controller' => 'hqcategories', 'action' => 'index'), array('escape' => false)); ?></li>
+                <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo14"><i class="fa fa-fw fa-user"></i> Manage Sizes <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo14" class="collapse">
+                        <li <?php if ($this->params['controller'] == 'hqsizes' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; View Size<i class=""></i>'), array('controller' => 'hqsizes', 'action' => 'index'), array('escape' => false)); ?></li>
+                        <li <?php if ($this->params['controller'] == 'hqsizes' && $this->params['action'] == 'sizelisting') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Item Sizes<i class=""></i>'), array('controller' => 'hqsizes', 'action' => 'sizelisting'), array('escape' => false)); ?></li>
+                    </ul>
+                </li>
+                <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo15"><i class="fa fa-fw fa-user"></i> Manage Preferences <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo15" class="collapse">
+                        <li <?php if ($this->params['controller'] == 'hqtypes' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Add Preferences<i class=""></i>'), array('controller' => 'hqtypes', 'action' => 'index'), array('escape' => false)); ?></li>
+                        <li <?php if ($this->params['controller'] == 'hqtypes' && $this->params['action'] == 'typelisting') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Item Preferences<i class=""></i>'), array('controller' => 'hqtypes', 'action' => 'typelisting'), array('escape' => false)); ?></li>
+                    </ul>
+                </li>
+                <li <?php if ($this->params['controller'] == 'hqsubpreferences' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Sub-Preferences<i class=""></i>'), array('controller' => 'hqsubpreferences', 'action' => 'index'), array('escape' => false)); ?></li>
+                <li> <a href="javascript:void(0);" data-toggle="collapse" data-target="#demo16"><i class="fa fa-fw fa-user"></i> Menu Builder <i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo16" class="collapse">
+                        <li <?php if ($this->params['controller'] == 'hqitems' && $this->params['action'] == 'addMenuItem') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Add Menu Item<i class=""></i>'), array('controller' => 'hqitems', 'action' => 'addMenuItem'), array('escape' => false)); ?></li>
+                        <li <?php if ($this->params['controller'] == 'hqitems' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; View Items<i class=""></i>'), array('controller' => 'hqitems', 'action' => 'index'), array('escape' => false)); ?></li>
+                    </ul>
+                </li>
+                <li <?php if ($this->params['controller'] == 'hqtoppings' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Add-ons<i class=""></i>'), array('controller' => 'hqtoppings', 'action' => 'index'), array('escape' => false)); ?></li>
+                <li <?php if ($this->params['controller'] == 'hqtoppings' && $this->params['action'] == 'subTopping') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Sub Add-ons<i class=""></i>'), array('controller' => 'hqtoppings', 'action' => 'subTopping'), array('escape' => false)); ?></li>
+                <li <?php if ($this->params['controller'] == 'hqsizes' && $this->params['action'] == 'addOnSize') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Add-ons Size<i class=""></i>'), array('controller' => 'hqsizes', 'action' => 'addOnSize'), array('escape' => false)); ?></li>
+                <li <?php if ($this->params['controller'] == 'hqintervals' && $this->params['action'] == 'index') { ?> class="active" <?php } ?>><?php echo $this->Html->link(__('<i class="fa fa-user"></i>&nbsp; Time Interval<i class=""></i>'), array('controller' => 'hqintervals', 'action' => 'index'), array('escape' => false)); ?></li>
+            </ul>
+        </li>
+    </ul>    
+    <ul class="nav navbar-nav navbar-right navbar-user">        
+        <li class="dropdown user-dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ucfirst($_SESSION['Auth']['hq']['fname']); ?> <b class="caret"></b></a>              
+            <ul class="dropdown-menu">
+                <li></li>
+                <li><?php echo $this->Html->link('Profile', array('controller' => 'hq', 'action' => 'myProfile')); ?></li>
+                <li class="divider"></li>
+                <li><?php echo $this->Html->link('Logout', array('controller' => 'hq', 'action' => 'logout')); ?></li>                
+            </ul>
+        </li>
+    </ul>
+</div>

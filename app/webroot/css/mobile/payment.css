@@ -1,0 +1,454 @@
+div {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.panel-heading {
+  font-size: larger;
+}
+
+.alert {
+  display: none;
+}
+
+
+/**
+ * Error color for the validation plugin
+ */
+
+.error {
+  color: #e74c3c;
+}
+
+
+#success_wrap {
+    min-width: 240px;
+    max-width: 500px;
+    min-height: 400px;
+    position: relative;
+}
+
+#checkicon1 {
+    font-size: 120px;
+    color: #5ab250;
+    margin-top: 13%;
+}
+
+#checkbox1 {
+    height: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+#large_message1 {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#small_message1 {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+#button1 {
+    height: 30%;
+    text-align: center;
+    width: 100%;
+}
+
+#button_ok1 {
+    width: 95%;
+    border: none;
+    color: white;
+    background: #5ab250;
+    font-size: 20px;
+    padding: 1.5%;
+    margin-top: 19%;
+}
+
+#error_wrap {
+    min-width: 240px;
+    max-width: 500px;
+    min-height: 400px;
+    position: relative;
+}
+
+#checkicon {
+    font-size: 120px;
+    color: #FFD54F;
+    margin-top: 13%;
+}
+
+#checkbox {
+    height: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+#large_message {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#small_message {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+#button {
+    height: 30%;
+    text-align: center;
+    width: 100%;
+}
+
+#button_ok {
+    width: 95%;
+    border: none;
+    color: white;
+    background: #FFD54F;
+    font-size: 20px;
+    padding: 1.5%;
+    margin-top: 12%;
+}
+
+#error {
+    margin-top: 3%;
+}
+
+#wrap {
+    min-width: 240px;
+    max-width: 500px;
+    min-height: 400px;
+}
+
+#firstname {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#lastname {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.field {
+    padding: 3px 3px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+#firstname_div {
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#lastname_div {
+    width: 49.8%;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+}
+
+#city_div {
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 1px;
+}
+
+#state_div {
+    width: 49.8%;
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+}
+
+#month_div {
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#year_div {
+    width: 49.8%;
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+}
+select {
+    -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
+}
+select.expdate {
+    border: #bfbdbd solid 1px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    width: 100%;
+}
+
+select.state {
+    border: #bfbdbd solid 1px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    border: #bfbdbd solid 1px;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+input[type=text].longtext {
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+input[type=text].city {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lable_div {
+    margin-bottom: 5px;
+    font-size: 13px;
+    padding-left: 3px;
+}
+
+.lable_div1 {
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+#lable_div1_1 {
+    float: left;
+}
+
+#update {
+    color: gray;
+}
+
+#fieldforinfo {
+    clear: both
+}
+
+.lable_div2 {
+    margin-left: 12px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+#continue_button {
+    border: #f7bf66 solid 2px;
+    background-color: #f7bf66;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 25px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+}
+
+select:required:invalid {
+    color: #cec6c6;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+input::-webkit-input-placeholder {
+    color: #cec6c6;
+    font-size: 12px;
+}
+
+._radio {
+    padding: 5px;
+    margin-left: 40px;
+}
+
+._radio input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+}
+
+._radio input[type="radio"] + label {
+    color: #555;
+    line-height: 25px;
+    display: inline-block;
+    text-indent: -38px;
+}
+
+._radio input[type="radio"] + label > mark {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid #ffc364;
+    background: #fff;
+    text-indent: 0;
+}
+
+._radio input[type="radio"]:checked + label > mark:before {
+    content: "✔";
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    height: 16px;
+    color: #ffc364;
+    line-height: 20px;
+}
+
+#ck_nzsafe {
+    /* input box를 안보이게 만든다 */
+    display: none;
+}
+
+#ck_nzsafe + label /* id가 ch인 체크박스 바로 뒤의 label의 스타일 추가 */
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: #f3a856 solid 1px;
+    cursor: pointer;
+    background: white;
+    vertical-align: middle; /* 이건 뭐고 */
+}
+
+#ck_nzsafe:checked + label:after {
+    /* input box가 체크 되었을 때 바로 뒤 label 위에 컨텐츠를 넣는다. */
+    position: relative;
+    top: -3px;
+    left: 3px;
+    content: '\2714';
+    color: #f3a856;
+    font-size: 14px;
+}
+
+.a {
+    float: left;
+}
+
+#credit_option {
+    display: none;
+    overflow: hidden;
+}
+
+
+#card_number {
+    width: 100%;
+    background-image: url(../images/payment_cards.png), url(../images/payment_cards.png);
+    background-position: 2px -114px, right -90px top -56px; /* 카드모양의 위치  카드번호 입력후의 위치*/
+    background-size: 120px 500px, 120px 500px; /* 카드이미지 크기 */
+    background-repeat: no-repeat;
+    padding-left: 54px;
+    box-sizing: border-box;
+}
+
+#card_number.visa {
+    background-position: 2px -153px, right -90px top -56px; /* 카드모양의 위치   회색체크표시 나타내는 위치*/
+}
+
+#card_number.visa_electron {
+    background-position: 2px -193px, right -90px top -56px;
+}
+
+#card_number.mastercard {
+    background-position: 2px -232px, right -90px top -56px;
+}
+
+#card_number.maestro {
+    background-position: 2px -272px, right -90px top -56px;
+}
+
+#card_number.discover {
+    background-position: 2px -311px, right -90px top -56px;
+}
+
+#card_number.jcb {
+    background-position: 2px -349px, right -90px top -56px;
+}
+
+#card_number.amex {
+    background-position: 2px -388px, right -90px top -56px;
+}
+
+#card_number.diners_club_carte_blanche {
+    background-position: 2px -426px, right -90px top -56px;
+}
+
+#card_number.diners_club_international {
+    background-position: 2px -426px, right -90px top -56px;
+}
+
+#card_number.laser {
+    background-position: 2px -465px, right -90px top -56px;
+}
+
+#card_number.valid.visa {
+    /*  카드모양의 위치     초록색 체크표시 위치 */
+    background-position: 2px -153px, right -90px top -80px;
+}
+
+#card_number.valid.visa_electron {
+    background-position: 2px -193px, right -90px top -80px;
+}
+
+#card_number.valid.mastercard {
+    background-position: 2px -232px, right -90px top -80px;
+}
+
+#card_number.valid.maestro {
+    background-position: 2px -272px, right -90px top -80px;
+}
+
+#card_number.valid.discover {
+    background-position: 2px -311px, right -90px top -80px;
+}
+
+#card_number.valid.jcb {
+    background-position: 2px -349px, right -90px top -80px;
+}
+
+#card_number.valid.amex {
+    background-position: 2px -388px, right -90px top -80px;
+}
+
+#card_number.valid.diners_club_carte_blanche {
+    background-position: 2px -426px, right -90px top -80px;
+}
+
+#card_number.diners_club_international {
+    background-position: 2px -426px, right -90px top -56px;
+}
+
+#card_number.valid.laser {
+    background-position: 2px -465px, right -90px top -80px;
+}
+
+.log {
+    padding-left: 114px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.cardimg{display: inline-block !important;width:40px !important;max-width: none !important;}
+
+
+#cardtype {
+    display: none;
+}

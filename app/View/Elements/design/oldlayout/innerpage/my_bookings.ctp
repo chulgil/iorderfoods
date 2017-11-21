@@ -1,0 +1,403 @@
+<style>
+    .btnsize{
+        font-size: 14px;
+    }
+    .inbox.date-select.hasDatepicker{
+        width: 122px;
+    }
+    #MerchantStoreId{
+        margin-left: -30px;
+    }
+    .mkre-wrap section { display:block !important;}
+    .mkre-wrap ul li { padding:0 10px;}
+    .mkre-wrap ul li:not(:last-child) { width:33.33%;}
+    .mkre-wrap ul li:not(:last-child) .title { width:100%;}
+    .mkre-wrap ul li .title-box { margin-left:0;}
+    .mkre-wrap ul li .time-setting { width:47.5%;margin:0 2.5% 0 0;}
+    .mkre-wrap ul li .time-setting ~ .time-setting { margin:0 0 0 2.5%;}
+    .mkre-wrap ul li .time-setting label { display:none;}
+    .mkre-wrap .inbox.date-select.hasDatepicker { width:100%;}
+    .mkre-wrap .radio-btn.space20.delivery-address-option { display:none;}
+    .mkre-wrap section .button { padding:0 10px;}
+    .btn.green-btn.btnsize { padding:5px 14px;}
+    .user-detail.date-select.hasDatepicker { font-size:14px;height:33px;padding:5px 10px;width:100%;}
+    #AdminId { margin-bottom:12px;}
+    #example_paginate { margin:15px 0;padding-bottom:0;text-align:right;width:100%;}
+    .resp-tabs-container { float:left;width:100%;}
+    .order-hostory:not(.my-reservations) { width:69%;}
+    .right-col .order-hostory { width:100%;}
+    .form-layout ul li {
+        float: left;
+        margin-bottom: 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    .form-layout ul li div.title-box {
+        margin-left:0;
+    }
+    #BookingForm ul { width:100%;float:left;}
+</style>
+
+<!--
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>-->
+<?php
+$storeId = $this->Session->read('store_id');
+$url = HTTP_ROOT;
+?>
+<?php $imageurl = HTTP_ROOT . 'storeLogo/' . $store_data_app['Store']['store_logo']; ?>
+<div class="pad-TP60 clearfix">
+    <?php //echo $this->Session->flash(); ?>
+    <div class="order-hostory form-layout margin-60">
+        <h2><span><?php echo __('Make Reservation'); ?></span></h2>
+        <div id="horizontalTab" class="mkre-wrap">
+            <!-- FORM VIEW -->
+            <?php echo $this->Form->create('', array('id' => 'BookingForm', 'url' => array('controller' => 'pannels', 'action' => 'myBookings', $encrypted_storeId, $encrypted_merchantId))); ?>
+            <section style="display: table;">
+                <?php if (!empty($authUrl)) { ?>
+                    <div class="order-special-request">
+                        <h3>
+                            <a href='javascript:poptastic("<?php echo $authUrl; ?>");'>Allow Calendar Sync <i class="fa fa-info-circle" data-toggle="tooltip" title="Allow calendar sync to google."></i></a>
+                        </h3>
+                    </div>
+                <?php } ?>
+                <ul class="clearfix">
+                    <li>
+                        <span class="title"><label>Person <em>*</em></label></span>
+                        <div class="title-box"><?php
+                            echo $this->Form->input('Booking.number_person', array('type' => 'select', 'class' => 'inbox', 'options' => $number_person, 'label' => false, 'div' => false));
+                            echo $this->Form->error('Booking.number_person');
+                            ?>
+                        </div>
+                    </li>
+
+                    <li>
+                        <span class="title"><label>Reservation Date <em>*</em></label></span>
+                        <div class="title-box"><?php
+                            echo $this->Form->input('Booking.start_date', array('type' => 'text', 'class' => 'inbox date-select', 'placeholder' => 'Reservation Date', 'label' => false, 'div' => false, 'readOnly' => true));
+                            echo $this->Form->error('Booking.start_date');
+                            ?>
+                        </div>
+                    </li>
+
+                    <li>
+                        <span class="title"><label>Reservation Time<em>*</em></label></span>
+                        <div id="resvTime">
+
+                        </div>
+                    </li>
+
+                    <!--                    <li>
+                                            <span class="title"><label>Reservation Time<em>*</em></label></span>
+                                            <div class="title-box"><span id="resvTime">
+                    <?php
+                    if (empty($time_range)) {
+                        echo $this->Form->input('Booking.start_time', array('type' => 'select', 'class' => 'inbox', 'empty' => 'Store is closed on this day', 'options' => $time_range, 'label' => false, 'div' => false));
+                    } else {
+                        ?>
+                                                                                                        <select id="BookingStartTime" class="inbox" name="data[Booking][start_time]">
+                        <?php
+                        foreach ($time_range as $key => $value) {
+                            $flag = true;
+                            foreach ($storeBreak as $breakKey => $breakVlue) {
+                                if (strtotime($storeBreak[$breakKey]['start']) <= strtotime($key) && strtotime($storeBreak[$breakKey]['end']) >= strtotime($key)) {
+                                    echo "<option value='$key' disabled='disabled'>$value - Break Time </option>";
+                                    $flag = false;
+                                }
+                            }
+                            if ($flag) {
+                                echo "<option value='$key'>$value</option>";
+                            }
+                        }
+                        ?>
+                                                                                                        </select>
+                    <?php }
+                    ?>
+                                                </span>	
+                    <?php echo $this->Form->error('Booking.start_time'); ?></div>
+                                        
+                                        </li>-->
+
+                    <li>
+                        <span class="title"><label>Special Request </label></span>
+                        <div class="title-box">
+                            <?php
+                            echo $this->Form->input('Booking.special_request', array('type' => 'textarea', 'class' => 'inbox', 'placeholder' => 'Enter Special Request', 'maxlength' => '50', 'label' => false, 'div' => false));
+                            echo $this->Form->error('Booking.special_request');
+                            ?>
+                        </div>
+                    </li>
+                </ul>
+                <?php if (isset($store['Store']) && !empty($store['Store']['dine_in_description'])) { ?>                    
+                    <div class="radio-btn space20 delivery-address-option">
+                        <label class="common-bold common-size" for="other"><span></span><i class="fa fa-angle-double-down"></i> Detail</label>
+                        <div class="edit-link"> 
+                            <?php echo $store['Store']['dine_in_description']; ?>
+                        </div>
+                    </div>
+                <?php } ?>
+                <div class="button">
+                    <?php
+                    echo $this->Form->button('Request', array('type' => 'submit', 'class' => 'btn green-btn'));
+                    echo $this->Form->button('Cancel', array('type' => 'button', 'onclick' => "window.location.href='/pannels/myBookings/$encrypted_storeId/$encrypted_merchantId'", 'class' => 'btn green-btn'));
+                    ?>
+                </div>
+            </section>
+            <?php echo $this->Form->end(); ?>
+        </div>
+    </div>
+    <!--<div class='clr'></div>-->
+
+    <div class="order-hostory form-layout clearfix my-reservations">
+        <div id="horizontalTab">
+            <h2><span><?php echo __('My Reservations'); ?></span></h2>
+            <div>
+                <hr>
+                <?php echo $this->Form->create('MyBooking', array('url' => array('controller' => 'pannels', 'action' => 'myBookings'), 'id' => 'AdminId', 'type' => 'get')); ?>
+                <div class="row">
+                    <?php echo $this->element('userprofile/filter_reservation'); ?>
+                    <div class="col-lg-3">
+                        <?php echo $this->Form->button('Search', array('type' => 'submit', 'class' => 'btn green-btn btnsize')); ?>
+                        <?php echo $this->Html->link('Clear', array('controller' => 'pannels', 'action' => 'myBookings', 'clear'), array('class' => 'btn green-btn btnsize clear')); ?>
+                    </div>
+                </div>
+                <?php echo $this->Form->end(); ?>
+            </div>
+            <div class="paging_full_numbers" id="example_paginate">
+                <?php
+                echo $this->Paginator->first('First');
+                // Shows the next and previous links
+                echo $this->Paginator->prev('Previous', null, null, array('class' => 'disabled'));
+                // Shows the page numbers
+                echo $this->Paginator->numbers(array('separator' => ''));
+                echo $this->Paginator->next('Next', null, null, array('class' => 'disabled'));
+                // prints X of Y, where X is current page and Y is number of pages
+                //echo $this->Paginator->counter();
+                echo $this->Paginator->last('Last');
+                ?>
+            </div>
+            <div class="resp-tabs-container">
+                <div class="repeat-deatil">                	
+                    <div class="resp-tabs-frame">
+                        <div class="responsive-table">
+                            <table class="table table-striped order-history-table">
+                                <tr>
+                                    <th><?php echo __('No. of person'); ?></th>
+                                    <th><?php echo __('Reservation Date/Time'); ?></th>
+                                    <th><?php echo __('Store'); ?></th>
+                                    <th class="text-center"><?php echo __('Status'); ?></th>
+                                    <th class="text-center"><?php echo __('Action'); ?></th>
+                                    <th></th>
+                                </tr>
+                                <?php
+                                if (!empty($myBookings)) {
+                                    foreach ($myBookings as $book) {
+                                        $today = date('Y-m-d');
+                                        $booking = date('Y-m-d', strtotime($book['Booking']['reservation_date']));
+
+                                        if ($today < $booking) { // future
+                                            echo '<tr class = "danger">';
+                                        } else if ($today == $booking) { //present
+                                            echo '<tr class = "success">';
+                                        } else {
+                                            echo '<tr>';
+                                        }
+                                        ?>
+                                        <td><?php echo $book['Booking']['number_person']; ?></td>
+                                        <td>
+                                            <?php
+                                            $book_date = $this->Common->storeTimeFormateUser($book['Booking']['reservation_date'], true);
+                                            echo $book_date;
+//                                            $book_date = $this->Common->storeTimeFormateUser($book['Booking']['reservation_date'], true);
+//                                            $pData = explode(" ", $book_date);
+//                                            $date = $time = $am = '';
+//                                            if (!empty($pData[0])) {
+//                                                $date = $pData[0];
+//                                            }
+//                                            if (!empty($pData[1])) {
+//                                                $time = $pData[1];
+//                                            }
+//                                            if (!empty($pData[2])) {
+//                                                $am = $pData[2];
+//                                            }
+//                                            $book_date = $this->Common->formatDate($book_date, 'n/j/Y');
+//                                            echo $book_date2 = $book_date . "-" . $time . $am;
+                                            //$book_date2 = date('M d Y -  H:i a', strtotime($this->Common->storeTimeZoneUser('', $book['Booking']['reservation_date'])));
+                                            ?></td>
+                                        <td>
+                                            <?php
+                                            if (!empty($book['Store'])) {
+                                                echo $book['Store']['store_name'];
+                                            }
+                                            ?> </td>
+                                        <td class="text-center"><?php echo $book['BookingStatus']['name']; ?> </td>
+
+                                        <?php
+                                        if (!empty($storeId)) {
+                                            if ($book['Booking']['store_id'] == $storeId) {
+
+                                                if ($book['Booking']['booking_status_id'] == 4) {//V
+                                                    echo '<td class="text-center">' . $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-trash-o')) . 'Delete', array('controller' => 'pannels', 'action' => 'deleteBooking', $encrypted_storeId, $encrypted_merchantId, $this->Encryption->encode($book['Booking']['id'])), array('class' => 'delete', 'escape' => false)) . '</td>';
+                                                } elseif ($today < $booking) { // future
+                                                    echo '<td class="text-center">' . $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-times')) . 'Cancel', array('controller' => 'pannels', 'action' => 'cancelBooking', $encrypted_storeId, $encrypted_merchantId, $this->Encryption->encode($book['Booking']['id'])), array('confirm' => __('Are you sure you want to cancel this booking?'), 'class' => 'delete', 'escape' => false)) . '<br/>' .
+                                                    $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-pencil')) . 'Edit', array('controller' => 'pannels', 'action' => 'updateBooking', $this->Encryption->encode($book['Booking']['id']), $encrypted_storeId, $encrypted_merchantId, $this->Encryption->encode($book['Booking']['id'])), array('escape' => false)) . '</td>';
+                                                } else if ($today == $booking) { //present
+                                                    echo '<td class="text-center">' . $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-times')) . 'Cancel', array('controller' => 'pannels', 'action' => 'cancelBooking', $encrypted_storeId, $encrypted_merchantId, $this->Encryption->encode($book['Booking']['id'])), array('confirm' => __('Are you sure you want to cancel this booking?'), 'class' => 'delete', 'escape' => false)) . '<br/> ' .
+                                                    $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-pencil')) . 'Edit', array('controller' => 'pannels', 'action' => 'updateBooking', $this->Encryption->encode($book['Booking']['id']), $encrypted_storeId, $encrypted_merchantId, $this->Encryption->encode($book['Booking']['id'])), array('escape' => false)) . '</td>';
+                                                } else {
+                                                    echo '<td class="text-center">' . $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-trash-o')) . 'Delete', array('controller' => 'pannels', 'action' => 'deleteBooking', $encrypted_storeId, $encrypted_merchantId, $this->Encryption->encode($book['Booking']['id'])), array('class' => 'delete', 'escape' => false)) . '</td>';
+                                                }
+                                            } else {
+                                                ?>
+                                                <td class="text-center"><?php echo "-" ?>-</td> 
+                                                <?php
+                                            }
+                                        }
+                                        ?>
+                                        <td  class="text-center">  
+                                            <?php
+                                            $strDomainUrl = $_SERVER['HTTP_HOST'];
+                                            $strShareLink = "https://www.facebook.com/sharer/sharer.php?u=" . $strDomainUrl;
+                                            ?>
+                                            <a href="#" onclick='window.open("<?php echo $strShareLink; ?>", "", "width=500, height=300");'>
+                                                <?php echo $this->Html->image('fb-share-button.png', array('alt' => 'fbshare')); ?>
+                                            </a>
+                                                                                    <!--<a class='share_button' desc="I reserved table for <?php echo $book['Booking']['number_person']; ?> at <?php echo $_SESSION['storeName']; ?> on <?php echo $book_date; ?>" ><?php echo $this->Html->image('fb-share-button.png', array('alt' => 'fbshare')); ?></a>-->
+
+                                            <br>
+        <!--<div class="fb-share-button" data-href="http://192.168.0.5:8154/pannels/myBookings/Mg/MQ" data-layout="button"></div><span style="display:block; margin-top:3px;">-->
+                                            <a target="blank" href= "http://twitter.com/share?text=I reserved table for <?php echo $book['Booking']['number_person']; ?> at <?php echo $_SESSION['storeName']; ?> on <?php echo $book_date; ?>&url=<?php echo $url; ?>&via=<?php echo $_SESSION['storeName']; ?>"><?php echo $this->Html->image('tw-share-button.png', array('alt' => 'twshare')); ?> </a>
+                                            </span>
+
+                                        </td>
+                                        </tr>
+                                        <?php
+                                    }
+                                } else {
+                                    echo '<tr><td class="text-center" colspan="5">' . __('No reservation request found') . '</td></tr>';
+                                }
+                                ?>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="paging_full_numbers" id="example_paginate" style="padding-top:10px">
+                        <?php
+                        echo $this->Paginator->first('First');
+// Shows the next and previous links
+                        echo $this->Paginator->prev('Previous', null, null, array('class' => 'disabled'));
+// Shows the page numbers
+                        echo $this->Paginator->numbers(array('separator' => ''));
+                        echo $this->Paginator->next('Next', null, null, array('class' => 'disabled'));
+// prints X of Y, where X is current page and Y is number of pages
+//echo $this->Paginator->counter();
+                        echo $this->Paginator->last('Last');
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>       
+</div>
+<?php echo $this->Html->css('pagination'); ?>
+
+<script>
+    $(document).ready(function () {
+
+        function getTime(date, orderType, preOrder, returnspan, ortype) {
+            var type1 = 'Store';
+            var type2 = 'pickup_time';
+            var type3 = ortype;
+            var storeId = '<?php echo $encrypted_storeId; ?>';
+            var merchantId = '<?php echo $encrypted_merchantId; ?>';
+            $.ajax({
+                url: "<?php echo $this->Html->url(array('controller' => 'Users', 'action' => 'getStoreTime')); ?>",
+                type: "Post",
+                dataType: 'html',
+                data: {storeId: storeId, merchantId: merchantId, date: date, type1: type1, type2: type2, type3: type3, orderType: orderType, preOrder: preOrder},
+                success: function (result) {
+                    $('#' + returnspan).html(result);
+                }
+            });
+        }
+
+        $(function () {
+            $("#MyBookingFromDate, #MyBookingToDate").datepicker
+                    ({dateFormat: 'yy-mm-dd'});
+        });
+
+
+        $('#BookingStartDate').datepicker({
+            dateFormat: 'mm-dd-yy',
+            minDate: '<?php echo $currentDateVar; ?>',
+            maxDate: <?php echo!empty($store_data['Store']['calendar_limit']) ? "'+" . ($store_data['Store']['calendar_limit']) . "D'" : '+6D' ?>,
+            beforeShowDay: function (date) {
+                var day = date.getDay();
+                var array = '<?php echo json_encode($closedDay); ?>';
+                return [array.indexOf(day) == -1];
+            }
+        });
+        $(".date-select").datepicker("setDate", '<?php echo $currentDateVar; ?>');
+        var date = '<?php echo $currentDateVar; ?>';
+        getTime(date, 3, 1, 'resvTime');
+
+        $('#BookingStartDate').on('change', function () {
+            var date = $(this).val();
+            var orderType = 1; // 3= Dine-in/Booking
+            var preOrder = 0;
+            var type1 = 'Booking';
+            var type2 = 'start_time';
+            var type3 = 'BookingStartTime';
+            var storeId = '<?php echo $encrypted_storeId; ?>';
+            var merchantId = '<?php echo $encrypted_merchantId; ?>';
+            $.ajax({
+                url: "<?php echo $this->Html->url(array('controller' => 'Users', 'action' => 'getStoreTime')); ?>",
+                type: "Post",
+                dataType: 'html',
+                data: {storeId: storeId, merchantId: merchantId, date: date, type1: type1, type2: type2, type3: type3, orderType: orderType, preOrder: preOrder},
+                success: function (result) {
+                    $('#resvTime').html(result);
+                }
+            });
+        });
+
+        $("#BookingForm").validate({
+            rules: {
+                "data[Booking][start_date]": {
+                    required: true,
+                }, "data[Booking][start_time]": {
+                    required: true,
+                }
+            },
+            messages: {
+                "data[Booking][start_date]": {
+                    required: "Please select booking date",
+                }, "data[Booking][start_time]": {
+                    required: "Please select booking time",
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    function poptastic(url) {
+        var newWindow = window.open(url, 'name', 'height=600,width=450');
+        if (window.focus) {
+            newWindow.focus();
+        }
+    }
+    $(document).ready(function () {
+        $("#MerchantLock").change(function () {
+            $("#AdminId").submit();
+        });
+
+    });
+</script>

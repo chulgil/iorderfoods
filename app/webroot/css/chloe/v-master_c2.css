@@ -1,0 +1,105 @@
+.IOF-C2-V.chole-main .CHT2 .simple-banner-bg.cbanner-1 { height:630px;}
+.IOF-C2-V.chole-main .CHT2.Chole-theme-two .custom-header .black-bg #example-navbar-collapse { padding:0;}
+.IOF-C2-V .card-info > h4,
+.IOF-C2-V .card-info span { padding:0 10px;word-wrap:break-word;}
+.IOF-C2-V .owl-item .item { height:300px;}
+.IOF-C2-V .donut-menu-card { height:100%;}
+.IOF-C2-V .CHT2.CHT2-header-change .main-menu-list { display:table;}
+.IOF-C2-V .CHT2.CHT2-header-change .main-menu-list li { display:table-cell;float:none;width:auto;}
+.IOF-C2-V .confirm-btn { font-size:24px;background-color:rgb(152,25,28);color:#ffffff;}
+.IOF-C2-V .ps-additional-info .common-title { padding:12px 15px;}
+.IOF-C2-V .ps-additional-info .common-title > h3 { font-size: 24px;}
+.IOF-C2-V .ps-additional-info .add-check-list > li { font-size:18px !important;width:100%;}
+.IOF-C2-V .ps-additional-info .select-left { float: left;width: 85%;padding-right:0 !important;}
+.IOF-C2-V .ps-additional-info .add-check-list .select-left label { width:auto;}
+.IOF-C2-V .ps-additional-info .add-check-list > li .select-left span.topPrice { float: right;font-size: 18px !important;margin-right: 10px;color:#424242 !important;}
+.IOF-C2-V .add-info .ps-additional-info.modal-dialog .close { top: 13px;}
+.IOF-C2-V .ps-additional-info .toppingSize { border-color:#dfdfdf !important;padding: 0px !important;}
+.IOF-C2-V .sub-menu-listing .check-more.countAddOns .add-check-list > li { min-height:auto;padding:3px 0;}
+.IOF-C2-V #CartInfoItemsForm .c-quantity { width:50px;padding-left:5px;}
+.IOF-C2-V .pay-check [type="checkbox"]:not(:checked) + label::before,
+.IOF-C2-V .pay-check [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-C2-V .pay-check span [type="checkbox"]:not(:checked) + label::before,
+.IOF-C2-V .pay-check span [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-C2-V .pay-check span [type="checkbox"]:not(:checked) + label::after,
+.IOF-C2-V .pay-check span [type="checkbox"]:checked + label::after { top:12px;}
+.IOF-C2-V .panel-body.nested-ac .pay-wrap { padding:15px 10px;}
+.IOF-C2-V #OTDetail .pay-wrap.select-order { padding:15px 15px;}
+.IOF-C2-V .common-input > p { font-size:16px;font-weight: normal;margin-bottom: 8px;}
+.IOF-C2-V .continue > div#desktop_continue a,
+.IOF-C2-V .continue > div#pay-credit-card button { display:inline-block;width:100%;max-width:250px;float:none;}
+.IOF-C2-V .card-input.exp-date .SumoSelect { width:25%;}
+.IOF-C2-V .card-input.exp-date .SumoSelect ~ .SumoSelect { margin-left:15px;margin-right:0;}
+.IOF-C2-V .card-detail .card-input .error { display:block;padding-left:40%;padding-top:2px;}
+.IOF-C2-V .card-detail .card-input { margin-bottom:12px;}
+.IOF-C2-V .navbar-collapse { padding-left:0;padding-right:0;}
+.IOF-C2-V .profile-input { margin-top:15px;}
+.IOF-C2-V .profile-input.popup-checkbox.clearfix label { padding-left:32px !important;}
+.IOF-C2-V [id^=address] { margin-top:15px;}
+.IOF-C2-V .chlole-lft-menu .continue { float:left;width:100%;margin-bottom:15px;}
+.IOF-C2-V .saveOrderType { margin-top:10px;}
+.IOF-C2-V .pay-wrap.select-order ul { float:left;width:100%;}
+.IOF-C2-V .pay-wrap.select-order ul li label { width:60px;}
+.IOF-C2-V .sign-input { background-color:#ffffff;border:1px solid #a8a8a8;}
+.IOF-C2-V .reg-btn .sign-up-custom { background-color: #242424;color: #fff;}
+.IOF-C2-V .SumoSelect { width:25%;padding-bottom:5px;height:39px;}
+.IOF-C2-V #UsersRegistration .SumoSelect { width:100%;}
+.IOF-C2-V #UsersRegistration .SumoSelect > .CaptionCont > label > i { left:20px;}
+.IOF-C2-V .SumoSelect + .form-control.phone { width:73.5%;float:right;}
+.IOF-C2-V .SumoSelect > .CaptionCont { height:100%;border-color:#dfdfdf;}
+.IOF-C2-V .SumoSelect > .CaptionCont > label { top:-1px;}
+.IOF-C2-V .chole-login-popup { border: 5px solid rgb(152,25,28);border-radius: 20px;max-width: 550px;padding: 30px 50px;background-color:#ffffff;}
+.IOF-C2-V .chole-login-popup h2 { text-align:center;margin-bottom:20px;text-transform:uppercase;font-size:24px;;font-weight:bold;}
+.IOF-C2-V .chole-login-popup .form-group { margin-bottom:3px;}
+.IOF-C2-V .chole-login-popup .form-group label { color:#000000;font-size:14px;padding-top:5px;}
+.IOF-C2-V .chole-login-popup .form-group .form-control { border-radius:0;border:1px solid #dfdfdf;}
+.IOF-C2-V .chole-login-popup .form-group .checkbox { margin:0;}
+.IOF-C2-V .chole-login-popup .form-group .checkbox label { padding-top:0;padding-left:0;padding-right:20px;color:#000000;font-size:14px;}
+.IOF-C2-V .chole-login-popup .chole-lf-btm { border-top:1px solid rgb(152,25,28);padding-top:20px;margin-top:20px;}
+.IOF-C2-V .chole-login-popup .chole-lf-btm button { display:block;background-color:#4a4a4a;color:#ffffff;border-radius:3px;width:100%;padding:8px;}
+.margin-top-20 { margin-top:20px;}
+.IOF-C2-V .chole-login-popup .link-forgot-password { padding-bottom:5px;border-bottom:2px solid #dfdfdf;}
+.IOF-C2-V .chole-login-popup .link-forgot-password:hover { border-bottom-color:#ffffff;}
+.IOF-C2-V .chole-login-popup.modal-dialog .close { right:13px;top:6px;}
+.IOF-C2-V .chole-login-popup .form-group .checkbox [type="checkbox"]:not(:checked),
+.IOF-C2-V .chole-login-popup .form-group .checkbox [type="checkbox"]:checked { left:inherit;margin-left:-13px;top: -2px;}
+.IOF-C2-V .check-out .chlole-lft-menu { border-right: 1px solid #acacac;position: relative;right: -1px;}
+.IOF-C2-V .confirm-btn { background-color:rgb(152,25,28);}
+.IOF-C2-V input[type="radio"]:checked + label span { background-color: rgb(152,25,28);border: 1px solid #3c3b39;}
+.IOF-C2-V.chole-main .simple-banner-bg { height:540px;}
+.IOF-C2-V .product-detail-btn #continue.d-access-guest { background-color:rgb(152,25,28);color:#ffffff;}
+.IOF-C2-V [type="checkbox"]:not(:checked) + label::after,
+.IOF-C2-V [type="checkbox"]:checked + label::after { color:rgb(152,25,28);}
+.IOF-C2-V .editOrderType.cont-btn.theme-color-1 { margin-top:15px;}
+.IOF-C2-V #credit_payment1 .card-input:first-child .SumoSelect { width:60%;}
+.IOF-C2-V .theme-one .fav-order-history .nav-tabs > li > a::after { background:rgb(152,25,28);}
+.IOF-C2-V.chole-main #slide .owl-controls.clickable { left:0;right:0;top:50%;}
+.IOF-C2-V .modal-body #slide .owl-theme .owl-controls .owl-buttons div:hover { background-color:rgb(152,25,28);}
+.IOF-C2-V .banner-content-cht3 { margin:20px auto 0;}
+.IOF-C2-V #MediaPlayer.main-container { top:-60px;position:relative;z-index:1000;}
+.IOF-C2-V.chole-main .CHT2.Chole-theme-two .crm-wrap-bottom { height: 250px;overflow:hidden;}
+.IOF-C2-V.chole-main .CHT2.Chole-theme-two .crm-top-mid .crm-wrap-bottom { padding:5px 45px;}
+.IOF-C2-V.chole-main .CHT2.Chole-theme-two .crm-top-mid .crm-wrap-bottom .time-list li { padding: 0;}
+.IOF-C2-V.chole-main .CHT2.Chole-theme-two .custom-header.chole-header .black-bg { top:45px;}
+.IOF-C2-V .order-detail { background-color:#f0f0f0;border:1px solid #dfdfdf;}
+.IOF-C2-V #MediaPlayer.main-container,
+.IOF-C2-V .chole-header .main-container,
+.IOF-C2-V .simple-banner-bg .main-container { margin-top:0;}
+.IOF-C2-V .menu-control { background-color: #ffffff;border-bottom-right-radius: 12px;border-top-right-radius: 12px;box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.2);font-size: 24px;padding: 10px; position: absolute;right: -44px;top: 0;}
+.IOF-C2-V .title-bar { display:none;}
+.IOF-C2-V .banner-content-cht3 > h3 { color: #62615e;font-size: 90px;}
+.IOF-C2-V .banner-content-cht3 { background-color: rgba(255, 255, 255, 0.9);margin: 0 auto 0;padding: 42px 30px;text-align: center;width: 70%;}
+.IOF-C2-V .banner-content-cht3 > p { color: #aca298;font-size: 36px;margin-bottom: 25px;}
+@media screen and (max-width:768px){
+.IOF-C2-V .main-container { width:100%;padding:0 25px;}
+.IOF-C2-V .navbar-toggle { top:60px;position:fixed;left:12px;background-color:#000000;z-index:1000;}
+.IOF-C2-V .navbar-collapse.custom-colapse.collapse,
+.IOF-C2-V .navbar-collapse.custom-colapse.collapsing { position:fixed !important;top:111px !important;background-color:#242424 !important;left:0 !important;right:0 !important;z-index:10000 !important;}
+.IOF-C2-V.chole-main .main-menu-list > li a { color:#ffffff !important;}
+.IOF-C2-V.chole-main .main-menu-list > li { display:block;margin-bottom:0;}
+.IOF-C2-V.chole-main .right-menu .continue .cont-btn { padding:7px 10px;width: 100%;}
+.IOF-C2-V #Deliveryaddress .profile-input button { font-size:18px;width:220px;}
+.IOF-C2-V #AdminId .col-lg-2.col-sm-6.col-xs-12,
+.IOF-C2-V #AdminId #UserKeyword { margin:10px 0;}
+.IOF-C2-V .SOCIAL-MEDIA > li { margin:0 8px 8px;}
+}

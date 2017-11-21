@@ -1,0 +1,78 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+
+/* theme 1 */
+.IOF-THEME-20.IOF-COLOR-1 .theme-bg-1 { background-color:#AACDAA !important;}
+.IOF-THEME-20.IOF-COLOR-1 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-1 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-1 .theme-txt-col-1 { color:#AACDAA !important;}
+.IOF-THEME-20.IOF-COLOR-1 .theme-border-1 { border-color:#AACDAA !important;}
+
+/* theme 2 */
+.IOF-THEME-20.IOF-COLOR-2 .theme-bg-1 { background-color:#FF3300 !important;}
+.IOF-THEME-20.IOF-COLOR-2 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-2 .theme-bg-2 { background-color:#000000 !important;}
+.IOF-THEME-20.IOF-COLOR-2 .theme-txt-col-1 { color:#FF3300 !important;}
+.IOF-THEME-20.IOF-COLOR-2 .theme-border-1 { border-color:#FF3300 !important;}
+
+/* theme 3 */
+.IOF-THEME-20.IOF-COLOR-3 .theme-bg-1 { background-color:#F99C40 !important;}
+.IOF-THEME-20.IOF-COLOR-3 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-3 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-3 .theme-txt-col-1 { color:#F4E1CF !important;}
+.IOF-THEME-20.IOF-COLOR-3 .theme-border-1 { border-color:#F99C40 !important;}
+
+/* theme 4 */
+.IOF-THEME-20.IOF-COLOR-4 .theme-bg-1 { background-color:#5F3711 !important;}
+.IOF-THEME-20.IOF-COLOR-4 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-4 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-4 .theme-txt-col-1 { color:#E1D5C1 !important;}
+.IOF-THEME-20.IOF-COLOR-4 .theme-border-1 { border-color:#5F3711 !important;}
+
+/* theme 5 */
+.IOF-THEME-20.IOF-COLOR-5 .theme-bg-1 { background-color:#FBEBD5 !important;}
+.IOF-THEME-20.IOF-COLOR-5 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-5 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-5 .theme-txt-col-1 { color:#DA4D2F !important;}
+.IOF-THEME-20.IOF-COLOR-5 .theme-border-1 { border-color:#FBEBD5 !important;}
+
+/* theme 6 */
+.IOF-THEME-20.IOF-COLOR-6 .theme-bg-1 { background-color:#202020 !important;}
+.IOF-THEME-20.IOF-COLOR-6 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-6 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-6 .theme-txt-col-1 { color:#E8E8E8 !important;}
+.IOF-THEME-20.IOF-COLOR-6 .theme-border-1 { border-color:#FFFFFF !important;}
+
+/* theme 7 */
+.IOF-THEME-20.IOF-COLOR-7 .theme-bg-1 { background-color:#DAA520 !important;}
+.IOF-THEME-20.IOF-COLOR-7 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-7 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-7 .theme-txt-col-1 { color:#000000 !important;}
+.IOF-THEME-20.IOF-COLOR-7 .theme-border-1 { border-color:#DAA520 !important;}
+
+/* theme 8 */
+.IOF-THEME-20.IOF-COLOR-8 .theme-bg-1 { background-color:#990100 !important;}
+.IOF-THEME-20.IOF-COLOR-8 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-8 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-8 .theme-txt-col-1 { color:#000000 !important;}
+.IOF-THEME-20.IOF-COLOR-8 .theme-border-1 { border-color:#990100 !important;}
+
+/* theme 9 */
+.IOF-THEME-20.IOF-COLOR-9 .theme-bg-1 { background-color:#46382B !important;}
+.IOF-THEME-20.IOF-COLOR-9 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-9 .theme-bg-2 { background-color:#46382B !important;}
+.IOF-THEME-20.IOF-COLOR-9 .theme-txt-col-1 { color:#717F3E !important;}
+.IOF-THEME-20.IOF-COLOR-9 .theme-border-1 { border-color:#46382B !important;}
+
+/* theme 10 */
+.IOF-THEME-20.IOF-COLOR-10 .theme-bg-1 { background-color:#FECE06 !important;}
+.IOF-THEME-20.IOF-COLOR-10 .theme-bg-1:hover,
+.IOF-THEME-20.IOF-COLOR-10 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-20.IOF-COLOR-10 .theme-txt-col-1 { color:#000000 !important;}
+.IOF-THEME-20.IOF-COLOR-10 .theme-border-1 { border-color:#FECE06 !important;}

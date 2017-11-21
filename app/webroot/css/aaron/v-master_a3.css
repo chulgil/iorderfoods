@@ -1,0 +1,97 @@
+/* login modal popup */
+.modal-dialog {background-color: #e4e4e4;}
+.IOF-A3-V .dasol-liw { background-color:#ffffff;}
+/*.IOF-A3-V .main-container h2 { font-size:24px;border-bottom:1px solid #dfdfdf;padding:10px 15px;}*/
+.IOF-A3-V .main-container .dasol-liw { overflow:hidden;margin:30px 0;}
+.IOF-A3-V .main-container .dasol-liw ul { width:auto;overflow-x:auto;overflow-y:hidden;white-space:nowrap;padding:15px 0 0 0;}
+/*.IOF-A3-V .main-container .dasol-liw ul li { display:inline-block;margin-left:-4px;width:240px;}*/
+/*.IOF-A3-V .main-container .dasol-liw ul.remove-space-btwn-items li { margin-left:0px;}*/
+.IOF-A3-V .main-container .dasol-liw ul li .dasol-img-frame { height:180px;width:200px;display:table-cell;vertical-align:middle;background-color:#f7f7f7; padding:0px;border:1px solid #f2f2f2;padding:15px;}
+.IOF-A3-V .main-container .dasol-liw ul li .dasol-img-frame img { max-width:100%;max-height:100%;}
+.IOF-A3-V .main-container .dasol-liw ul li .dasol-txt-frame { background-color:rgb(36,36,36);color:#ffffff;padding:8px;}
+/*.IOF-A3-V .main-container .dasol-liw ul li h3 { font-size: 18px;margin-top:0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 202px;}*/
+.IOF-A3-V .main-container .dasol-liw ul li h3 + small { display: block;font-size: 85%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 200px;}
+/*.IOF-A3-V .confirm .submit .confirm-btn { font-size:24px;background-color:rgb(171,194,16);color:#ffffff;}*/
+/*.IOF-A3-V .pay-check [type="checkbox"]:not(:checked) + label::before,
+.IOF-A3-V .pay-check [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-A3-V .pay-check span [type="checkbox"]:not(:checked) + label::before,
+.IOF-A3-V .pay-check span [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-A3-V .pay-check span [type="checkbox"]:not(:checked) + label::after,
+.IOF-A3-V .pay-check span [type="checkbox"]:checked + label::after { top:12px;}*/
+.IOF-A3-V .pay-wrap.select-order ul li label { width:70px;}
+.IOF-A3-V #PaymentExpiryMonth { width:15%;}
+.IOF-A3-V #PaymentExpiryYear { width:40%;float:right;}
+.IOF-A3-V #PaymentPaymentSectionForm .card-detail .card-input .error { display:block;padding-left:40%;padding-top:2px;}
+.IOF-A3-V .card-input { margin-bottom:15px;}
+.IOF-A3-V input[type="radio"]:checked + label span { background-color:rgb(171,194,16);}
+/*.IOF-A3-V .btn.btn-info { padding:6px 15px 7px !important;}*/
+.IOF-A3-V #editOrderDetail,
+.IOF-A3-V .saveOrderType,
+.IOF-A3-V .editOrderType.cont-btn.theme-color-1 { color:#ffffff;}
+/*.IOF-A3-V .add-check-list > li { width:100%;}*/
+.IOF-A3-V .sub-menu-listing .check-more.countAddOns .add-check-list > li { min-height:36px;}
+/*.IOF-A3-V .sub-menu-listing .check-more.countAddOns .add-check-list > li label { width:85%;}*/
+.IOF-A3-V .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice { color:#000000;margin-top: 4px;font-size:18px;float:right;}
+/*.IOF-A3-V [type="checkbox"]:not(:checked) + label::after,
+.IOF-A3-V [type="checkbox"]:checked + label::after { color:rgb(171,194,16);}
+.IOF-A3-V .add-menu:focus,
+.IOF-A3-V .add-menu:active { color:#ffffff;}*/
+/*.IOF-A3-V .theme-one .fav-order-history .nav-tabs > li.active > a,
+.IOF-A3-V .nav-tabs > li > a:hover,
+.IOF-A3-V .fav-order-history .reorder i { color:rgb(171,194,16) !important;}*/
+/*.IOF-A3-V .theme-one .fav-order-history .nav-tabs > li > a::after { background:rgb(171,194,16);}*/
+.IOF-A3-V .theme-one .reorder.orderColor:hover { color:rgb(171,194,16);}
+.IOF-A3-V .time-setting .error { display:block;}
+.IOF-A3-V .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-A3-V .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-A3-V .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span { background-color:rgb(171,194,16);color: #ffffff;}
+.IOF-A3-V .menu-items { white-space:nowrap;overflow-x: auto;overflow-y: hidden;}
+.IOF-A3-V .menu-items .common-item-box a { display:block;}
+.IOF-A3-V .menu-items .common-item-box .title-bg span,
+.IOF-A3-V .menu-items .common-item-box .title-bg small { font-size: 14px;margin-top: 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display:block;color:#ffffff;}
+.IOF-A3-V .menu-items .common-item-box .title-bg small { font-size:12px;margin-top:5px;}
+.IOF-A3-V .Slider-text { padding: 40px;right:50px;top:250px;left:50px;width:auto;background:transparent;}
+.IOF-A3-V .Slider-text .r2-p { font-size:20px;line-height:24px;}
+.IOF-A3-V .AH3 .slider-text-2 { bottom:20%;top:auto;}
+
+/* header */
+/*.IOF-A3-V .log-in-header { padding:20px 0 20px;}*/
+/*.IOF-A3-V .custom-header { height:69px;}*/
+/*.IOF-A3-V .custom-header .white-bg { height:100%;}*/
+
+/*.IOF-A3-V .AVT3 .logo { left:0;width:100%;padding:15px;top:5px;}*/
+/*.IOF-A3-V .AVT3 .menu-right { margin-top:70px;width:100%;}*/
+.IOF-A3-V .AVT3 .main-menu-list > li { padding:15px;text-align:right;}
+/*.IOF-A3-V .logo a { display:block;}
+.IOF-A3-V .logo a img { width:100%;}*/
+.IOF-A3-V .title-bar { display:none;}
+/*.IOF-A3-V .AH3 .inner-wrap { margin-top:35px;}*/
+
+/* arron 3 V */
+@media screen and (max-width:768px){
+/*.IOF-A3-V .main-container { width:100%;padding:0 25px;}*/
+/*.IOF-A3-V .inner-wrap { margin-top:100px;}*/
+.IOF-A3-V .SOCIAL-MEDIA > li { margin:0 8px 8px;}
+/*.IOF-A3-V .right-menu .continue > div { padding:0 15px;}*/
+/*.IOF-A3-V .right-menu .continue .cont-btn { display:block;margin:0 0 10px;font-size:18px;color:#ffffff;border:none;}*/
+/*.IOF-A3-V .price { padding:0 5px;}*/
+/*.IOF-A3-V .price .price-q { padding-right:0;}*/
+.IOF-A3-V .my-order { margin-bottom:0;}
+.IOF-A3-V .responsive-table { overflow:auto;}
+/*.IOF-A3-V #AdminId .col-lg-2.col-sm-6.col-xs-12,
+.IOF-A3-V #AdminId #UserKeyword { margin:10px 0;}*/
+.IOF-A3-V #AdminId .col-lg-2.col-sm-6.col-xs-12 + .col-lg-4 { width:100%;float:left;}
+/*.IOF-A3-V .user-detail { font-size:16px;padding:6px 15px;}*/
+.IOF-A3-V .ostat { display:inline-block;margin-top:10px;}
+.IOF-A3-V .continue #mobile_save { margin:10px 0 0;width: 100%;float: left;}
+.IOF-A3-V .continue #desktop_continue { width:100%;float:left;}
+}
+
+@media screen and (max-width:480px){
+.IOF-A3-V .inner-wrap.order-type { width:100%;}
+.IOF-A3-V .inner-wrap.order-type .order-detail { padding:55px 25px;}
+.IOF-A3-V .inner-wrap.order-type .order-detail .order-input.hlf-row { width:100%;}
+.IOF-A3-V .inner-wrap.order-type .order-detail .order-bnt button { width:100%;margin-top:10px;}
+.IOF-A3-V .order-input.hlf-row select,
+.IOF-A3-V .time-setting .user-detail { width:100%;}
+}

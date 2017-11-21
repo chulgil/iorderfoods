@@ -1,0 +1,624 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+
+/* common */
+.IOF-THEME-17.IOF-V { padding-left:250px;background-position: right center !important;background-size:cover;}
+.IOF-THEME-17 .title-bar { font-size:22px;text-align:center;padding:35px 15px;background-repeat:no-repeat;background-size:cover;background-position:left top;text-transform:uppercase; letter-spacing:3px;line-height:20px;margin-bottom:30px;height:90px;}
+.IOF-THEME-17.IOF-V .title-bar { background-image:none !important;margin-bottom:0;}
+.IOF-THEME-17.IOF-V .title-bar:after,
+.IOF-THEME-17.IOF-V .title-bar:before { color:#000000;content:"-";display:inline-block;font-size:24px;position:relative;top:-2px;}
+.IOF-THEME-17.IOF-V .main-body { border-top-width:20px;border-top-style:solid;}
+.IOF-THEME-17.IOF-V .theme-green { background:transparent;}
+
+/* home page */
+.IOF-THEME-17 .carousel-inner { height:100%;}
+
+/* header */
+.IOF-THEME-17.LOGO-SQUARE .custom-header,
+.IOF-THEME-17.LOGO-RECTANGLE .custom-header { height:300px;}
+.IOF-THEME-17 .custom-header { height:150px;}
+.IOF-THEME-17.LOGO-SQUARE .custom-header .vt-header,
+.IOF-THEME-17.LOGO-RECTANGLE .custom-header .vt-header { padding:80px 0;}
+.IOF-THEME-17 .custom-header .vt-header { padding:14px 0;}
+.IOF-THEME-17 .custom-header .menu-inr-right { float:right;text-align:right;}
+.IOF-THEME-17 .custom-header .logo { left:50%;margin-left:-125px;top:45px;}
+.IOF-THEME-17.LOGO-SQUARE .custom-header .logo { margin-left:-62.5px;top:56px;}
+.IOF-THEME-17 .custom-header .logo.logo-title { left:50%;margin-left:-150px;text-align:center;top:28px;width:300px;}
+.IOF-THEME-17.INNER-PAGE .custom-header .logo.logo-title { top:28px;}
+.IOF-THEME-17 .custom-header .menu-right { margin-left:0px;width:100%;}
+.IOF-THEME-17 a.restaurant-logo-square { position:relative;top:-30px;}
+.IOF-THEME-17 a.restaurant-logo-rectangle { top:-87px;}
+.IOF-THEME-17 .account-access li { position:relative;}
+.IOF-THEME-17 .account-access > li > a { font-family:'TwCenMT-Bold';text-transform:uppercase;font-size:13px;padding:8px 12px;letter-spacing:1px;}
+.IOF-THEME-17 .account-access li ul { display:none;position:absolute;left:0;top:25px;padding:10px;text-align:left;width:225px;}
+.IOF-THEME-17 .account-access li:hover ul { display:block;}
+.IOF-THEME-17 .account-access li ul li { border-bottom:1px solid #ffffff;}
+.IOF-THEME-17 .account-access li ul li:last-child { border-bottom:none;}
+.IOF-THEME-17 .account-access li ul li a { display:block;font-family:'TwCenMT-Regular';text-transform:uppercase;font-size:13px;padding:4px;color:#828069;}
+.IOF-THEME-17 .account-access li ul li a:hover { color:#ffffff;font-family:'TwCenMT-Bold';background-color:transparent;}
+
+/* vertical header */
+.IOF-THEME-17.IOF-V .custom-header { position:fixed;z-index:1;left: 0;top: 0;height:100%;width: 250px;background-color:#ffffff;}
+.IOF-THEME-17.IOF-V.LOGO-SQUARE .custom-header .vt-header,
+.IOF-THEME-17.IOF-V.LOGO-RECTANGLE .custom-header .vt-header { padding:20px 0;width:100%;float:left;}
+.IOF-THEME-17.IOF-V .main-header-menu { padding:0;}
+.IOF-THEME-17.IOF-V .custom-header .logo { left:0;margin-left:0;top:0;width:100%;}
+.IOF-THEME-17.IOF-V a.restaurant-logo-square,
+.IOF-THEME-17.IOF-V a.restaurant-logo-rectangle { top:0;}
+.IOF-THEME-17.IOF-V .main-menu-list { width:100%;float:left;text-align:center;margin-top:20px;}
+.IOF-THEME-17.IOF-V .main-menu-list > li { width:100%;position:relative;padding:0;}
+.IOF-THEME-17.IOF-V .main-menu-list > li .dropdown-menu { display:none;background-clip: padding-box;border: medium none;border-radius:0;box-shadow: none;float: left;font-size: 14px;left: 100%;list-style: outside none none;margin: 0;min-width: 160px;padding:0;position: absolute;text-align: left;top:0;z-index: 1000;}
+.IOF-THEME-17.IOF-V .main-menu-list > li:hover .dropdown-menu{ display:block;}
+.IOF-THEME-17.IOF-V .dropdown-menu a { font-family:"TwCenMT-Regular" !important;font-size:13px !important;text-transform:uppercase;}
+.IOF-THEME-17.IOF-V .logo { position:relative;}
+.IOF-THEME-17.IOF-V .logo a { display:block;margin:0 auto;}
+.IOF-THEME-17.IOF-V .logo-inner { max-width:210px;margin-left:-105px;}
+.IOF-THEME-17.IOF-V .dropdown-cart li { border-bottom:1px solid #ffffff;}
+.IOF-THEME-17.IOF-V .dropdown-cart li a { padding:7px 10px;color:#222222 !important;}
+.IOF-THEME-17.IOF-V .dropdown-cart li a:hover { color:#ffffff !important;}
+.IOF-THEME-17.IOF-V .DV-login-control { position:relative;}
+.IOF-THEME-17.IOF-V .DV-login-control:hover a { }
+.IOF-THEME-17.IOF-V .DV-login-control .DV-login-wrap { position:absolute;top:0;left:100%;background-color:#ffffff;padding:20px 0;width:0;overflow:hidden;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.IOF-THEME-17.IOF-V .DV-login-control .DV-login-wrap.open { padding:20px;width:300px;}
+.IOF-THEME-17.IOF-V .DV-login-control .link-forgot-password { font-size:14px;}
+.IOF-THEME-17.IOF-V .DV-login-control .link-sign-up { float:left;text-transform:uppercase;padding-bottom:3px;border-bottom-style:solid;border-bottom-width:2px;font-size:16px;}
+.IOF-THEME-17.IOF-V .DV-login-control .link-login { border:medium none;border-radius:3px;float:right;padding:5px 20px;font-size:16px;}
+.IOF-THEME-17.IOF-V .DV-login-control .error { bottom:-16px;left:17px;position: absolute;top:auto;}
+.IOF-THEME-17.IOF-V .DV-login-wrap .form-group { margin-bottom:20px;}
+.IOF-THEME-17.IOF-V .DV-login-wrap .link-forgot-password { text-transform:uppercase;}
+.IOF-THEME-17.IOF-V .Slider-text { display:none;}
+.IOF-THEME-17.IOF-V .Slider-text-vertical { clear:both;display:block;margin:0 15px;padding:20px;position:relative;top:auto;width:auto;height:160px;}
+.IOF-THEME-17.IOF-V .Slider-text-vertical em { display:block;}
+.IOF-THEME-17.IOF-V .Slider-text .close { position:absolute;right:10px;top:6px;color:#000; transform:scale(1.3, 1); -webkit-transform:scale(1.3, 1);-ms-transform:scale(1.3, 1); opacity:1; font-weight:normal;}
+
+/* navigation */
+.IOF-THEME-17.IOF-H .menu-inr-left { float:left;text-align:center;width:400px;}
+.IOF-THEME-17.IOF-H .menu-inr-left li:nth-child(4) { margin-top:10px;}
+
+/* home page slider */
+.risen-hz .Slider-text{ letter-spacing:1px;width:400px;text-transform:uppercase;font-size:22px;text-align:center;padding:36px;top:70px;}
+.risen-hz .Slider-text em { display:inline-block;float:left;font-size:14px;font-style:normal;margin:4px 0;width:50%;}
+.risen-hz .Slider-text em.days { width:40%;}
+.IOF-THEME-17.IOF-V .risen-hz .Slider-text em { width:100%;}
+
+/* home page slider vertical */
+.IOF-THEME-17.IOF-V .carousel-fade .carousel-inner .item {opacity: 0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.IOF-THEME-17.IOF-V .carousel-fade .carousel-inner .active { opacity: 1;height:100%;}
+.IOF-THEME-17.IOF-V .carousel-fade .carousel-inner .carousel-item img { height:100%;width:inherit !important;}/*max-width:inherit !important;*/
+
+/* forgot password */
+.inner-wrap.profile.mt-100 { margin-top:0 !important;margin-bottom:20px;}
+
+/* menu */
+.panel.panel-default { border:none;}
+.panel-collapse.collapse.in .panel-collapse.collapse.in { border-top-style:solid;border-top-width:1px;}
+
+/* deals */
+.inner-wrap.deals { border:none;}
+.deal-wrap { float:left;width:48%;}
+.common-title-deal > h3 { font-weight:bold;font-size:26px;margin-top:14px;}
+.common-title-deal { background-color:#fff;padding:15px 20px;}
+.deals-detail > p { font-size:18px;color:#999999;font-weight:normal;}
+.add-deal{display: inline-block;float: right;font-size: 21px;padding: 9px 0;text-align: center; width: 100px;}
+.deals-detail { background-color: #fff;padding: 20px;}
+.deal-wrap { float:left;margin-bottom:50px;margin-right:2%;width:48%;border-radius:7px;overflow:hidden;height:570px;}
+.IOF-THEME-17.IOF-V .deal-wrap { height:480px;}
+.risen-hz .deal-img-wrap { height:100%;}
+.risen-hz .deal-overlay p { color: #49483a;font-size:20px;line-height:24px;word-wrap:break-word;}
+
+/* review page(Vertical) */
+.IOF-THEME-17.IOF-V .review-page { background-color: #fff;margin-bottom: 20px !important;padding: 20px;}
+
+/* deals page(Vertical) */
+.IOF-THEME-17.IOF-V .inner-wrap.deals { background-color:#ffffff;padding:20px 0 0 20px;margin-bottom:20px;}
+
+/* delivery address */
+.IOF-THEME-17.IOF-V .main-container.delivery-page { margin-bottom:20px;}
+.IOF-THEME-17.IOF-V .profile-btn-section.add-delivery-address,
+.IOF-THEME-17.IOF-V .profile-btn-section { margin:0 !important;}
+
+/* my order */
+.IOF-THEME-17.IOF-V .fav-order-history .card { background: #FFF none repeat scroll 0% 0%; margin:0; }
+
+/* my coupon */
+.IOF-THEME-17.IOF-V .inner-wrap.mycoupons { margin-bottom:20px;}
+
+/* make reservation */
+.IOF-THEME-17.IOF-V .main-container.reservation-page { margin-bottom:20px;}
+.IOF-THEME-17.IOF-V .inner-wrap.order-type { margin-top:0;}
+
+/* gallery */
+.inner-wrap.photos { border:none;margin-bottom:30px;}
+.p-list li { width:33.33%;padding:0 8px 16px;float:left;margin:0;}
+.expand-img span a { padding:20px; display:inline-block; position:absolute; right:10px; top:10px; background:url(../../img/dasol/expand.png) no-repeat center center; background-size:24px;}
+.photo-gallery .expand-img { display:inline-block; width:100%;border-radius:10px; -webkit-border-radius:10px; -ms-border-radius:10px; overflow:hidden; position:relative;}
+.photo-gallery .expand-img:hover span { opacity:0.8;}
+.photo-gallery .p-list li img { border:1px solid #cac8a9;border-radius:10px;}
+.show-more-pic .show-more-btn { display:inline-block;font-size:22px;text-align:center;width:50%;color:#242424;padding:10px 5px;border:1px solid #acacac;}
+
+/* theme 1 */
+.IOF-THEME-17.IOF-COLOR-1 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-1 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-1 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-1 .main-menu-list > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-1 .main-menu-list > li.active > a,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-1 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-1 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-1.IOF-V .main-menu-list > li .dropdown-menu,
+.IOF-THEME-17.IOF-COLOR-1.IOF-V .dropdown-cart li a:hover { background-color:#AACDAA !important;color:#ffffff !important;}
+.IOF-THEME-17.IOF-COLOR-1 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-1 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-1 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-1 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-1 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-1 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-1 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-1 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-1 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-1 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-1 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-1 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-1 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-1 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-1 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-1 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-1 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-1 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-1 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-1 .static-title,
+.IOF-THEME-17.IOF-COLOR-1 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-1 .Slider-text em { color:#AACDAA !important;}
+.IOF-THEME-17.IOF-COLOR-1 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-1 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-1 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-1 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-1 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-1 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-1 .main-body,
+.IOF-THEME-17.IOF-COLOR-1 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#AACDAA !important;}
+
+/* theme 2 */
+.IOF-THEME-17.IOF-COLOR-2 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-2 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-2 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-2 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-2 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-2 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-2 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-2 .account-access > li:hover > a ,
+.IOF-THEME-17.IOF-COLOR-2.IOF-V .dropdown-cart li a:hover { background-color:#FF3300 !important;}
+.IOF-THEME-17.IOF-COLOR-2 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-2 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-2 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-2 .account-access li ul { background-color:#000000 !important;}
+.IOF-THEME-17.IOF-COLOR-2 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-2 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-2 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-2 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-2 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-2 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-2 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-2 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-2 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-2 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-2 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-2 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-2 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-2 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-2 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-2 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-2 .static-title,
+.IOF-THEME-17.IOF-COLOR-2 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-2 .Slider-text em { color:#FF3300 !important;}
+.IOF-THEME-17.IOF-COLOR-2 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-2 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-2 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-2 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-2 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-2 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-2 .main-body,
+.IOF-THEME-17.IOF-COLOR-2 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#FF3300 !important;}
+
+/* theme 3 */
+.IOF-THEME-17.IOF-COLOR-3 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-3 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-3 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-3 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-3 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-3 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-3 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-3 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-3.IOF-V .dropdown-cart li a:hover { background-color:#F99C40 !important;}
+.IOF-THEME-17.IOF-COLOR-3 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-3 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-3 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-3 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-3 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-3 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-3 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-3 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-3 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-3 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-3 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-3 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-3 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-3 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-3 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-3 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-3 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-3 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-3 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-3 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-3 .static-title,
+.IOF-THEME-17.IOF-COLOR-3 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-3 .Slider-text em { color:#F4E1CF !important;}
+.IOF-THEME-17.IOF-COLOR-3 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-3 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-3 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-3 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-3 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-3 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-3 .main-body,
+.IOF-THEME-17.IOF-COLOR-3 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#F99C40 !important;}
+
+/* theme 4 */
+.IOF-THEME-17.IOF-COLOR-4 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-4 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-4 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-4 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-4 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-4 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-4 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-4 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-4.IOF-V .dropdown-cart li a:hover { background-color:#5F3711 !important;}
+.IOF-THEME-17.IOF-COLOR-4 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-4 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-4 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-4 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-4 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-4 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-4 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-4 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-4 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-4 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-4 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-4 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-4 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-4 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-4 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-4 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-4 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-4 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-4 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-4 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-4 .static-title,
+.IOF-THEME-17.IOF-COLOR-4 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-4 .Slider-text em { color:#E1D5C1 !important;}
+.IOF-THEME-17.IOF-COLOR-4 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-4 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-4 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-4 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-4 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-4 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-4 .main-body,
+.IOF-THEME-17.IOF-COLOR-4 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#5F3711 !important;}
+
+/* theme 5 */
+.IOF-THEME-17.IOF-COLOR-5 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-5 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-5 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-5 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-5 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-5 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-5 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-5 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-5.IOF-V .dropdown-cart li a:hover { background-color:#FBEBD5 !important;}
+.IOF-THEME-17.IOF-COLOR-5 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-5 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-5 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-5 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-5 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-5 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-5 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-5 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-5 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-5 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-5 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-5 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-5 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-5 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-5 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-5 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-5 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-5 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-5 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-5 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-5 .static-title,
+.IOF-THEME-17.IOF-COLOR-5 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-5 .Slider-text em { color:#DA4D2F !important;}
+.IOF-THEME-17.IOF-COLOR-5 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-5 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-5 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-5 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-5 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-5 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-5 .main-body,
+.IOF-THEME-17.IOF-COLOR-5 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#FBEBD5 !important;}
+
+/* theme 6 */
+.IOF-THEME-17.IOF-COLOR-6 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-6 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-6 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-6 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-6 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-6 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-6 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-6 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-6.IOF-V .dropdown-cart li a:hover { background-color:#202020 !important;}
+.IOF-THEME-17.IOF-COLOR-6 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-6 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-6 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-6 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-6 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-6 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-6 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-6 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-6 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-6 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-6 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-6 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-6 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-6 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-6 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-6 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-6 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-6 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-6 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-6 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-6 .static-title,
+.IOF-THEME-17.IOF-COLOR-6 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-6 .Slider-text em { color:#E8E8E8 !important;}
+.IOF-THEME-17.IOF-COLOR-6 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-6 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-6 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-6 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-6 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-6 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-6 .main-body,
+.IOF-THEME-17.IOF-COLOR-6 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#FFFFFF !important;}
+
+/* theme 7 */
+.IOF-THEME-17.IOF-COLOR-7 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-7 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-7 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-7 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-7 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-7 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-7 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-7 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-7.IOF-V .dropdown-cart li a:hover { background-color:#DAA520 !important;}
+.IOF-THEME-17.IOF-COLOR-7 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-7 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-7 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-7 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-7 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-7 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-7 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-7 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-7 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-7 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-7 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-7 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-7 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-7 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-7 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-7 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-7 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-7 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-7 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-7 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-7 .static-title,
+.IOF-THEME-17.IOF-COLOR-7 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-7 .Slider-text em { color:#000000 !important;}
+.IOF-THEME-17.IOF-COLOR-7 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-7 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-7 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-7 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-7 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-7 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-7 .main-body,
+.IOF-THEME-17.IOF-COLOR-7 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#DAA520 !important;}
+
+/* theme 8 */
+.IOF-THEME-17.IOF-COLOR-8 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-8 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-8 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-8 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-8 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-8 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-8 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-8 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-8.IOF-V .dropdown-cart li a:hover { background-color:#990100 !important;}
+.IOF-THEME-17.IOF-COLOR-8 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-8 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-8 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-8 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-8 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-8 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-8 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-8 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-8 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-8 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-8 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-8 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-8 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-8 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-8 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-8 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-8 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-8 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-8 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-8 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-8 .static-title,
+.IOF-THEME-17.IOF-COLOR-8 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-8 .Slider-text em { color:#000000 !important;}
+.IOF-THEME-17.IOF-COLOR-8 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-8 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-8 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-8 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-8 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-8 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-8 .main-body,
+.IOF-THEME-17.IOF-COLOR-8 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#990100 !important;}
+
+/* theme 9 */
+.IOF-THEME-17.IOF-COLOR-9 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-9 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-9 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-9 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-9 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-9 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-9 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-9 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-9.IOF-V .dropdown-cart li a:hover { background-color:#46382B !important;}
+.IOF-THEME-17.IOF-COLOR-9 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-9 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-9 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-9 .account-access li ul { background-color:#46382B !important;}
+.IOF-THEME-17.IOF-COLOR-9 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-9 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-9 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-9 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-9 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-9 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-9 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-9 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-9 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-9 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-9 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-9 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-9 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-9 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-9 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-9 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-9 .static-title,
+.IOF-THEME-17.IOF-COLOR-9 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-9 .Slider-text em { color:#717F3E !important;}
+.IOF-THEME-17.IOF-COLOR-9 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-9 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-9 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-9 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-9 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-9 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-9 .main-body,
+.IOF-THEME-17.IOF-COLOR-9 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#46382B !important;}
+
+/* theme 10 */
+.IOF-THEME-17.IOF-COLOR-10 .theme-bg-1,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-10 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-17.IOF-COLOR-10 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-17.IOF-COLOR-10 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-17.IOF-COLOR-10 .main-menu-list > li:hover a,
+.IOF-THEME-17.IOF-COLOR-10 .main-menu-list > li.active a,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a:hover,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a:active,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a:focus,
+.IOF-THEME-17.IOF-COLOR-10 .account-access li a:hover,
+.IOF-THEME-17.IOF-COLOR-10 .account-access > li:hover > a,
+.IOF-THEME-17.IOF-COLOR-10.IOF-V .dropdown-cart li a:hover { background-color:#FECE06 !important;}
+.IOF-THEME-17.IOF-COLOR-10 .theme-bg-1:hover,
+.IOF-THEME-17.IOF-COLOR-10 .theme-bg-2:not(.vt-header):not(.sign-up-custom),
+.IOF-THEME-17.IOF-COLOR-10 .left-menu > .panel-group >.panel-default > .panel-heading,
+.IOF-THEME-17.IOF-COLOR-10 .account-access li ul { background-color:#E05B5E !important;}
+.IOF-THEME-17.IOF-COLOR-10 .theme-txt-col-1,
+.IOF-THEME-17.IOF-COLOR-10 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-17.IOF-COLOR-10 [type="checkbox"]:checked + label::after,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-10 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-10 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-17.IOF-COLOR-10 .nav-tabs > li > a:hover,
+.IOF-THEME-17.IOF-COLOR-10 .fav-order-history .reorder i,
+.IOF-THEME-17.IOF-COLOR-10 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-17.IOF-COLOR-10 .pos-right a .fa,
+.IOF-THEME-17.IOF-COLOR-10 .sv-odr-ftr *:not(.saveComment),
+.IOF-THEME-17.IOF-COLOR-10 .table-quantity th,
+.IOF-THEME-17.IOF-COLOR-10 .odr-bx-lst .table-quantity tfoot td:first-child,
+.IOF-THEME-17.IOF-COLOR-10 .Slider-text span,
+.IOF-THEME-17.IOF-COLOR-10 .dlvr-dtl h3,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-10 .rating-container .rating-stars,
+.IOF-THEME-17.IOF-COLOR-10 .account-access li a,
+.IOF-THEME-17.IOF-COLOR-10 .static-title,
+.IOF-THEME-17.IOF-COLOR-10 .p-cancle,
+.IOF-THEME-17.IOF-COLOR-10 .Slider-text em { color:#000000 !important;}
+.IOF-THEME-17.IOF-COLOR-10 .theme-border-1,
+.IOF-THEME-17.IOF-COLOR-10 .deliver-access a,
+.IOF-THEME-17.IOF-COLOR-10 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-17.IOF-COLOR-10 .odr-bx,
+.IOF-THEME-17.IOF-COLOR-10 div.payment-section,
+.IOF-THEME-17.IOF-COLOR-10 .Slider-text,
+.IOF-THEME-17.IOF-V.IOF-COLOR-10 .main-body,
+.IOF-THEME-17.IOF-COLOR-10 .panel-collapse.collapse.in .panel-collapse.collapse.in { border-color:#FECE06 !important;}

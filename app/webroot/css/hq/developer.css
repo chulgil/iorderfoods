@@ -1,0 +1,25 @@
+/*************** Home page ***************/
+.round-img{border-radius: 100%;}
+.price-slider {padding: 20px 15px;}
+.price-show figure{display:inline;}
+.ui-slider-handle.ui-corner-all.ui-state-default {border-radius: 50px; width: 20px; height: 20px; margin-top: -2px;background-color: #38c3e4;border:none;}
+.sldr-value {color: #38c3e4;font-size: 17px;margin-top: -28px; font-weight: bold;}
+.min-max {margin-top: 6px;}
+.property-works ol {padding-left: 40px;}
+/********** Contact us *******************/
+.map-img-wrap{height: 300px;}
+.map-img-wrap iframe {height: 100%;width: 100%;}
+.flashError, div .error, .error-message {color: #ff0000;font-size: 12px;font-weight: normal;}
+.feedback-form h2 {margin-bottom: 0;}
+.msg-text-field {margin-bottom: 0;margin-top: 30px;}
+textarea{margin-bottom: 0;margin-top: 30px;}
+.send-message{margin-top: 30px;}
+input, select, textarea{
+    color: #777 !important;
+    font-family: "Libre Franklin",sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    text-rendering: optimizelegibility !important;
+}
+

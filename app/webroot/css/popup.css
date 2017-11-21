@@ -1,0 +1,154 @@
+.modal-dialog .tab-content{padding: 10px 15px;border:1px solid #dddddd;border-top:none;float: 
+                left;width: 100%;}
+.modal-dialog .guest-list{margin-bottom:20px;float: left;width: 100%;}
+.modal-dialog .guest-list input,.modal-dialog .guest-list  input,.modal-dialog .guest-list select,
+.modal-dialog .guest-list textarea,
+.modal-dialog .order-type  select,.modal-dialog .order-type input,.modal-dialog .guest-delivery input,
+.modal-dialog .single-frame input,
+.modal-dialog .single-frame select{border:1px solid rgba(155, 155, 155, 0.4);
+background-color:#e6e5e4;border-radius:1px;padding:8px;font-size: 14px;font-weight: 300;width: 100%;}
+.modal-dialog #chkOrderType,.modal-dialog #chkDeliveryAddress{float: left;width: 100%;}
+.modal-dialog .guest-list .col-xs-12 .title-box input {float: left;width: 47.29%}
+.modal-dialog .guest-list .col-xs-12 .title-box select {margin-right: 30px;width: auto;float: left;}
+.modal-dialog .order-type{padding: 15px;border:1px solid #ddd;border-top:none;}
+.modal-dialog .order-type ul{margin-bottom: 20px}
+.modal-dialog .order-type ul li{padding-left:0; }
+.modal-dialog .orderTypePickUp,
+.modal-dialog .orderTypeDelivery {float: left;width: 45%;margin-right: 15px}
+.modal-dialog .nav-tabs .active a{background-color:#337ab7!important;border-color:#2e6da4!important;
+         color: #fff!important;font-weight: bold;}
+.modal-dialog .button-frame {text-align: right;float: left;width: 100%}
+.modal-dialog .button-frame .btn{font-size: 18px;}
+.modal-dialog .orderTypePickUp:last-of-type .title-box,.modal-dialog .orderTypeDelivery:last-of-type 
+.title-box{margin-top: 5px;}
+.modal-dialog .chkDeliveryAdd{padding: 15px;border: 1px solid #ddd; border-top:none;}
+.modal-dialog .col-3-structure h2 span{position: relative;top: 0;float: left;width: 100%;
+                        text-align: center;}
+.modal-dialog .button-grp .btn{margin-right: 15px;}
+.modal-dialog #guestForm .button-frame{margin-top: 20px;}
+.modal-dialog .tab-content .header-left{width: 100%;}
+.modal-dialog .phn-id input,.modal-dialog .phn-id select{float: left;width: auto;}
+.modal-dialog .phn-id input{margin-left: 19px;}
+.modal-dialog .default-add span,.modal-dialog .def-add span{float: left;width: auto;margin-left: 10px;}
+.modal-dialog .form-layout.sign-up,.modal-dialog .form-layout.col-12
+{border: none;background-color: #fff;}
+.modal-dialog .guest .order-form-layout{margin-top: 0;}
+.modal-dialog .guest{border-top: 1px solid #ddd;padding-top: 10px;margin-top:15px;}
+.modal-dialog .guest h2,.modal-dialog .chkDeliveryAdd  h2,
+.modal-dialog .chkOrdType h2{width: auto!important;background: #337AB7;color: #fff!important;
+              padding:10px 55px 10px 15px;text-align: left;}
+.modal-dialog .chkDeliveryAdd  h2 span{background: #337AB7!important;padding: 0!important;}
+.modal-dialog .login-form  ul{float: left;width: 100%;}
+.modal-dialog .nav.nav-tabs > li.disabled > a{border:1px solid #eee;}
+.modal-dialog .del-add{float:left;width:100%;}
+.modal-dialog #delivery_address label{color:#737373;font-weight: 500;}
+.modal-dialog #delivery_address .title-box{ color:#737373;}
+.modal-dialog input[type="radio"] + label {color:#737373;font-weight: 500;}
+.modal-dialog input[type="radio"] + label span{background-color:#8b8b8b;}
+.modal-dialog input[type="checkbox"]:not(:checked) + label::before,
+.modal-dialog input[type="checkbox"]:checked + label::before {color:#737373;font-weight: 500;}
+.modal-dialog .add-address-option label{color:#737373;font-weight: 500;}
+.modal-dialog .title label{color:#737373;font-weight: 400;font-size:16px;}
+.modal-dialog input[type="checkbox"]:not(:checked) + label::before, 
+.modal-dialog input[type="checkbox"]:checked + label::before{background-color:#8b8b8b;}
+.modal-dialog .single-frame,.modal-dialog .form-layout{margin:0px;padding:0px;}
+.modal-dialog .wrap{width:auto;}
+.modal-dialog .inbox .inbox .phone-number{width:72%;}
+.modal-dialog .form-layout .btn{min-width:75px;padding:4px;margin-right:5px;}
+.modal-dialog h2{font-size:18px;width:auto;}
+.modal-dialog .filed-form .inbox  .select-inbox { background-color: #e6e5e4;
+    border: 1px solid rgba(155, 155, 155, 0.4);
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px;
+    width: 100%;}
+.modal-open .content{z-index:2;}
+.modal-open .modal a{color:#286090;font-size:13px;}
+.modal-dialog .header-left { width:79%; float:left; font-weight:300;}
+.modal-dialog .filed-form div.left { float:left; text-align:left; } 
+.modal-dialog .filed-form div.right { float:right; text-align:right; }
+.modal-dialog .filed-form .inbox { padding:8px 8px 9px !important; background-color: #e6e5e4 !important; border: 1px solid rgba(155, 155, 155, 0.4);
+    border-radius: 1px;
+    font-size: 14px;width: 100%;}
+.modal-dialog .filed-form div { width:48.5%; }
+.modal-dialog .form-layout ul li div.title-box{margin:0px !important;}
+.modal-dialog .form-layout ul li .edit-link{text-align:left;}
+.modal-dialog .common-size{font-size:15px;}
+@media all and ( max-width: 680px) {
+.modal-dialog .tab-content{padding: 7px 11px;border:1px solid #dddddd;border-top:none;float: 
+                left;width: 100%;}
+.modal-dialog .guest-list{margin-bottom:13px;float: left;width: 100%;}
+.modal-dialog .guest-list input,.modal-dialog .guest-list  input,.modal-dialog .guest-list select,
+.modal-dialog .guest-list textarea,
+.modal-dialog .order-type  select,.modal-dialog .order-type input,.modal-dialog .guest-delivery input,
+.modal-dialog .single-frame input,
+.modal-dialog .single-frame select{border:1px solid rgba(155, 155, 155, 0.4);
+background-color:#e6e5e4;border-radius:1px;padding:5px;font-size: 11px;font-weight: 300;width: 100%;}
+.modal-dialog #chkOrderType,.modal-dialog #chkDeliveryAddress{float: left;width: 100%;}
+.modal-dialog .guest-list .col-xs-12 .title-box input {float: left;width: 47.29%}
+.modal-dialog .guest-list .col-xs-12 .title-box select {margin-right: 20px;width: auto;float: left;}
+.modal-dialog .order-type{padding: 12px;border:1px solid #ddd;border-top:none;}
+.modal-dialog .order-type ul{margin-bottom: 14px}
+.modal-dialog .order-type ul li{padding-left:0; }
+.modal-dialog .orderTypePickUp,
+.modal-dialog .orderTypeDelivery {float: left;width: 45%;margin-right: 13px}
+.modal-dialog .nav-tabs .active a{background-color:#337ab7!important;border-color:#2e6da4!important;
+         color: #fff!important;font-weight: bold;}
+.modal-dialog .button-frame {text-align: right;float: left;width: 100%}
+.modal-dialog .button-frame .btn{font-size: 13px;}
+.modal-dialog .orderTypePickUp:last-of-type .title-box,.modal-dialog .orderTypeDelivery:last-of-type 
+.title-box{margin-top: 5px;}
+.modal-dialog .chkDeliveryAdd{padding: 12px;border: 1px solid #ddd; border-top:none;}
+.modal-dialog .col-3-structure h2 span{position: relative;top: 0;float: left;width: 100%;
+                        text-align: center;}
+.modal-dialog .button-grp .btn{margin-right: 10px;}
+.modal-dialog #guestForm .button-frame{margin-top: 15px;}
+.modal-dialog .tab-content .header-left{width: 100%;}
+.modal-dialog .phn-id input,.modal-dialog .phn-id select{float: left;width: auto;}
+.modal-dialog .phn-id input{margin-left: 12px;}
+.modal-dialog .default-add span,.modal-dialog .def-add span{float: left;width: auto;margin-left: 7px;}
+.modal-dialog .form-layout.sign-up,.modal-dialog .form-layout.col-12
+{border: none;background-color: #fff;}
+.modal-dialog .guest .order-form-layout{margin-top: 0;}
+.modal-dialog .guest{border-top: 1px solid #ddd;padding-top: 6px;margin-top:10px;}
+.modal-dialog .guest h2,.modal-dialog .chkDeliveryAdd  h2,
+.modal-dialog .chkOrdType h2{width: auto!important;background: #337AB7;color: #fff!important;
+              padding:6px 30px 7px 10px;text-align: left;}
+.modal-dialog .chkDeliveryAdd  h2 span{background: #337AB7!important;padding: 0!important;}
+.modal-dialog .login-form  ul{float: left;width: 100%;}
+.modal-dialog .nav.nav-tabs > li.disabled > a{border:1px solid #eee;}
+.modal-dialog .del-add{float:left;width:100%;}
+.modal-dialog #delivery_address label{color:#737373;font-weight: 500;}
+.modal-dialog #delivery_address .title-box{ color:#737373;}
+.modal-dialog input[type="radio"] + label {color:#737373;font-weight: 500;}
+.modal-dialog input[type="radio"] + label span{background-color:#8b8b8b;}
+.modal-dialog input[type="checkbox"]:not(:checked) + label::before,
+.modal-dialog input[type="checkbox"]:checked + label::before {color:#737373;font-weight: 500;}
+.modal-dialog .add-address-option label{color:#737373;font-weight: 500;}
+.modal-dialog .title label{color:#737373;font-weight: 400;font-size:14px;}
+.modal-dialog input[type="checkbox"]:not(:checked) + label::before, 
+.modal-dialog input[type="checkbox"]:checked + label::before{background-color:#8b8b8b;}
+.modal-dialog .single-frame,.modal-dialog .form-layout{margin:0px;padding:0px;}
+.modal-dialog .wrap{width:auto;}
+.modal-dialog .inbox .inbox .phone-number{width:72%;}
+.modal-dialog .form-layout .btn{min-width:45px;padding:3px;margin-right:5px;}
+.modal-dialog h2{font-size:14px;width:auto;}
+.modal-dialog .filed-form .inbox  .select-inbox { background-color: #e6e5e4;
+    border: 1px solid rgba(155, 155, 155, 0.4);
+    border-radius: 1px;
+    font-size: 11px;
+    font-weight: 300;
+    padding: 4px;
+    width: 100%;}
+.modal-open .content{z-index:2;}
+.modal-open a{color:#286090;font-size:10px;}
+.modal-dialog .header-left { width:79%; float:left; font-weight:300;}
+.modal-dialog .filed-form div.left { float:left; text-align:left; } 
+.modal-dialog .filed-form div.right { float:right; text-align:right; }
+.modal-dialog .filed-form .inbox { padding:4px 4px 5px !important; background-color: #e6e5e4 !important; border: 1px solid rgba(155, 155, 155, 0.4);
+    border-radius: 1px;
+    font-size: 12px;width: 100%;}
+.modal-dialog .filed-form div { width:48.5%; }
+.modal-dialog .common-size{font-size:12px;}
+}

@@ -1,0 +1,163 @@
+/******** theme-one*********/
+/*.theme-one .online-btn {background-color: #ffb400;}*/
+.theme-one .sign-input { background-color: #fff; border: 1px solid #a8a8a8;;}
+.theme-one .theme-color-1 {color: #fff;}
+/*.theme-one .theme-color-1:hover{background-color: #ffa800;transition: .5s;}*/
+.theme-one .theme-color-3 {background-color: #a1a1a1; color: #fff;}
+.no-color{ background:#FFFFFF; transition:all .5s;}
+.theme-one .theme-color-4:hover{background-color: #989696;transition: .5s;}
+.theme-one .theme-color-3:hover{background-color: #5b5959;transition: .5s;}
+.theme-one .theme-color-2 {background-color: #242424; color: #fff;}
+.theme-one .sign-up > p {color: #6d6e71;}
+.theme-one .account-access li a:hover {color:#ffb400; transition: all .3s;}
+.theme-one .online-btn:hover {background-color: #ffa800;color: #fff;transition: .5s;}
+.theme-one .black-bg{ background-color:#242424;}
+.theme-one .title-bg { background-color: #242424;color: #fff;}
+.theme-one .menu-items{background-color: #fff;}
+.theme-one .accordion .link {color:#fff;border-bottom: 1px solid #fff;background-color:#9c9c9c;}
+.theme-one .left-menu .open .link {background-color: #000;}
+.theme-one .nested-ac .panel-default > .panel-heading {background-color: #fff;color: #242424;}
+.theme-one .common-title-deal {background-color: #fff;}
+.theme-one .common-title-hour {background-color: #fff;}
+.theme-one .hours-detail { background-color:#fff;}
+.theme-one .map-info { background-color: #fff;}
+.theme-color-1.p-save {color: #242424;}
+/*new themem css */
+/*.theme-one .fav-order-history .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #FFB400 !important; background: transparent; }*/
+/*.theme-one  .fav-order-history .nav-tabs > li > a::after {background: #FFB400; }
+.theme-one .fav-order-history .tab-nav > li > a::after { background: #FFB400 none repeat scroll 0% 0%; color: #fff; }*/
+.theme-one .reorder.orderColor:hover { color: #FFB400;}
+.theme-one .inner-wrap.myDeliveryAddress .form-section a { color:#292321; font-weight:bold; }
+.theme-one .inner-wrap.myDeliveryAddress .form-section a:hover { color:#ffb400; }
+
+/************
+Theme two
+**********/
+/*.AH2.theme-two .account-access li a:hover {color:#802b00; transition: all .3s;}*/
+.AH2.theme-two .title-bg { background-color: #fff;color: #242424;}
+.AH2.theme-two .online-btn {background-color: #802b00; color:#fff}
+.AH2.theme-two .online-btn:hover {background-color: #913101;color: #fff;transition: .5s;}
+/*.AH2.theme-two .add-menu {background-color: #802b00;color: #fff;}*/
+.AH2.theme-two .item-1 .btn.btn-default {border: 2px solid #802b00;color: #802b00;}
+.AH2.theme-two .theme-color-1:hover{background-color: #913101;transition: .5s;}
+.AH2.theme-two [type="checkbox"]:not(:checked) + label::after,.AH2.theme-two [type="checkbox"]:checked + label::after {color: #802b00;transition: all 0.2s ease 0s;}
+.AH2.theme-two .order-overview .total {color: #802b00;}
+.AH2.theme-two input[type="radio"]:checked + label span {
+  background-color: #802b00;border: 1px solid #3c3b39;}
+.AH2.theme-two .black-bg{ background-color:#242424;}
+
+/************
+Theme three
+**********/
+.AH3.theme-three .theme-color-5:hover {background-color: #cce61f; transition:all .5s;}
+.AH3.theme-three .common-item-box .title-bg {background-color: transparent;}
+.AH3.theme-three .title-bg {color: #242424;}
+.AH3.theme-three .account-access li a:hover{color: #abc210; transition:all .5s;}
+/*.AH3.theme-three .add-menu {background-color: #abc210;}*/
+.AH3.theme-three .right-menu .continue .cont-btn:hover {  color: #fff;  transition: all 0.5s ease 0s;  background-color: #9fb410;}
+.AH3.theme-three .item-1 .btn.btn-default {  border: 2px solid #abc210;  color: #abc210;}
+.AH3.theme-three [type="checkbox"]:not(:checked) + label::after,.AH3.theme-three [type="checkbox"]:checked + label::after {color: #ABC210;}
+
+/**********************
+	  Chole themes
+***********************/
+.chole-main .Chole-theme-one .main-menu-list > li:hover {background-color: transparent;}
+/*.chole-main .Chole-theme-one .main-menu-list > li:hover a {color: #ff5f7e; transition:all .5s; font-weight:normal;}*/
+/*.chole-main .Chole-theme-one .account-access li a:hover {color:#FF5F7E; transition: all .3s;}*/
+.chole-main .Chole-theme-one .title-bg { background-color: #fff;color: #242424;}
+.chole-main .Chole-theme-one .online-btn {background-color: #FF5F7E; color:#fff}
+.chole-main .Chole-theme-one .online-btn:hover {background-color: #f25e7c;color: #fff;transition: .5s;}
+/*.chole-main .Chole-theme-one .theme-color-1 {background-color: #FF5F7E;color: #fff;}*/
+/*.chole-main .Chole-theme-one .add-menu {background-color: #FF5F7E;color: #fff;}*/
+.chole-main .Chole-theme-one .item-1 .btn.btn-default {border: 2px solid #FF5F7E;color: #FF5F7E;}
+.chole-main .Chole-theme-one .theme-color-1:hover{background-color: #f25e7c;transition: .5s;}
+.chole-main .Chole-theme-one [type="checkbox"]:not(:checked) + label::after,.AH2.theme-two [type="checkbox"]:checked + label::after {color: #FF5F7E;transition: all 0.2s ease 0s;}
+.chole-main .Chole-theme-one .order-overview .total {color: #FF5F7E;}
+.chole-main .Chole-theme-one input[type="radio"]:checked + label span {
+  background-color: #FF5F7E;border: 1px solid #3c3b39;}
+/*.chole-main .custom-header .black-bg{ background-color:#f4f2f1;}*/
+/*.chole-main  .black-bg-top {background-color: #000; color: #fff;}*/
+/*.chole-main .Chole-theme-one .main-menu-list .active a {color:#ff5f7e;}*/
+/*.chole-main .Chole-theme-one .ext-menu {background-color: #f0b8bb; color: #fff;}*/
+.chole-main .Chole-theme-one .common-title.pink-bg {background-color: #FD5F7E;color: #fff;}
+.chole-main .Chole-theme-one .card-info .price {color: #ff5f7e;}
+.chole-main .Chole-theme-one .card-info {background-color: #f8f8f8}
+.chole-main .Chole-theme-one .show-detail {  background-color: #e6e6e6;}
+.chole-main .Chole-theme-one .img-wrap {background-color: #fff;}
+/*.chole-main .Chole-theme-one .black-bg {background-color: #262626;}*/
+.chole-main .Chole-theme-one .common-config > h3 {color: #fff;}
+.chole-main .Chole-theme-one .footer-section-3 {background-color: #ff5f7e;}
+/*.chole-main .Chole-theme-one .ext-menu { background-color: #f0b8bb;  color: #fff}*/
+.chole-main .Chole-theme-one .common-title.grey-bg {background-color: #e1e1e1;}
+.chole-main .Chole-theme-one .nested-ac .panel-heading { background-color: #fff!important;}
+.chole-main .Chole-theme-one .menu-star { color: #f85e7d;}
+/*.chole-main .Chole-theme-one .add-menu {background-color: #ff5f7e; color: #fff;}*/
+.chole-main .Chole-theme-one .cp-code {background-color: #fff;}
+.chole-main .Chole-theme-one .p-price { color: #FD5F7E;}
+.chole-main .Chole-theme-one .deal-info > h3 {color: #ed5565;}
+.chole-main .Chole-theme-one .btn-primary:hover {background-color: #FF5F7E;border-color: #204d74;color: #fff;}
+/*.chole-main.Chole-vertical-layout .Chole-theme-one .main-menu-list > li.active a  { background-color: #fff; color: #ff5f7e; }*/
+/*.chole-main.Chole-vertical-layout .Chole-theme-one .main-menu-list a:hover { background-color: #fff; color: #ff5f7e; }*/
+/*.chole-main.Chole-vertical-layout .main-menu-list li.active  { background-color:#ff5f7e; }
+.chole-main.Chole-vertical-layout .main-menu-list li { background-color:#ff5f7e;}
+.chole-main.Chole-vertical-layout .main-menu-list li:hover { background-color:#ff5f7e; }*/
+.chole-main.Chole-vertical-layout .vt-header{background-color:transparent !important;}
+/*.chole-main.Chole-vertical-layout .main-menu-list > li {background-color: #ff5f7e;}*/
+/*.chole-main.Chole-vertical-layout .Chole-theme-one .main-menu-list  a{ color:#fff;}*/
+.chole-main.Chole-vertical-layout .Chole-theme-one .custom-header .black-bg .main-container { background-color: transparent !important;}
+.chole-main .btn-primary.save-order {background-color: #262626;}
+.chole-black-top .account-access .active { background-color: #ff5f7e;border-radius: 3px;font-weight: 700; padding: 6px 18px;margin: 0 10px;}
+
+/** chole theme-2**/
+.chole-main .Chole-theme-two .main-menu-list > li:hover {background-color: transparent;}
+/*.chole-main .Chole-theme-two .main-menu-list > li:hover a {color: #98191c; transition:all .5s; font-weight:normal;}
+.chole-main .Chole-theme-two .account-access li a:hover {color:#98191c; transition: all .3s;background-color: #000;}*/
+.chole-main .Chole-theme-two .title-bg { background-color: #fff;color: #242424;}
+.chole-main .Chole-theme-two .online-btn {background-color: #98191c; color:#fff}
+.chole-main .Chole-theme-two .online-btn:hover {background-color: #98191c;color: #fff;transition: .5s;}
+.chole-main .Chole-theme-two .theme-color-1 {background-color: #98191c;color: #fff;}
+.chole-main .Chole-theme-two .add-menu {background-color: #98191c;color: #fff;}
+.chole-main .Chole-theme-two .item-1 .btn.btn-default {border: 2px solid #98191c;color: #FF5F7E;}
+.chole-main .Chole-theme-two .theme-color-1:hover{background-color: #98191c;transition: .5s;}
+.chole-main .Chole-theme-two [type="checkbox"]:not(:checked) + label::after,.AH2.theme-two [type="checkbox"]:checked + label::after {color: #FF5F7E;transition: all 0.2s ease 0s;}
+.chole-main .Chole-theme-two .order-overview .total {color: #98191c;}
+/*.chole-main .Chole-theme-two input[type="radio"]:checked + label span {
+  background-color: #98191c;border: 1px solid #3c3b39;}*/
+/*.chole-main .custom-header .black-bg{ background-color:#f4f2f1;}*/
+/*.chole-main .Chole-theme-two .main-menu-list .active a {color:#98191c;}*/
+/*.chole-main .Chole-theme-two input[type="radio"] + label span {background-color: #fff; border: 2px solid #98191c;}*/
+/*.chole-main .Chole-theme-two .ext-menu {background-color: #f0b8bb; color: #fff;}*/
+.chole-main .Chole-theme-two .common-title.pink-bg {background-color: #98191c;color: #fff;}
+.chole-main .Chole-theme-two .card-info .price {color: #98191c;}
+/*.chole-main .Chole-theme-two .card-info {background-color: #f8f8f8}*/
+.chole-main .Chole-theme-two .contact-info {background-color: #3d3e3e;color: #98191c;}
+.chole-main .Chole-theme-two .right-menu .continue .cont-btn:hover { background-color: #98191C; color: #fff;  transition: all 0.5s ease 0s;}
+.chole-main .Chole-theme-two .nested-ac .panel-title .active {color: #98191C;}
+.chole-main .Chole-theme-two .menu-star {color:#98191C;}
+.chole-main .Chole-theme-two .show-detail {  background-color: #e6e6e6;}
+/*.chole-main .Chole-theme-two .img-wrap {background-color: #fff;}*/
+/*.chole-main .Chole-theme-two .black-bg {background-color: #262626;}*/
+/*.chole-main .Chole-theme-two .custom-header .black-bg {background-color: #f4f3f1;}*/
+.chole-main .Chole-theme-two .common-config > h3 {color: #fff;}
+.chole-main .Chole-theme-two .footer-section-3 {background-color: #98191c;}
+/*.chole-main .Chole-theme-two .ext-menu { background-color: #f0b8bb;  color: #fff}*/
+.chole-main .Chole-theme-two .common-title.grey-bg {background-color: #e1e1e1;}
+.chole-main .Chole-theme-two .nested-ac .panel-heading { background-color: #fff!important;}
+.chole-main .Chole-theme-two .menu-star { color: #98191C;}
+.chole-main .Chole-theme-two .my-order .cp-code-inner {border-bottom: 1px solid #98191C;border-top: 2px solid #98191C;}
+.chole-main .Chole-theme-two .add-menu {background-color: #98191c; color: #fff;}
+.chole-main .Chole-theme-two .cp-code {background-color: #fff;}
+.chole-main .Chole-theme-two .p-price { color: #98191c;}
+.chole-main .Chole-theme-two .deal-info > h3 {color: #991B1E;}
+.chole-main .Chole-theme-two .btn-primary:hover {background-color: #98191c;border-color: #204d74;color: #fff;}
+.chole-main.Chole-vertical-layout .Chole-theme-two .main-menu-list > li.active a  { background-color: #fff; color: #98191c; }
+.chole-main.Chole-vertical-layout .Chole-theme-two .main-menu-list a:hover { background-color: #fff; color: #ff5f7e; }
+/*.chole-main.Chole-vertical-layout .main-menu-list li.active  { background-color:#98191c; }*/
+/*.chole-main.Chole-vertical-layout .main-menu-list li { background-color:#98191c;}*/
+/*.chole-main.Chole-vertical-layout .main-menu-list li:hover { background-color:#98191c; }*/
+.chole-main.Chole-vertical-layout .vt-header{background-color:transparent !important;}
+/*.chole-main.Chole-vertical-layout .main-menu-list > li {background-color: #98191c;}*/
+/*.chole-main.Chole-vertical-layout .Chole-theme-one .main-menu-list  a{ color:#fff;}*/
+.chole-main.Chole-vertical-layout .Chole-theme-one .custom-header .black-bg .main-container { background-color: transparent !important;}
+.chole-main .btn-primary.save-order {background-color: #262626;}
+.chole-main .Chole-theme-two .chole-black-top .account-access .active {background-color: #060709;border-radius: 3px;font-weight: 700;margin: 0 10px;  padding: 6px 18px;}

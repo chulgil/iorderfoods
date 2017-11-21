@@ -1,0 +1,76 @@
+.IOF-C1-V .card-info > h4,
+.IOF-C1-V .card-info span { padding:0 10px;word-wrap:break-word;}
+.IOF-C1-V .owl-item .item { height:300px;}
+.IOF-C1-V .donut-menu-card { height:100%;}
+.IOF-C1-V .CHT2.CHT2-header-change .main-menu-list { display:table;}
+.IOF-C1-V .CHT2.CHT2-header-change .main-menu-list li { display:table-cell;float:none;width:auto;}
+.IOF-C1-V .confirm-btn { font-size:24px;background-color:rgb(152,25,28);color:#ffffff;}
+.IOF-C1-V .ps-additional-info .common-title { padding:12px 15px;}
+.IOF-C1-V .ps-additional-info .select-left { float: left;width: 85%;padding-right:0 !important;}
+.IOF-C1-V .ps-additional-info .add-check-list .select-left label { width:auto;}
+.IOF-C1-V .ps-additional-info .add-check-list > li .select-left span.topPrice { float: right;font-size: 18px !important;margin-right: 10px;color:#424242 !important;}
+.IOF-C1-V .add-info .ps-additional-info.modal-dialog .close { top: 13px;}
+.IOF-C1-V .ps-additional-info .toppingSize { border-color:#dfdfdf !important;padding: 0px !important;}
+.IOF-C1-V .sub-menu-listing .check-more.countAddOns .add-check-list > li { min-height:auto;padding:3px 0;}
+.IOF-C1-V #CartInfoItemsForm .c-quantity { width:50px;padding-left:5px;}
+.IOF-C1-V .panel-body.nested-ac .pay-wrap { padding:15px 10px;}
+.IOF-C1-V .common-input > p { font-size:16px;font-weight: normal;margin-bottom: 8px;}
+.IOF-C1-V .continue > div#desktop_continue a,
+.IOF-C1-V .continue > div#pay-credit-card button { display:inline-block;width:100%;max-width:250px;float:none;}
+.IOF-C1-V .card-input.exp-date .SumoSelect { width:25%;}
+.IOF-C1-V .card-input.exp-date .SumoSelect ~ .SumoSelect { margin-left:15px;margin-right:0;}
+.IOF-C1-V .card-detail .card-input .error { display:block;padding-left:40%;padding-top:2px;}
+.IOF-C1-V .card-detail .card-input { margin-bottom:12px;}
+.IOF-C1-V .navbar-collapse { padding-left:0;padding-right:0;}
+.IOF-C1-V .profile-input { margin-top:15px;}
+.IOF-C1-V .profile-input.popup-checkbox.clearfix label { padding-left:32px !important;}
+.IOF-C1-V .saveOrderType { margin-top:10px;}
+.IOF-C1-V .pay-wrap.select-order ul { float:left;width:100%;}
+.IOF-C1-V .pay-wrap.select-order ul li label { width:60px;}
+.IOF-C1-V #OTDetail .pay-wrap.select-order { padding:15px 15px;}
+.IOF-C1-V .sign-input { background-color:#ffffff;border:1px solid #a8a8a8;}
+.IOF-C1-V .reg-btn .sign-up-custom { background-color: #242424;color: #fff;}
+.IOF-C1-V .SumoSelect { width:100%;padding-bottom:5px;height:39px;}
+.IOF-C1-V .SumoSelect + .form-control.phone { width:73.5%;float:right;}
+.IOF-C1-V .SumoSelect > .CaptionCont { height:100%;border-color:#dfdfdf;}
+.IOF-C1-V .SumoSelect > .CaptionCont > label { top:-1px;}
+.margin-top-20 { margin-top:20px;}
+.IOF-C1-V .check-out .chlole-lft-menu { border-right: 1px solid #acacac;position: relative;right: -1px;}
+.IOF-C1-V .confirm-btn { background-color:#ff5f7e;}
+.IOF-C1-V .main-menu-list { display:table;width:100%;}
+.IOF-C1-V.chole-main .simple-banner-bg { height:540px;}
+.IOF-C1-V .product-detail-btn #continue.d-access-guest { background-color:rgb(247,94,125);color:#ffffff;}
+.IOF-C1-V .editOrderType.cont-btn.theme-color-1 { margin-top:15px;}
+.IOF-C1-V #credit_payment1 .card-input:first-child .SumoSelect { width:60%;}
+.IOF-C1-V .fav-order-history .reorder i,
+.IOF-C1-V .reorder.orderColor:hover { color:rgb(242,94,124);}
+.IOF-C1-V.chole-main .img-wrap { padding:20px;min-height:inherit;}
+.IOF-C1-V .banner-content .center-title h3 { color: #ffffff;font-size:58px;}
+.IOF-C1-V #ReviewRating { margin-top:25px;}
+.IOF-C1-V #ReviewRating .rating-xs { display:inline-block;}
+.IOF-C1-V #ReviewRating .profile-input label { display:block;}
+.IOF-C1-V #ReviewRating .profile-input textarea,
+.IOF-C1-V #ReviewRating .profile-input input[type="file"] { width:100%;}
+.IOF-C1-V #ReviewRating .profile-input button { font-size:24px;text-decoration:none;border:none;margin:0;width:150px;margin-right:10px;}
+.IOF-C1-V .inner-wrap .form-section .profile-input .col-width { max-width:inherit;}
+.IOF-C1-V .SumoSelect > .CaptionCont > label > i { left:14px;}
+.IOF-C1-V #credit_payment1 .SumoSelect > .CaptionCont > label > i { left:-4px;}
+.IOF-C1-V.chole-main .modal-dialog .owl-controls.clickable { top: 50%;left:0;}
+.IOF-C1-V .modal-body .modal-dialog .owl-theme .owl-controls .owl-buttons div:hover { background-color:rgb(242,94,124);}
+.IOF-C1-V.chole-main.Chole-vertical-layout .vt-header { background-color: #ffffff !important;box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);left: 0;padding:5px 0;position: fixed;top:46px;}
+.IOF-C1-V.chole-main.Chole-vertical-layout .Chole-theme-one .custom-header .black-bg .main-container { overflow:hidden;width:0px;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.IOF-C1-V.chole-main.Chole-vertical-layout .Chole-theme-one .custom-header .black-bg.vt-header.open { padding:5px;}
+.IOF-C1-V.chole-main.Chole-vertical-layout .Chole-theme-one .custom-header .black-bg.vt-header.open .main-container { width:200px;}
+.IOF-C1-V .title-bar { display:none;}
+@media screen and (max-width:768px){
+.IOF-C1-V .main-container { width:100%;padding:0 25px;}
+.IOF-C1-V .navbar-toggle { top:60px;position:fixed;left:12px;background-color:#000000;z-index:1000;}
+.IOF-C1-V .navbar-collapse.custom-colapse.collapse,
+.IOF-C1-V .navbar-collapse.custom-colapse.collapsing { position:fixed !important;top:111px !important;background-color:#242424 !important;left:0 !important;right:0 !important;z-index:10000 !important;}
+.IOF-C1-V.chole-main .main-menu-list > li a { color:#ffffff !important;}
+.IOF-C1-V.chole-main .main-menu-list > li { display:block;margin-bottom:0;}
+.IOF-C1-V.chole-main .right-menu .continue .cont-btn { padding:7px 10px;width: 100%;}
+.IOF-C1-V #AdminId .col-lg-2.col-sm-6.col-xs-12,
+.IOF-C1-V #AdminId #UserKeyword { margin:10px 0;}
+.IOF-C1-V .SOCIAL-MEDIA > li { margin:0 8px 8px;}
+}

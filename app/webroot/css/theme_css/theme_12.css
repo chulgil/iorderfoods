@@ -1,0 +1,595 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+/* radio */
+input[type="radio"] + label span { margin:-3px 11px 0 0;}
+
+
+/* Order Overview */
+.pay-wrap.select-order,
+.pay-wrap.payment-opt { padding:15px;}
+.delivery-date > label { float: left;font-size: 18px;font-weight: normal;width: 60%;}
+.pay-select input[type="radio"] + label span { margin-top:0;margin-bottom:0;}
+
+.IOF-THEME-12 .dasol-liw { background-color:transparent !important;}
+/*.IOF-THEME-12 .main-container .dasol-liw ul li .dasol-img-frame { display:block !important;width:100% !important;}*/
+.IOF-THEME-12 .main-menu-list > li a { font-size:17px;text-transform:uppercase;}
+.IOF-THEME-12 .main-container h2 { font-size:22px;padding:10px 15px;text-align:center;text-transform:uppercase;}
+.IOF-THEME-12 .store-last-rgt .open-hours-card { display:block;}
+.IOF-THEME-12 .open-mid { padding:30px 30px 15px;}
+.IOF-THEME-12 .store-mid-last { background-color:#a7a7a7;padding:0;}
+.IOF-THEME-12 .ext-menu { background-color:#fff;color:#991b1e;margin-bottom:0;padding:30px 0 0;}
+.IOF-THEME-12 .ext-menu .ext-menu-img { display: block;margin-left: auto;margin-right: auto;margin-top: 25px;position:relative;overflow:hidden;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-tbl { height:100%;z-index:2;margin:0 auto;max-width:800px;display:table;position:relative;z-index:2;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-overlay { background-color:rgba(0,0,0,0.5);position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-tbl .emi-tbl-cell { display:table-cell;vertical-align:middle;padding:10px 75px;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-tbl h3 { white-space:nowrap;color:#ffffff;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-tbl p { color:#ffffff;}
+.IOF-THEME-12 .main-body .main-container { position:relative;top:0;}
+.IOF-THEME-12 .ext-menu-title > h4 { font-family: "Nanum Gothic","Noto Serif",sans-serif,serif;font-size: 45px;text-align: center;}
+.IOF-THEME-12 .store-last-rgt .open-hours-card { background-color: #555555;box-shadow: 8px 8px 7px 0 rgba(50, 50, 50, 0.35);color: #fff;padding: 28px 0 0;position: static;right: 30px;top: 60px;width: 327px;}
+.IOF-THEME-12 .store-last-rgt .time-list li { float:left;margin-bottom:2px;width:100%;border-bottom: medium none;padding:5px 0;}
+.IOF-THEME-12 .lft-txt { float: left;font-size: 17px;font-weight: 600;}
+.IOF-THEME-12 .rgt-txt { font-size: 15px;font-weight: 500;float: right;}
+.IOF-THEME-12 .open-mid > h3 { margin-bottom: 30px;}
+.IOF-THEME-12 .store-last-rgt .open-top { display: none;padding: 3px 0;}
+.IOF-THEME-12 .store-last-rgt .open-mid { background-image: url("../../img/clock-transparent.png");background-position: right top;background-repeat: no-repeat;}
+.IOF-THEME-12 .store-last-rgt .open-bottom { display: none;}
+.IOF-THEME-12 .store-last-lft { float: left;padding-top: 48px;}
+.IOF-THEME-12 .store-last-rgt { float:right;}
+.IOF-THEME-12 .store-contact-info > h3 { color: #fff;font-size: 25px;margin-bottom: 20px;}
+.IOF-THEME-12 .store-contact-info > p { color: #fff;margin-bottom: 4px;}
+.IOF-THEME-12 .carousel,
+.IOF-THEME-12 .carousel-inner,
+.IOF-THEME-12 .carousel-fade .carousel-inner .item { height:100%;}
+.IOF-THEME-12 .carousel-inner > .item > a > img,
+.IOF-THEME-12 .carousel-inner > .item > img { max-width:inherit !important;height:100% !important;}
+.IOF-THEME-12.IOF-V .carousel-inner > .item > a > img,
+.IOF-THEME-12.IOF-V .carousel-inner > .item > img { height:100% !important;max-width:inherit !important;}
+.IOF-THEME-12 .slider-bg ol { bottom:20px;}
+.IOF-THEME-12 .ext-menu-title { display:none;}
+
+/* header */
+.IOF-THEME-12 .main-menu-list { display:table;width:100%;}
+.IOF-THEME-12 .main-menu-list > li { display:table-cell;height:60px;text-align:center;padding:0;}
+.IOF-THEME-12 .main-menu-list > li a { display:block;padding:18px 30px;-webkit-font-smoothing: antialiased;}
+.IOF-THEME-12 .main-menu-list > li a:hover { font-weight:700;}
+.IOF-THEME-12 .arron-white-header { padding:15px 0;text-align:center;}
+.IOF-THEME-12 .log-in-header { padding:24px 0;}
+.IOF-THEME-12 .log-head-right .dropdown-menu li { padding:0 20px;}
+.IOF-THEME-12 .log-head-right .dropdown-menu li a { display:inline-block;border-bottom-width:2px;border-bottom-style:solid;padding-bottom:3px;border-bottom-color:transparent;padding-left:0;padding-right:0;font-size:14px;color:#242424;}
+.IOF-THEME-12 .log-head-right .dropdown-menu li a:hover,
+.IOF-THEME-12 .log-head-right .dropdown-menu li.active a { background-color:transparent;}
+.IOF-THEME-12 .log-head-right .dropdown-menu .arw-up { display:none;}
+.IOF-THEME-12 .log-head-right .dropdown > a:first-child { position:relative;}
+.IOF-THEME-12 .log-head-right .dropdown > a:first-child .numberCircle { position:absolute;width:20px;height:20px;color:#ffffff;text-align:center;border-radius:50%;top:6px;right:-4px;}.dropdown-menu.dropdown-cart { height:210px;width:175px;}
+.dropdown .dropdown-toggle { font-size:14px;color:#242424;}
+
+/* vertical header */
+.IOF-THEME-12.IOF-V .custom-header .vt-header { width:0;top:69px;position:fixed;height:650px;overflow:hidden;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;z-index:10000;}
+.IOF-THEME-12.IOF-V a.menu-control { position:fixed;top:24px;margin-right:15px;left:15px;font-size:20px;z-index:10000;}
+.IOF-THEME-12.IOF-V .menu-right { margin-top:0;width:100%;float:left;}
+.IOF-THEME-12.IOF-V .main-header-menu { padding:20px 0;}
+.IOF-THEME-12.IOF-V .custom-header .logo { position:relative;width:100%;margin-bottom:15px;text-align:center;}
+.IOF-THEME-12.IOF-V .custom-header .vt-header.open { width:270px;}
+.IOF-THEME-12.IOF-V a.restaurant-logo-rectangle { width:250px;height:150px;}
+.IOF-THEME-12.IOF-V .main-menu-list > li { height:auto;}
+.IOF-THEME-12.IOF-V .main-menu-list > li,
+.IOF-THEME-12.IOF-V .main-menu-list > li a { display:block;text-align:left;}
+.IOF-THEME-12.IOF-V .main-menu-list > li a { height:auto;padding:10px 30px;}
+.add-info:not(#gallery-modal) .modal-dialog .close { opacity:1;}
+
+/* home page slider */
+.IOF-THEME-12 .slider-bg { width:1000px;height:495px;margin:70px auto 40px auto;position:relative;}
+.IOF-THEME-12 .slider-text { bottom:0;padding:100px 63px 20px 63px;top:0;}
+.IOF-THEME-12 .slider-text p:empty { display:none;}
+.IOF-THEME-12 .slider-bg .online-order-wrap { display:none;}
+.IOF-THEME-12 .carousel-control { top:0px !important;bottom:0px !important;height:100% !important;margin-top:0px !important;border:medium none;background-position:center center;border-radius:0px;line-height:495px;background-color:rgba(255, 255, 255, 0.6) !important;}
+.IOF-THEME-12 .carousel-control.right { right:0px ! important;background:rgba(255, 255, 255, 0.4) url("../../img/arrow-right-t12.png") no-repeat scroll center center !important;}
+.IOF-THEME-12 .carousel-control.left { border-radius:0px;left:0px ! important;background: rgba(255, 255, 255, 0.4) url("../../img/arrow-left-t12.png") no-repeat scroll center center !important;}
+.IOF-THEME-12 .carousel-indicators li { width:32px;height:32px;border-radius:50%;border:1px solid #ffffff;background-color:transparent;position:relative;}
+.IOF-THEME-12 .carousel-indicators > li:not(.active) { border-color:transparent;}
+.IOF-THEME-12 .carousel-indicators > li:after { content:'';width:18px;height:18px;background-color:#ffffff;position:absolute;top:6px;left:6px;border-radius:50%;}
+.IOF-THEME-12 .slider-bg ol { bottom: 22px;left: auto;margin: 0 !important;position: absolute !important;right: 105px !important;top: auto;transform: none;width:auto !important;}
+
+/* home page */
+.online-order { float:left;margin:115px 0 155px;text-align:center;width:100%;}
+
+/* img gallery */
+.IOF-THEME-12 .main-container.home-page-container .dasol-liw h2 { text-align:center;font-size:22px;border-bottom:none;}
+.IOF-THEME-12 .main-container .dasol-liw ul { text-align:center;}
+.IOF-THEME-12 .main-container .dasol-liw ul li { display:inline-block;width:200px;margin:0 10px;vertical-align:bottom;}
+.IOF-THEME-12 .main-container .dasol-liw ul li h3 { font-size:18px;height:100%;margin-top:0;overflow:hidden;width:100%;}
+.IOF-THEME-12 .main-container .dasol-liw ul.remove-space-btwn-items li h3 { height:auto;}
+.IOF-THEME-12 .main-container .dasol-liw ul li h3 a { white-space:pre-line;}
+.IOF-THEME-12 .main-container .dasol-liw ul li h3 + small { display:block;font-size:85%;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;}
+.IOF-THEME-12 .main-container .dasol-liw ul li .dasol-txt-frame { background-color:rgb(36,36,36);color:#ffffff;padding:8px;height:60px;}
+.IOF-THEME-12 .dasol-liw { background-color:#ffffff;}
+.IOF-THEME-12 .main-container .dasol-liw { float:left;margin:30px 0 40px;overflow:hidden;width:100%;}
+.IOF-THEME-12 .main-container .dasol-liw ul { width:auto;overflow-x:auto;overflow-y:hidden;white-space:nowrap;padding:15px 0 0 0;}
+.IOF-THEME-12 .main-container .dasol-liw ul.remove-space-btwn-items li { margin-left:0px;}
+.IOF-THEME-12 .main-container .dasol-liw ul li .dasol-img-frame { height:180px;width:100%;display:table-cell;vertical-align:middle;background-color:#f7f7f7; padding:0px;border:1px solid #f2f2f2;padding:15px;}
+.IOF-THEME-12 .main-container .dasol-liw ul li .dasol-img-frame img { max-width:100%;max-height:100%;}
+.IOF-THEME-12 .main-container .dasol-liw ul li .dasol-txt-frame { background-color:rgb(36,36,36);color:#ffffff;padding:8px;}
+.IOF-THEME-12 .main-container .dasol-liw ul li h3 { }
+.IOF-THEME-12 .main-container .dasol-liw ul li h3 + small { display: block;font-size: 85%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 200px;}
+.IOF-THEME-12 .show-more-pic i { border: 2px solid #242424;border-radius:50%;color: #242424;margin-bottom:20px;padding:14px;cursor:pointer;width:70px;height:70px;}
+
+/* buttons */
+.btn-primary { background-color:#ffb400 !important;border:1px solid #e9a400;}
+.btn-secondary { background-color:#ededed !important;border:1px solid #dfdfdf;}
+
+/* my delivery address */
+input[type="radio"]:checked + label span { background-color:#FFB400;border:1px solid #3c3b39;}
+#UsersProfile .profile-notifications li { width:100%;}
+.profile-btn-section .p-save,
+.profile-btn-section .p-cancle { border:medium none;font-size: 16px;height: 72px;width: 100%;color:#242424;font-weight:bold;}
+.inner-wrap .form-section #UsersProfile .profile-input label { font-size:10px;color:#242424px;}
+
+/* profile  */
+.form-section.profile-fsection { padding-bottom:0;}
+
+/* deals page */
+.inner-wrap.deals { border:none;}
+.inner-wrap.deals .row .col-sm-12.col-xs-12 .deal-wrap:nth-child(even) { float:right;margin-right:0;}
+.inner-wrap.deals .common-title-deal,
+.inner-wrap.deals .common-title-deal > h3 { min-height:inherit;font-size:13px;color:#242424;font-weight:bold;text-transform:uppercase;}
+.deal-wrap { border:1px solid #6d6e71;}
+.deals-detail i.fa-check { color:gray;float:right;font-size:36px;}
+.deals-detail > p { color:#6d6e71;font-size:9px;}
+.deal-wrap .add-deal { font-size:18px;width:90px;height:48px;font-weight:bold;color:#ffffff;line-height:28px;}
+
+/* gallery */
+.p-list > li { width:300px;height:250px;overflow:hidden;margin-bottom:8px;border:1px solid #dfdfdf;}
+.p-list > li a { display:block;height:100%;white-space:nowrap;}
+.p-list > li a span { height:100%;display:inline-block;vertical-align:middle;}
+.p-list > li a img { max-height:100%;max-width:100%;vertical-align:middle;}
+
+/* footer */
+.footer-top ul.social-media { margin:0 auto;text-align:left;width:108px;}
+.footer-top ul.social-media li { margin-bottom:5px;}
+.footer-top ul.social-media li a { opacity:0.25;}
+.footer-top ul.social-media li a:hover { opacity:1;}
+
+/* theme 1 */
+.IOF-THEME-12.IOF-COLOR-1 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-1 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-1 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-1 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-1 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-1 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-1 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-1 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-1 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-1 .form-inner-action-btn a:hover,
+.IOF-THEME-12.IOF-COLOR-1 .log-head-right .dropdown > a:first-child .numberCircle { background-color:#AACDAA !important;}
+.IOF-THEME-12.IOF-COLOR-1 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-1 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-12.IOF-COLOR-1 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-1 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-1 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-1 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-1 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-1 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-1 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-1 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-1 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-1 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-1 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-1 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-1 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-1 .log-head-right .dropdown-menu li.active a { color:#AACDAA !important;}
+.IOF-THEME-12.IOF-COLOR-1 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-1 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-1 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-1 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-1 .log-head-right .dropdown-menu li.active a { border-color:#AACDAA !important;}
+.IOF-THEME-12.IOF-COLOR-1 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 2 */
+.IOF-THEME-12.IOF-COLOR-2 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-2 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-2 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-2 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-2 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-2 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-2 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-2 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-2 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-2 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-2 .form-inner-action-btn a:hover { background-color:#FF3300 !important;}
+.IOF-THEME-12.IOF-COLOR-2 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-2 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-12.IOF-COLOR-2 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-2 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-2 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-2 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-2 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-2 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-2 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-2 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-2 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-2 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-2 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-2 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-2 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-2 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-2 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-2 .log-head-right .dropdown-menu li.active a { color:#FF3300 !important;}
+.IOF-THEME-12.IOF-COLOR-2 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-2 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-2 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-2 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-2 .log-head-right .dropdown-menu li.active a { border-color:#FF3300 !important;}
+.IOF-THEME-12.IOF-COLOR-2 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 3 */
+.IOF-THEME-12.IOF-COLOR-3 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-3 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-3 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-3 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-3 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-3 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-3 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-3 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-3 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-3 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-3 .form-inner-action-btn a:hover { background-color:#F99C40 !important;}
+.IOF-THEME-12.IOF-COLOR-3 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-3 .theme-bg-2 { background-color:#F4E1CF !important;}
+.IOF-THEME-12.IOF-COLOR-3 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-3 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-3 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-3 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-3 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-3 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-3 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-3 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-3 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-3 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-3 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-3 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-3 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-3 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-3 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-3 .log-head-right .dropdown-menu li.active a { color:#F99C40 !important;}
+.IOF-THEME-12.IOF-COLOR-3 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-3 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-3 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-3 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-3 .log-head-right .dropdown-menu li.active a { border-color:#F99C40 !important;}
+.IOF-THEME-12.IOF-COLOR-3 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 4 */
+.IOF-THEME-12.IOF-COLOR-4 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-4 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-4 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-4 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-4 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-4 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-4 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-4 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-4 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-4 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-4 .form-inner-action-btn a:hover { background-color:#5F3711 !important;}
+.IOF-THEME-12.IOF-COLOR-4 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-4 .theme-bg-2 { background-color:#E1D5C1 !important;}
+.IOF-THEME-12.IOF-COLOR-4 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-4 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-4 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-4 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-4 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-4 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-4 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-4 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-4 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-4 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-4 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-4 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-4 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-4 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-4 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-4 .log-head-right .dropdown-menu li.active a { color:#5F3711 !important;}
+.IOF-THEME-12.IOF-COLOR-4 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-4 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-4 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-4 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-4 .log-head-right .dropdown-menu li.active a { border-color:#5F3711 !important;}
+.IOF-THEME-12.IOF-COLOR-4 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 5 */
+.IOF-THEME-12.IOF-COLOR-5 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-5 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-5 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-5 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-5 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-5 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-5 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-5 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-5 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-5 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-5 .form-inner-action-btn a:hover { background-color:#FBEBD5 !important;}
+.IOF-THEME-12.IOF-COLOR-5 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-5 .theme-bg-2 { background-color:#DA4D2F !important;}
+.IOF-THEME-12.IOF-COLOR-5 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-5 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-5 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-5 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-5 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-5 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-5 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-5 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-5 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-5 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-5 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-5 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-5 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-5 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-5 .log-head-right .dropdown-menu li.active a { color:#FBEBD5 !important;}
+.IOF-THEME-12.IOF-COLOR-5 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-5 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-5 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-5 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-5 .log-head-right .dropdown-menu li.active a { border-color:#FBEBD5 !important;}
+.IOF-THEME-12.IOF-COLOR-5 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 6 */
+.IOF-THEME-12.IOF-COLOR-6 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-6 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-6 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-6 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-6 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-6 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-6 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-6 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-6 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-6 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-6 .form-inner-action-btn a:hover { background-color:#e8e8e8 !important;}
+.IOF-THEME-12.IOF-COLOR-6 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-6 .theme-bg-2 { background-color:#0c0636 !important;}
+.IOF-THEME-12.IOF-COLOR-6 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-6 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-6 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-6 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-6 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-6 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-6 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-6 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-6 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-6 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-6 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-6 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-6 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-6 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-6 .log-head-right .dropdown-menu li.active a { color:#e8e8e8 !important;}
+.IOF-THEME-12.IOF-COLOR-6 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-6 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-6 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-6 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-6 .log-head-right .dropdown-menu li.active a { border-color:#e8e8e8 !important;}
+.IOF-THEME-12.IOF-COLOR-6 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 7 */
+.IOF-THEME-12.IOF-COLOR-7 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-7 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-7 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-7 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-7 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-7 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-7 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-7 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-7 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-7 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-7 .form-inner-action-btn a:hover { background-color:#DAA520 !important;}
+.IOF-THEME-12.IOF-COLOR-7 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-7 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-12.IOF-COLOR-7 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-7 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-7 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-7 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-7 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-7 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-7 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-7 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-7 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-7 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-7 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-7 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-7 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-7 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-7 .log-head-right .dropdown-menu li.active a { color:#DAA520 !important;}
+.IOF-THEME-12.IOF-COLOR-7 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-7 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-7 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-7 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-7 .log-head-right .dropdown-menu li.active a { border-color:#DAA520 !important;}
+.IOF-THEME-12.IOF-COLOR-7 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 8 */
+.IOF-THEME-12.IOF-COLOR-8 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-8 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-8 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-8 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-8 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-8 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-8 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-8 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-8 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-8 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-8 .form-inner-action-btn a:hover { background-color:#990100 !important;}
+.IOF-THEME-12.IOF-COLOR-8 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-8 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-12.IOF-COLOR-8 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-8 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-8 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-8 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-8 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-8 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-8 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-8 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-8 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-8 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-8 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-8 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-8 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-8 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-8 .log-head-right .dropdown-menu li.active a { color:#990100 !important;}
+.IOF-THEME-12.IOF-COLOR-8 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-8 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-8 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-8 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-8 .log-head-right .dropdown-menu li.active a { border-color:#990100 !important;}
+.IOF-THEME-12.IOF-COLOR-8 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 9 */
+.IOF-THEME-12.IOF-COLOR-9 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-9 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-9 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-9 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-9 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-9 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-9 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-9 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-9 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-9 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-9 .form-inner-action-btn a:hover { background-color:#46382B !important;}
+.IOF-THEME-12.IOF-COLOR-9 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-9 .theme-bg-2 { background-color:#717F3E !important;}
+.IOF-THEME-12.IOF-COLOR-9 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-9 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-9 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-9 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-9 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-9 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-9 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-9 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-9 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-9 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-9 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-9 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-9 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-9 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-9 .log-head-right .dropdown-menu li.active a { color:#46382B !important;}
+.IOF-THEME-12.IOF-COLOR-9 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-9 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-9 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-9 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-9 .log-head-right .dropdown-menu li.active a { border-color:#46382B !important;}
+.IOF-THEME-12.IOF-COLOR-9 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* theme 10 */
+.IOF-THEME-12.IOF-COLOR-10 .theme-bg-1,
+.IOF-THEME-12.IOF-COLOR-10 .main-menu-list > li.active,
+.IOF-THEME-12.IOF-COLOR-10 input[type="radio"]:checked + label span,
+.IOF-THEME-12.IOF-COLOR-10 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-12.IOF-COLOR-10 .carousel-indicators > li.active:after,
+.IOF-THEME-12.IOF-COLOR-10 .main-menu-list li:hover,
+.IOF-THEME-12.IOF-COLOR-10 .owl-theme .owl-controls .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-10 .modal-body .owl-theme .owl-controls.clickable .owl-buttons div:hover,
+.IOF-THEME-12.IOF-COLOR-10 .modal-body .owl-theme .owl-controls .owl-page.active span,
+.IOF-THEME-12.IOF-COLOR-10 .modal-body .owl-theme .owl-controls.clickable .owl-page:hover span,
+.IOF-THEME-12.IOF-COLOR-10 .form-inner-action-btn a:hover { background-color:#FECE06 !important;}
+.IOF-THEME-12.IOF-COLOR-10 .theme-bg-1:hover,
+.IOF-THEME-12.IOF-COLOR-10 .theme-bg-2 { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-12.IOF-COLOR-10 .theme-txt-col-1,
+.IOF-THEME-12.IOF-COLOR-10 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-12.IOF-COLOR-10 .nav-tabs > li > a:hover,
+.IOF-THEME-12.IOF-COLOR-10 .fav-order-history .reorder i,
+.IOF-THEME-12.IOF-COLOR-10 .reorder.orderColor:hover,
+.IOF-THEME-12.IOF-COLOR-10 .rating-container .rating-stars,
+.IOF-THEME-12.IOF-COLOR-10 .main-menu-list > li:hover a,
+.IOF-THEME-12.IOF-COLOR-10 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-12.IOF-COLOR-10 [type="checkbox"]:checked + label::after,
+.IOF-THEME-12.IOF-COLOR-10 .account-access li a:hover,
+.IOF-THEME-12.IOF-COLOR-10 .sub-menu-listing .check-more.countAddOns .add-check-list > li .topPrice,
+.IOF-THEME-12.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-10 .ext-menu-title > h4,
+.IOF-THEME-12.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-10 .carousel-control,
+.IOF-THEME-12.IOF-COLOR-10 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-10 .log-head-right .dropdown-menu li.active a { color:#FECE06 !important;}
+.IOF-THEME-12.IOF-COLOR-10 .theme-border-1,
+.IOF-THEME-12.IOF-COLOR-10 .item-1 .btn.btn-default,
+.IOF-THEME-12.IOF-COLOR-10 .carousel-indicators > li.active,
+.IOF-THEME-12.IOF-COLOR-10 .log-head-right .dropdown-menu li:hover a,
+.IOF-THEME-12.IOF-COLOR-10 .log-head-right .dropdown-menu li.active a { border-color:#FECE06 !important;}
+.IOF-THEME-12.IOF-COLOR-10 .main-menu-list li:hover a { color:#ffffff !important;}
+
+/* media quries */
+@media screen and (min-width:1680px){
+    .AVT2 .custom-header .vt-header { left:21px !important;}
+    .IOF-THEME-12.IOF-V .custom-header .vt-header { width:270px;}
+    .IOF-THEME-12.IOF-V a.menu-control { display:none;}
+}
+
+@media screen and (min-width:1920px){
+    .AVT2 .custom-header .vt-header { left:141px !important;}
+}
+
+@media screen and (max-width:1024px){
+/*.IOF-THEME-12 .main-menu-list > li { padding:0 15px;}*/
+.IOF-THEME-12.IOF-V a.menu-control { top:11px;}
+.inner-wrap .form-section .profile-input label { width:100%;}
+.account-access { margin:3px 0;}
+.IOF-THEME-12.IOF-V .log-head-left { padding-left:35px;}
+}
+
+@media screen and (max-width:768px){
+.IOF-THEME-12 .main-container { padding:0 15px;}
+.IOF-THEME-12 .navbar-toggle { margin-right:0;padding:0;position:absolute;right:0;top:-29px;}
+.IOF-THEME-12 .main-menu-list > li { display:block;text-align:right;}
+/*.IOF-THEME-12 .main-menu-list > li:last-child { padding-right:15px;}*/
+.IOF-THEME-12 .navbar-collapse.custom-colapse.collapse { display:none !important;}
+.IOF-THEME-12 .navbar-collapse.custom-colapse.collapse.in {  display:block !important;}
+.IOF-THEME-12 .navbar-collapse { border:none;box-shadow:none;}
+.IOF-THEME-12 .slider-text { top:100px;}
+.IOF-THEME-12 .navbar-nav .open .dropdown-menu.dropdown-cart { background-color:#ffffff;border:1px solid rgba(0, 0, 0, 0.15);box-shadow:0 6px 12px rgba(0, 0, 0, 0.176);margin-top:25px;position:absolute;left:auto;right:0;}
+.IOF-THEME-12 .main-body .home-page-container { margin-left:20px;margin-right:20px;}
+.IOF-THEME-12.IOF-V .inner-wrap .form-section .profile-input label { width:100%;}
+#gallery-modal .modal-dialog { width:auto;margin:50px 20px;}
+.IOF-THEME-12 .price-q { position:relative;top:5px;}
+.IOF-THEME-12 .vt-header { min-height:45px;}
+/*.IOF-THEME-12 .main-menu-list > li:hover { padding:15px !important;}*/
+.IOF-THEME-12 .inner-wrap { margin-top:17px;}
+.IOF-THEME-12 .main-menu-list { margin-top:45px;}
+}
+
+@media screen and (max-width:736px){
+#login-modal .modal-dialog,
+#guest-sign-up-modal .modal-dialog { width:90%;padding:50px 10px;height:auto;}
+.sign-up-btn { float:right;height:50px;width:100%;margin-bottom:25px;}
+#chkOrderUserLogin .input-fields,
+#GuestUser .input-fields { padding-right:0;width:100%;}
+.IOF-THEME-12.IOF-V .inner-wrap { margin:0 0 20px 0;}
+.IOF-THEME-12 .navbar-toggle { top:7px;}
+}
+
+@media screen and (max-width:480px){
+.IOF-THEME-12 .slider-text { top:50px;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-tbl { display:block;overflow:auto;}
+.IOF-THEME-12 .ext-menu .ext-menu-img .emi-tbl .emi-tbl-cell { display:block;}
+.IOF-THEME-12 .store-mid-last { height:auto !important;}
+.IOF-THEME-12 .store-last-lft,
+.IOF-THEME-12 .store-last-rgt { width:100%;text-align:center;float:left;}
+.IOF-THEME-12 .store-last-rgt .open-hours-card { margin:20px auto 0;}
+.IOF-THEME-12 .online-btn { width:100%;}
+}

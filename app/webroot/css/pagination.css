@@ -1,0 +1,99 @@
+.paging_full_numbers {
+   margin-top: 5px;
+   float:right;
+}
+.paging_full_numbers .paginate_button {
+    background: url("images/buttonbg5.png") repeat-x scroll left top #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 8px;
+}
+.paging_full_numbers .paginate_button:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 1px 1px 2px #CCCCCC inset;
+}
+.paging_full_numbers .paginate_active, .paging_full_numbers .paginate_button:active {
+    background: url("images/buttonbg3.png") repeat-x scroll left top #405A87;
+    border: 1px solid #405A87;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 8px;
+}
+.paging_full_numbers .paginate_button_disabled {
+    color: #999999;
+}
+.paging_full_numbers span {
+    background: url("images/buttonbg5.png") repeat-x scroll left top #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0px;
+}
+.paging_full_numbers span:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 1px 1px 2px #CCCCCC inset;
+}
+.paging_full_numbers span:active {
+    background: url("images/buttonbg3.png") repeat-x scroll left top #405A87;
+    border: 1px solid #405A87;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0px;
+}
+.paging_full_numbers .disabled {
+    color: #999999;
+}
+.paging_full_numbers span a {
+    color: #000000;
+    padding:2px 8px;
+    display: inline-block;
+}
+.paging_full_numbers span.disabled, .paging_full_numbers span.current, .paging_full_numbers span.next {
+    padding:2px 8px;
+}
+.pagination a {
+    border-radius: 3px;
+}
+.pagination a {
+    box-shadow: 1px 1px 0 #F7F7F7;
+}
+
+.pagination a:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 1px 1px 3px #EEEEEE inset;
+    text-decoration: none;
+}
+.pagination a.disabled {
+    border: 1px solid #CCCCCC;
+    color: #999999;
+}
+.pagination a.disabled:hover {
+    background: url("images/buttonbg5.png") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+.pagination a.current {
+    background: url("images/buttonbg3.png") repeat-x scroll left top #333333;
+    border: 1px solid #405A87;
+    color: #FFFFFF;
+}
+.pagination a.current:hover {
+    box-shadow: none;
+}
+.pgright {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.pgright a.disabled {
+    border: 1px solid #CCCCCC;
+}
+#example_paginate span:nth-last-child(2) { padding:0;}

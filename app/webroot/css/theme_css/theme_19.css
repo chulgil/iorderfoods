@@ -1,0 +1,217 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+@font-face {
+  font-family: 'KnowYourProduct';
+  src: url('../fonts/KnowYourProduct.eot?#iefix') format('embedded-opentype'),  url('../fonts/KnowYourProduct.woff') format('woff'), url('../fonts/KnowYourProduct.ttf')  format('truetype'), url('../fonts/KnowYourProduct.svg#KnowYourProduct') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FranklinGothic-Heavy';
+  src: url('../fonts/FranklinGothic-Heavy.eot?#iefix') format('embedded-opentype'),  url('../fonts/FranklinGothic-Heavy.woff') format('woff'), url('../fonts/FranklinGothic-Heavy.svg#FranklinGothic-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* common */
+.IOF-THEME-19 { background-size:cover;font-family: 'TwCenMT-Regular';padding-bottom:420px;}
+.main-body .main-container { margin-top:50px;}
+.modal { z-index:100000;}
+.ext-menu-title { display:none;}
+.main-body .title-bar { margin:0 auto;max-width:1000px;text-align:left;padding:20px;background-image:none;font-size:24px;text-transform:uppercase;font-family:'KnowYourProduct';}
+
+/* header */
+.IOF-THEME-19 .custom-header { left:0;position:absolute;right:0;top:0;z-index:100;}
+.IOF-THEME-19[class^='IOF'] .bottom-header .vt-header { background-color:transparent !important;}
+.IOF-THEME-19 .bottom-header { padding:30px 0px;border-top:1px solid #7a726c;border-bottom:1px solid #7a726c;bottom: 0;display:block;left:0;position:relative;right:0;z-index:100;height:205px;margin-bottom:20px;}
+.IOF-THEME-19:not(.LOGO-SQUARE):not(.LOGO-RECTANGLE) header { height:115px;}
+.IOF-THEME-19 .ext-menu { display:none;}
+.IOF-THEME-19 .main-header-menu { padding-top:0px;padding-bottom:0px;}
+.IOF-THEME-19.LOGO-SQUARE .logo { top:-20px;}
+.IOF-THEME-19.LOGO-RECTANGLE .logo { top:-2px;}
+.IOF-THEME-19:not(.LOGO-SQUARE):not(.LOGO-RECTANGLE) .logo { width:250px;}
+.IOF-THEME-19 .main-menu-list > li { padding:0 10px;}
+
+/* home page slider */
+.slider-bg ol { display:none;}
+
+/* home page bottom slider */
+#MediaPlayer .recommend-menu { margin-top:50px;}
+#MediaPlayer .owl-wrapper { margin-left:-7px;}
+#MediaPlayer .owl-carousel { margin-bottom:50px;}
+#MediaPlayer .owl-buttons .owl-prev{ background-image:url(../../img/c-arrow-l.png) !important; border:none; border-radius: 0px !important;  margin-top: 5px;padding: 20px 19px !important; font-size:0px !important;}
+#MediaPlayer .owl-buttons .owl-next{ background-image:url(../../img/c-arrow-r.png) !important;border:none; border-radius: 0px !important;  margin-top: 5px;padding: 20px 19px !important; font-size:0px !important;}
+#MediaPlayer .owl-buttons { position:absolute;right:8px;top:-80px;width:100px;}
+#MediaPlayer .owl-pagination { display:none;}
+
+/* deals */
+.inner-wrap.deals { border:none;}
+.deal-overlay { text-align:center;padding-bottom:56px;width:100%;height:100%;position:absolute;left:0px;top:0px;height:100%;background:none;}
+.deal-overlay span { font-size:28px;display:inline-block;}
+.deal-wrap { float:left;margin-bottom:24px;width:32%;border:1px solid #acacac;height:270px;position:relative;}
+.deal-wrap:nth-child(3n+2) { margin-left:2%;margin-right:2%;}
+.deal-content,
+.deal-table,
+.deal-cell { height:100%;}
+.deal-table { display:table;width:100%;}
+.deal-cell { display:table-cell;vertical-align:middle;text-align:center;}
+
+/* menu page */
+.panel.panel-default,
+.panel-heading { border:none !important;}
+.IOF-THEME-19 .left-menu .panel-title > a { width:100%;display:inline-block;font-family:'FranklinGothic-Demi';font-size:20px;}
+.IOF-THEME-19 .pos-right { display:inline-block;position:absolute;top:18px;right:0px;text-align:right;font-family:'KnowYourProduct';}
+.IOF-THEME-19 .left-menu > .panel-group > .panel-default > .panel-heading { color:#fff;border:none;border-bottom:1px solid #ffffff;text-align:center;}
+.IOF-THEME-19 .left-menu > .panel-group > .panel-default > .panel-heading a { font-family:'KnowYourProduct';font-size:22px;text-transform:uppercase;}
+.IOF-THEME-19 .panel-default .panel-default > .panel-heading { background-color:transparent;text-transform:uppercase;letter-spacing:1px;}
+.IOF-THEME-19 .odr-bx h4 { margin:0px;font-size:20px; text-align:center; text-transform:uppercase; margin:0px; letter-spacing:1px; margin-bottom:15px;font-family:"FranklinGothic-Heavy";}
+
+/* delivery details */
+.IOF-THEME-19 .odr-bx { padding:30px 20px;margin-bottom:15px;float:left;width:100%;}
+.IOF-THEME-19 .deliver-access { padding:0;background:transparent;}
+.IOF-THEME-19 .deliver-access .d-access-guest { background-color:transparent !important;border:1px solid;padding: 5px 20px; color: rgb(255, 255, 255); font-weight: bold; font-size: 18px;border-radius: 3px;}
+
+/* user internal pages */
+.IOF-THEME-19 .profile-btn-section { margin:30px 0 0 0;}
+.IOF-THEME-19 .profile-btn-section div[class^="col"] { padding:15px;}
+.IOF-THEME-19 .order-special-request textarea.user-detail { height:100px;}
+.IOF-THEME-19 .form-inner-action-btn a { float:none;}
+
+/* personal information */
+.profile-fsection { text-align:center;}
+
+/* delivery address */
+#Deliveryaddress .col-right .col-1 { float:left;width:15%;}
+#Deliveryaddress .col-right .col-2 { margin-left:20%;}
+
+/* reservation page */
+.IOF-THEME-19 .reservation-page .p-save,
+.IOF-THEME-19 .reservation-page .p-cancle { font-size:18px;text-decoration:none !important;width:100%;}
+.IOF-THEME-19 .order-special-request { padding:10px 0;}
+.IOF-THEME-19 .order-special-request h3 { font-size:18px;margin-bottom:10px;}
+
+/* modal dialog */
+.IOF-THEME-19 .add-info .modal-dialog { border:3px solid #000000;}
+.IOF-THEME-19 .modal-dialog .confirm { text-align:right;}
+.IOF-THEME-19 .product-detail { padding:20px;background-color:#ffffff;}
+.IOF-THEME-19 .product-detail h3 { font-size:20px;margin-bottom:10px;}
+.IOF-THEME-19 .product-detail .product-image-frame { float:left;width:100%;}
+.IOF-THEME-19 .product-detail .product-image-frame img { width:50%;}
+.IOF-THEME-19 .product-detail p { font-size:14px;line-height:18px;}
+.IOF-THEME-19 .product-detail span.product-price { font-size:14px;}
+.IOF-THEME-19 .product-detail-btn button { border:none;}
+.IOF-THEME-19 .pay-option [type="checkbox"]:not(:checked) + label::before,
+[type="checkbox"]:checked + label::before { left: 0;position: absolute;top: 2px;width:20px;}
+.IOF-THEME-19 .pay-option [type="checkbox"]:not(:checked) + label::after,
+[type="checkbox"]:checked + label::after {top: 6px;}
+.IOF-THEME-19 #address-modal .profile-input .col-1 { width:20%;float:left;}
+
+/* login/sign up popup */
+.IOF-THEME-19 #chkOrderUserLogin .input-fields,
+.IOF-THEME-19 #GuestUser .input-fields { width:100%;}
+.IOF-THEME-19 .sign-up > p { margin-bottom:6px !important;margin-top:-10px;}
+
+/* footer */
+.IOF-THEME-19 footer { padding:0 0 10px;}
+.IOF-THEME-19:not(.LOGO-SQUARE):not(.LOGO-RECTANGLE) footer { padding-top:130px;}
+.IOF-THEME-19 .common-config li { margin-bottom:4px;font-size:14px;letter-spacing:1px;}
+.IOF-THEME-19 .common-config li:last-child { margin-bottom:0;}
+.IOF-THEME-19 footer { position:fixed;left:0;right:0;bottom:-210px;}
+.IOF-THEME-19 footer.bottom { bottom:0;}
+
+/* theme 1 */
+.IOF-THEME-19.IOF-COLOR-1 .theme-bg-1,
+.IOF-THEME-19.IOF-COLOR-1 input[type="radio"]:checked + label span,
+.IOF-THEME-19.IOF-COLOR-1 .deliver-access a:hover,
+.IOF-THEME-19.IOF-COLOR-1 .pay-check span input[type="checkbox"] + label:hover,
+.IOF-THEME-19.IOF-COLOR-1 .pay-check span input[type="checkbox"]:checked + label,
+.IOF-THEME-19.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a::after { background-color:#AACDAA !important;color:#ffffff !important;}
+.IOF-THEME-19.IOF-COLOR-1 .theme-bg-1:not(.bottom-header):hover,
+.IOF-THEME-19.IOF-COLOR-1 .theme-bg-2:not(.sign-up-custom),
+.IOF-THEME-19.IOF-COLOR-1 .bottom-header,
+.IOF-THEME-19.IOF-COLOR-1 .left-menu > .panel-group > .panel-default > .panel-heading { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-1 .theme-txt-col-1,
+.IOF-THEME-19.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-19.IOF-COLOR-1 [type="checkbox"]:checked + label::after,
+.IOF-THEME-19.IOF-COLOR-1 .deliver-access a,
+.IOF-THEME-19.IOF-COLOR-1 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-19.IOF-COLOR-1 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-19.IOF-COLOR-1 .nav-tabs > li > a:hover,
+.IOF-THEME-19.IOF-COLOR-1 .fav-order-history .reorder i,
+.IOF-THEME-19.IOF-COLOR-1 .rating-container .rating-stars,
+.IOF-THEME-19.IOF-COLOR-1 .main-menu-list > li a:hover,
+.IOF-THEME-19.IOF-COLOR-1 .panel-default .panel-body .panel-title a[aria-expanded="true"],
+.IOF-THEME-19.IOF-COLOR-1 .p-cancle { color:#AACDAA !important;}
+.IOF-THEME-19.IOF-COLOR-1 .theme-border-1,
+.IOF-THEME-19.IOF-COLOR-1 .deliver-access a,
+.IOF-THEME-19.IOF-COLOR-1 .pay-check span input[type="checkbox"] + label,
+.IOF-THEME-19.IOF-COLOR-1 .main-menu-list > li a:hover { border-color:#AACDAA !important;}
+
+/* theme 2 */
+.IOF-THEME-19.IOF-COLOR-2 .theme-bg-1 { background-color:#FF3300 !important;}
+.IOF-THEME-19.IOF-COLOR-2 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-2 .theme-bg-2 { background-color:#000000 !important;}
+.IOF-THEME-19.IOF-COLOR-2 .theme-txt-col-1 { color:#FF3300 !important;}
+.IOF-THEME-19.IOF-COLOR-2 .theme-border-1 { border-color:#FF3300 !important;}
+
+/* theme 3 */
+.IOF-THEME-19.IOF-COLOR-3 .theme-bg-1 { background-color:#F99C40 !important;}
+.IOF-THEME-19.IOF-COLOR-3 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-3 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-3 .theme-txt-col-1 { color:#F4E1CF !important;}
+.IOF-THEME-19.IOF-COLOR-3 .theme-border-1 { border-color:#F99C40 !important;}
+
+/* theme 4 */
+.IOF-THEME-19.IOF-COLOR-4 .theme-bg-1 { background-color:#5F3711 !important;}
+.IOF-THEME-19.IOF-COLOR-4 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-4 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-4 .theme-txt-col-1 { color:#E1D5C1 !important;}
+.IOF-THEME-19.IOF-COLOR-4 .theme-border-1 { border-color:#5F3711 !important;}
+
+/* theme 5 */
+.IOF-THEME-19.IOF-COLOR-5 .theme-bg-1 { background-color:#FBEBD5 !important;}
+.IOF-THEME-19.IOF-COLOR-5 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-5 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-5 .theme-txt-col-1 { color:#DA4D2F !important;}
+.IOF-THEME-19.IOF-COLOR-5 .theme-border-1 { border-color:#FBEBD5 !important;}
+
+/* theme 6 */
+.IOF-THEME-19.IOF-COLOR-6 .theme-bg-1 { background-color:#202020 !important;}
+.IOF-THEME-19.IOF-COLOR-6 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-6 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-6 .theme-txt-col-1 { color:#E8E8E8 !important;}
+.IOF-THEME-19.IOF-COLOR-6 .theme-border-1 { border-color:#FFFFFF !important;}
+
+/* theme 7 */
+.IOF-THEME-19.IOF-COLOR-7 .theme-bg-1 { background-color:#DAA520 !important;}
+.IOF-THEME-19.IOF-COLOR-7 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-7 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-7 .theme-txt-col-1 { color:#000000 !important;}
+.IOF-THEME-19.IOF-COLOR-7 .theme-border-1 { border-color:#DAA520 !important;}
+
+/* theme 8 */
+.IOF-THEME-19.IOF-COLOR-8 .theme-bg-1 { background-color:#990100 !important;}
+.IOF-THEME-19.IOF-COLOR-8 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-8 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-8 .theme-txt-col-1 { color:#000000 !important;}
+.IOF-THEME-19.IOF-COLOR-8 .theme-border-1 { border-color:#990100 !important;}
+
+/* theme 9 */
+.IOF-THEME-19.IOF-COLOR-9 .theme-bg-1 { background-color:#46382B !important;}
+.IOF-THEME-19.IOF-COLOR-9 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-9 .theme-bg-2 { background-color:#46382B !important;}
+.IOF-THEME-19.IOF-COLOR-9 .theme-txt-col-1 { color:#717F3E !important;}
+.IOF-THEME-19.IOF-COLOR-9 .theme-border-1 { border-color:#46382B !important;}
+
+/* theme 10 */
+.IOF-THEME-19.IOF-COLOR-10 .theme-bg-1 { background-color:#FECE06 !important;}
+.IOF-THEME-19.IOF-COLOR-10 .theme-bg-1:hover,
+.IOF-THEME-19.IOF-COLOR-10 .theme-bg-2 { background-color:#E05B5E !important;}
+.IOF-THEME-19.IOF-COLOR-10 .theme-txt-col-1 { color:#000000 !important;}
+.IOF-THEME-19.IOF-COLOR-10 .theme-border-1 { border-color:#FECE06 !important;}

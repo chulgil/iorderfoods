@@ -1,0 +1,435 @@
+@media (max-width:1200px){
+.p-list > li {width: 32.33%;}
+.mobile-sec .user-detail {width: 74%;}
+.coupon-detail {padding: 4% 30px;}
+.add-menu {font-size: 15px;float: right; padding: 9px 29px;}
+.AVT .custom-header .vt-header { left:-325px;transition:all .5s;}
+.AVT2 .o-grid__item {display:block !important ;}
+.AVT2 .custom-header .vt-header { left:-325px;transition:all .5s;}
+.r-img {float: left;  text-align: center;  margin-bottom: 36px;}
+.b-img-wrap { width: 23%;}
+.rating > span { vertical-align: sub;  width: 100%;  display: inline-block;}
+.star-icon {  float: left;  margin-bottom: 24px;}
+.AH3 .arrom-t3-inner-wrap { margin: -3% 0 6%; width: 100%;}
+.chole-main .CHT2 .main-menu-list {width: 100%;}
+.chole-main .CHT2.Chole-theme-two .custom-header .black-bg {left: 0; width: 100%;}
+.chole-main .CHT2.Chole-theme-two .navbar-toggle {right: 0; top: -178px;}
+}
+
+@media (max-width:1080px){
+.main-menu-list > li a {color: #fff;font-size: 18px;}
+.Slider-text {padding: 40px;top: 171px;z-index: 3;}
+.Slider-text h4 {font-size: 58px;margin-bottom: 31px;}
+.Slider-text p {font-size: 16.78px;}
+.input-group {display: inline-block;width: 100%;}
+.datepicker {width: 100%;}
+.common-input .SumoSelect { width: 100%;}
+}
+@media (max-width:1050px){
+	.chole-main .input-group-full input {float: left;margin-right: 13px;width: 95%;margin-bottom: 10px;}
+	.chole-main .store-last-rgt .open-hours-card {  width: 100%;}
+	}
+@media (max-width:1039px)
+{
+.p-list > li { width: 32%;}
+	}	
+@media (max-width:1024px)
+{
+.common-config li a {font-size: 16px;}	
+.common-config img {max-width: 78%;}
+.common-config > h3 {font-size: 17px;}
+.SOCIAL-MEDIA > li {display: inline-block;margin: 0;text-align: center;}
+.AH2 .slider-bg {margin: 0 auto;position: relative;width: 95%;}
+.AH2 .slider-bg {margin-bottom: 40px;}
+
+/* media for theme 3*/
+.AH3 .slider-text-2 {width: 85%;}
+}
+	
+@media (max-width:992px)
+{
+/*.main-menu-list > li a {font-size: 15px;}*/
+.coupon-detail > p { color: #8c8c8c; font-size: 17px;}
+.coupon-detail > h3 {font-size: 21px;}
+.coupon-detail {padding: 3% 30px;}
+/*.d-access-guest {font-size: 18px;}	*/
+.coupon-code > label {font-size: 28px;}
+.order-overview .total { font-size: 28px;}
+/*.payment-opt .pay-option label {font-size: 18px;}*/
+.pay-wrap .pay-select label {font-size: 18px;}
+
+/*[type="checkbox"]:not(:checked) + label::before, [type="checkbox"]:checked + label::before {
+ top: 3px;}*/
+/*[type="checkbox"]:not(:checked) + label::after, [type="checkbox"]:checked + label::after {
+  top: 7px;}*/
+.card-input.exp-date .SumoSelect {margin-right: 4%;width: 25%;}
+.AVT .logo { left: 24%;}
+/*.modal-dialog { background-color: #e4e4e4;padding: 57px 74px;width: 72%;}*/
+
+/** css for arron theme 2***/
+.AH2 .Slider-text h4 {margin-top: 16%;}
+.AH2 .black-bg.vt-header .main-container { width: 100%;}
+
+
+/*arron theme 3*/
+.AH3 .slider-text-2 { text-align: center;}
+.AH3 .big-text {font-size: 70px;} 
+.AH3 .slider-text-2 .r1-p {font-size: 50px;line-height: 80px; margin-bottom: 23px;}
+.AH3 .r2-p {font-size: 16px;margin-bottom: 90px;padding: 0 9%;text-align: center;}
+.AH3 .online-3 {border-radius: 8px;color: #fff; font-size: 17px;font-weight: bold;padding: 12px 23px;}
+.AH3 .r2-p {color: #fff;font-size: 16px;margin-bottom: 50px;}
+
+
+/** media for chole**/
+.chole-main .form-lft {float: left;  margin-bottom: 20px;  width: 100%;}  
+.chole-main .form-rgt {margin-left: 0;  padding-top: 77px;}
+.chole-main .store-last-lft {padding-top: 48px; width: 50%;}
+.chole-main .store-last-rgt { margin-left: 50%;}
+  
+}
+
+@media (max-width:900px) {
+	.inner-wrap .form-section .profile-input .col-width { min-width:100%; max-width:100%; }
+}
+
+@media (max-width:840px){
+.mobile-sec { margin-left: 18%; width: 70.55%;}
+.mobile-sec .user-detail {width: 63%;}
+.coupon-detail {padding: 2% 3%;}
+.timing .day {font-size: 22px; width: 14%;}
+.time {color: #8c8c8c;display: inline-block;font-size: 22px;width: 85%;}
+.delivery-date > span {font-size: 17px;}
+.delivery-date > label {font-size: 16px;}
+.menu-right {margin-left: 30%;width: 82.55%;}
+/*.modal-dialog .close {top: 17px; width: 28px;}*/
+/*.modal-dialog {width: 87%;}*/
+.b-img-wrap {  width: 21%;}
+}
+@media(max-width:810px){
+.p-list > li { width: 31.66%;}
+/* css for arron theme 2*/
+.AH2 .Slider-text h4 {margin-top: 0%;}
+.AH2 .Slider-text h4 {font-size: 46px;margin-bottom: 31px;}
+}
+@media (max-width:768px){
+/*.main-header-menu {padding: 10px;}*/
+.Slider-text {padding: 25px;top: auto;width: 100%;bottom: 0; right: 0;left: 0;}
+.Slider-text h4 {font-size: 42px;  margin-bottom: 25px;}
+.Slider-text p {font-size: 14.78px;}
+/*.logo {width: 188px;}*/
+/*.main-header-menu {padding: 19px 0;}*/
+/*.log-head-left {float: left;width: 40%;}*/
+/*.online-btn {font-size: 30.27px;padding: 24px 0;width: 400px;}*/
+.recommend-menu h3 {font-size: 21.78px;padding: 20px 27px 25px;}
+.title-bg {font-size: 13.78px;height: 68px;padding: 15px 11px 22px;}
+/*.navbar-toggle {display: block;}*/
+.menu-right {margin-left: 0; width: 100%;}
+/*.main-header-menu {padding: 28px 0;}*/
+/*.main-menu-list {text-align: center;}*/
+/*.navbar-collapse.custom-colapse.collapse.in {background-color: #242424;height: 400px;left: 0;position: absolute;right: 0;text-align: center;width: 100%;z-index: 17;top: 38px;}*/
+/*.main-menu-list > li {display: block;  margin-bottom: 23px;}*/
+/*.main-menu-list > li a {font-size: 18px;}*/
+/*.main-menu-list {margin-top: 20px;}*/
+.p-list > li {width: 48.33%;}
+.photo-gallery { padding: 31px 33px;padding-right: 23px;}
+.store-address strong {color: #242424;font-size: 20px;}
+address {font-size: 20px;}
+.common-title > h3 {font-size: 20px;font-weight: bold;}
+/*.panel-heading h4 {font-size: 19px;font-weight: bold;}*/
+
+.pay-wrap { padding: 22px 16px;}
+.pay-wrap .pay-select label {font-size: 18px;}
+/*.common-input > p {font-size: 18px;}*/
+/*.payment-opt .pay-option label {color: #3a3a3a;font-size: 18px;font-weight: normal;margin-right: 0;}*/
+/*[type="checkbox"]:not(:checked) + label::before, [type="checkbox"]:checked + label::before {
+  top: 2px;}*/
+/*[type="checkbox"]:not(:checked) + label::after, [type="checkbox"]:checked + label::after {
+  top: 6px;}*/
+.pay-select {margin-bottom: 5px;}
+.panel-heading {border-radius: 0;padding: 16px 14px;}
+.panel-heading .arrow-down {top: 8px;}
+/*.nested-ac .panel-heading h4 {font-size: 18px;font-weight: normal;}*/
+/*.navbar-toggle {top: -23px;}*/
+.navbar-header{ position:relative; float:right;}
+.AVT .collapse.navbar-collapse.custom-colapse {display: block!important;}
+.AVT .navbar-collapse {border-top: medium none;box-shadow: none;}
+.AVT .c-hamburger {height: 44px;padding: 0 4px;transition: all 0.5s ease 0s; width: 45px;}
+.AVT .o-grid__item {top: 15px;}
+.AVT .c-hamburger span {height: 4px;left: 9px;position: absolute;right: 7px; top: 19px;}
+.AVT .c-hamburger > span {width: 25px;}
+.AVT .log-head-left { float: left;text-align: right; width: 40%;}
+.AVT .navbar-toggle {display: none;}
+.AVT .logo { left: 21%;}
+.custom-btn {font-size: 20px;}
+/*.add-info .modal-dialog {width: 92%;}*/
+.deals-detail p { margin-bottom: 22px;}
+.add-deal { display: inline-block;float: right; font-size: 16px; padding: 9px 0; text-align: center; width: 100px;}
+/***** arron v theme 2***/
+.AVT2 .collapse.navbar-collapse.custom-colapse {display: block!important;}
+.AVT2 .navbar-collapse {border-top: medium none;box-shadow: none;}
+.AVT2 .c-hamburger {height: 44px;padding: 0 4px;transition: all 0.5s ease 0s; width: 45px;}
+.AVT2 .o-grid__item {top: 15px;}
+.AVT2 .c-hamburger span {height: 4px;left: 9px;position: absolute;right: 7px; top: 19px;}
+.AVT2 .c-hamburger > span {width: 25px;}
+.AVT2 .log-head-left { float: left;text-align: right; width: 40%;}
+.AVT2 .navbar-toggle {display: none;}
+.AVT2 .logo { left: 21%;}
+.AH2.AVT2.theme-two .black-bg.vt-header {
+  background-color: #242424;
+  height: 100%;
+}
+/*.AH2.theme-two .black-bg.vt-header {background-color: #242424;height: 45px;}*/
+/*.AH2.theme-two .navbar-toggle {top: -3px; right: 0px;}*/
+/*.AH2 .arron-white-header {padding: 15px 0;}*/
+.AH2 .arron-white-header > img {text-align: center;width: 115px;}
+/*.AH2 .main-menu-list > li {display: block;padding: 19px 44px;}*/
+.AH2 .Slider-text {bottom: 0;padding: 15px 22px;position: absolute;top: auto; width: 100%;z-index: 3;}
+.AH2 .Slider-text h4 {font-size: 21px;margin-bottom: 13px;padding-bottom: 0;}
+.AH2 .slider-bg ol{ display:none;}
+.AH2 .common-item-box {float: left;padding: 0;width: 50%;}
+.r-img {  float: left; margin-bottom: 36px;  text-align: center;  width: 100%;}
+
+/**** arron v theme 3 ****/
+
+.AVT3 .collapse.navbar-collapse.custom-colapse {display: block!important;}
+.AVT3 .navbar-collapse {border-top: medium none;box-shadow: none;}
+.AVT3 .c-hamburger {height: 44px;padding: 0 4px;transition: all 0.5s ease 0s; width: 45px;}
+/*.AVT3 .o-grid__item {top: 15px;}*/
+.AVT3 .c-hamburger span {height: 4px;left: 9px;position: absolute;right: 7px; top: 19px;}
+.AVT3 .c-hamburger > span {width: 25px;}
+/*.AVT3 .log-head-left { float: left;text-align: right; width: 40%;}*/
+.AVT3 .navbar-toggle {display: none;}
+/*.AVT3 .logo { left: 21%;}*/
+
+/****** arron theme 3 ********/
+.AH3 .main-header-menu {padding:50px 0 21px;}
+/*.AH3 .logo img { width: 66px;}*/
+/*.AH3 .navbar-toggle { top: -40px;}*/
+.AH3 .vt-header .main-container {width: 100%;}
+/*.AH3 .logo {left: 8%; top: 17px;}*/
+/*.AH3 .navbar-collapse.custom-colapse.collapse.in {background-color: rgba(0, 0, 0, 0.5);top: 69px;}*/
+/*.AH3 .carousel-control.left, .AH3 .carousel-control.right {top: 4%;}
+.AH3 .carousel-control.left, .AH3 .carousel-control.right {top: -20%;}*/
+}
+
+@media(max-width:767px)
+{
+/*.main-header-menu {padding: 19px 0;}*/
+.coupon-img-wrap {float: none;width: 100%;}
+.coupon-detail {width: 100%; margin-left: 0;}
+.arrow-indicate {left: 21px;position: absolute;top: -29px;transform: rotate(90deg);z-index: 0;}
+.coupon-detail {padding: 20px ;}
+.left-menu {width: 100%; margin-bottom:20px;}
+.right-menu {width: 100%;}
+.modal-dialog {width: 87%;margin: 108px auto;}
+.common-title-deal > h3 {font-size: 18px;font-weight: bold; margin-top: 14px;}
+.review-info {  float: left;  width: 60%;}
+.rating { float: left;  padding-right: 4%;  width: 40%;}	
+.b-img-wrap > img { width: 100%;}
+.b-img-wrap {  width: 46%;  margin-bottom: 14px;}
+
+
+/*chole*/
+.chole-main .navbar-toggle {top: -76px; right: 0px;}
+/*.navbar-toggle { background-color: #FF5F7E;border-radius: 0px;}*/
+.chole-main .arron-white-header > img {float: left;margin-top: 4px;text-align: left;width: 131px;}
+.chole-main .custom-colapse { top: 0 !important;}
+.chole-main .navbar-collapse.custom-colapse.collapse.in { background-color: #fff; height: 400px;left: 0;position: absolute; right: 0;  text-align: center;  top: 38px;  width: 100%;  z-index: 17;}
+.chole-main .main-menu-list > li { display: block;  padding: 14px 26px;}
+.chole-main.Chole-vertical-layout .vt-header {  background-color: transparent !important; position: absolute;top: 125px;width: 100%;z-index: 5;left: 0px;}
+.chole-main.Chole-vertical-layout .navbar-toggle {right: -168px;top: -55px;}
+
+.chole-main .CHT2.Chole-theme-two .navbar-collapse.custom-colapse.collapse.in {background-color: transparent;}
+.chole-main .CHT2 .main-menu-list > li {float: none;padding: 14px 22px;width: 100%;text-align: center;display: block;}
+.chole-main .CHT2.Chole-theme-two .custom-header .black-bg {background-color: transparent;left: 0%;position: absolute;top: 164px;z-index: 5;}
+.chole-main .CHT2.Chole-theme-two .navbar-toggle {right: 0;top: -88px;}
+.chole-main .CHT2.Chole-theme-two .navbar-toggle { background-color: #991B1E;  border-radius: 0;}
+.chole-main .deal-img {float: left; width: 100%; margin-bottom:10px;}
+.chole-main .deal-info {margin-left: 0;padding: 2px 11px; width:100%;}
+.chole-main .c-odd-wrap .deal-img {  float: right;  width: 100%;}
+.chole-main .c-odd-wrap .deal-info {float: left;  margin-left: 0;  margin-right: 0;  width: 100%;}
+.chole-main.Chole-vertical-layout2 .CHT2 .main-menu-list {width: 100%; left:0px;}
+
+
+}
+@media (max-width:640px)
+{
+.Slider-text h4 {font-size: 33px; margin-bottom: 12px;}
+.logo { width: 134px;}
+.status-lable {font-size: 14px;}
+.account-access li a {font-size: 14px;padding: 0 17px;}
+/*.main-container {margin: 0 auto;width: 94%;}*/
+/*.common-config {width: 100%;}*/
+.footer-section-1 {margin-bottom: 0;}
+/*.online-btn {width: 97%;}*/
+.online-order {margin: 90px 0;}
+.common-item-box {width: 50%;}
+.common-config {margin-bottom: 20px;}
+.footer-1  {padding: 30px 0;}
+/*.inner-wrap {margin-top: 133px;}*/
+.p-save, .p-cancle {font-size: 24px;}
+.AVT .custom-header .vt-header {width: 254px;z-index: 9;}
+.AVT .custom-header .vt-header {left: -254px;transition: all 0.5s ease 0s;}
+.AVT .menu-right {margin-left: 0;margin-top: 126px;width: 100%;}
+/*.input-fields {float: left;margin-right: 2%;width: 100%;}*/
+.sign-up-btn {text-align: right;}
+.custom-btn {height: auto;padding: 11px 16px;width: 45%;}
+/*.modal-dialog {background-color: #e4e4e4; padding: 57px 28px; width: 72%;}*/
+/*.add-info label {font-size: 18px;}*/
+/*.add-check-list label {font-size: 18px;font-weight: normal;}*/
+/*.add-info input[type="radio"] + label {font-size: 18px;}*/
+
+/**** arron v theme 2****/
+.AVT2 .custom-header .vt-header {width: 254px;z-index: 9;}
+.AVT2 .custom-header .vt-header {left: -254px;transition: all 0.5s ease 0s;}
+.AVT2 .menu-right {margin-left: 0;margin-top: 126px;width: 100%;}
+
+
+/** chole media**/
+.chole-main .navbar-toggle {right: 0; top: -75px;}
+.chole-main .order-link { width: 68%;}
+.chole-main.Chole-vertical-layout .navbar-toggle { right: -116px;  top: -56px;}
+.chole-main .left-menu {width: 100%;}
+.chole-main .right-menu {border-top: 1px solid #acacac; width: 100%; border-left:1px solid #acacac;}
+.chole-main .check-out .chlole-lft-menu { width: 100%;}
+.chole-main .chole-rgt-menu {margin-left: 0;  margin-top: 0;}
+
+@media (max-width:320px){
+.chole-main .Chole-theme-two .chole-black-top .account-access .active {padding: 6px 10px;}
+}
+
+}
+@media (max-width:540px)
+{
+	.p-list > li {width: 100%;}
+	.show-more-pic .show-more-btn {width: 79%;}
+	.photo-gallery {padding: 31px 33px;}
+/*	.profile-detail label {font-size: 17px; width: 100%;}*/
+	.profile-detail .user-detail {font-size: 19px;padding: 5px;width: 100%;}
+	.mobile-sec { width: 100%;margin-left:0px;}
+	.mobile-sec .user-detail { width: 80%!important;}
+	.profile-check-list {padding-left: 0%;}
+	.timing .day {font-size: 18px;width: 23%;}
+	.time {font-size: 18px;width: 75%;}
+	.add-check-list > li {width: 100%;}
+/*	.add-more {background-color: #fff;padding: 20px;}*/
+	.common-title > h3 {font-size: 18px;font-weight: bold;}
+	.check-more > h3 {font-size: 18px;font-weight: bold; margin-bottom: 10px;}
+/*	.add-info label {font-size: 16px;}*/
+/*	.add-info input[type="radio"] + label {font-size: 16px;}*/
+/*	.add-check-list label { font-size: 16px; font-weight: normal;}*/
+	.form-section.user-form-section .form-space { padding:15px; }
+	.profile-input { margin-bottom:15px; }
+	.inner-wrap .form-section .profile-input label { display:block; float:none; width:100%; padding-top:0; padding-bottom:4px; }
+	.inner-wrap .form-section .profile-input .col-right, .profile-check-list { margin-left:0; }
+	
+	/**** css for arron theme 2 *****/
+	.AH2 .right-control {top: 36%;}
+	
+	}
+	
+	@media (max-width:520px)
+	{
+		.chole-main .store-last-rgt {margin-left: 0;loat: left;}
+		.chole-main .store-last-lft {padding-top: 48px;width: 100%;}
+		.chole-main .store-last-rgt { float: left;}
+		.chole-main .store-last-lft { margin-bottom:20px;}
+	}
+@media (max-width:480px)
+{
+.status-lable {font-size: 13px;}
+.shop-status {height: 18px;width: 18px;}
+/*.log-head-left {float: left;width: 44%;}*/
+.logo {width: 100px;}
+.profile-input .SumoSelect {width: 25%;}
+.mobile-sec .user-detail {width: 71% !important;}
+.profile-input .SumoSelect {margin-right: 4%;}
+.store-address > h3 {font-size: 24px;}
+.store-address strong {color: #242424;font-size: 18px;}
+address {font-size: 18px;}
+.store-address img {height: 18px;padding: 0;width: 18px;margin-right: 9px;}
+
+.price { margin-left: 0;padding: 0 17px;width: 100%;}
+.AVT .log-head-left { width: 49%;}
+/*.modal-dialog {padding: 57px 28px;width: 90%;}*/
+/*.add-info label {font-size: 24px;font-weight: bold; width: 100%;}*/
+.review-info {  float: left;  width: 100%;}
+.review-info {  padding: 0 0px;}
+.rating {  float: left;  padding-right: 4%;  width: 101%;}
+.rating > span { font-size: 16px;  vertical-align: sub;}
+
+
+/*.AH3 .black-bg.vt-header {top: 44px;}*/
+/*.AH3 .log-in-header {padding: 14px 0 11px;}*/
+.AH3 .deal-wrap {width: 100%;}
+.AH3 .r2-p {display: none;}
+.AH3 .slider-text-2 .r1-p {margin-bottom: 37px;}
+.AH3 .online-3 {font-size: 16px;padding: 11px 19px;}
+.AH3 .big-text {font-size: 50px;}
+.AH3 .slider-text-2 .r1-p {font-size: 46px;line-height: 58px; margin-bottom: 22px;margin-top: 13px;}
+/*.AH3 .log-in-header { padding: 30px 0 11px;}*/
+/*.AVT3 .log-head-left {float: right; position: absolute;right: -21px; top: 8px;}*/
+/*.AVT3 .o-grid__item {top: 9px;}*/
+.AH3.AVT3 .slider-text-2 .r1-p {margin-top: -28px;}
+
+
+
+
+
+/** chole media **/
+.chole-black-top .account-access .active {padding: 2px 9px;}
+.chole-main .chole-black-top .account-access a:hover {padding: 2px 6px;}
+.chole-main .owl-controls.clickable {position: static;}
+.chole-main .s-top-lft {float: left;width: 100%;text-align: center;}
+
+.chole-main .store-top-right { margin-left: 0;text-align: center;}
+.chole-main .s-top-lft > h3 {color: #fff;font-size: 35px;font-weight: 900;margin-top: 0;margin-bottom: 24px;}
+.chole-main.Chole-vertical-layout .navbar-toggle {
+  right: -82px;
+  top: -52px;
+}
+}
+@media (max-width:375px)
+{
+.Slider-text {padding: 12px 9px;}
+.Slider-text h4 {font-size: 18px; margin-bottom: 12px;}
+.slider-bg ol {display: none !important;}
+
+/* css for arron theme 2*/
+.AH2 .Slider-text { display:none;}
+.AH2 .right-control {top: 27%;}
+
+/* arron theme 3*/
+.AH3 .slider-text-2 .r1-p {font-size: 30px;}
+.AH3 .big-text {font-size: 36px;}
+.AH3 .slider-text-2 .r1-p {font-size: 30px;line-height: 42px;margin-bottom: 12px;margin-top: 24px;}
+.AH3 .online-3 {font-size: 14px;padding: 8px 14px;}
+
+
+
+/* media for chole*/
+.chole-main.Chole-vertical-layout .navbar-toggle {right: -38px; top: -52px;}
+}
+@media (max-width:360px)
+{
+.card-input > label {width: 100%;}
+.card-input .SumoSelect {width: 100%;}
+.card-input.exp-date .SumoSelect {width: 40%;}
+.AVT .log-head-left {width: 94%;}
+.AVT .log-in-header {padding: 8px 0 8px;}
+.AVT .o-grid__item { top: 6px;}
+.add-info .item-size span label {width: 32%;}
+.add-more {background-color: #fff; padding: 12px;}
+/*.modal-dialog .close { top: 22px !important; width: 20px;}*/
+
+
+/**** arron v theme 2*****/
+.AVT2 .log-head-left {width: 94%;}
+.AVT2 .log-in-header {padding: 8px 0 8px;}
+.AVT2 .o-grid__item { top: 6px;}
+
+.b-img-wrap {  margin-bottom: 14px;  width: 100%;}
+	}
+        
+        
+        

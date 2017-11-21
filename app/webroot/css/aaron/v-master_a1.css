@@ -1,0 +1,72 @@
+/* login modal popup */
+.modal-dialog {background-color: #e4e4e4;}
+
+.title-bar { display: none;}
+.IOF-A1-V { background-color:rgb(228,228,228);}
+.IOF-A1-V .arron-white-header{ display: none;}
+.IOF-A1-V .confirm .submit .confirm-btn { font-size:24px;background-color:rgb(255,170,0);color:#ffffff;}
+.IOF-A1-V .pay-check [type="checkbox"]:not(:checked) + label::before,
+.IOF-A1-V .pay-check [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-A1-V .pay-check span [type="checkbox"]:not(:checked) + label::before,
+.IOF-A1-V .pay-check span [type="checkbox"]:checked + label::before { top:9px;}
+.IOF-A1-V .pay-check span [type="checkbox"]:not(:checked) + label::after,
+.IOF-A1-V .pay-check span [type="checkbox"]:checked + label::after { top:12px;}
+.IOF-A1-V .pay-wrap.select-order ul li label { width:70px;}
+.IOF-A1-V #PaymentExpiryMonth { width:15%;}
+.IOF-A1-V #PaymentExpiryYear { width:40%;float:right;}
+.IOF-A1-V #PaymentPaymentSectionForm .card-detail .card-input .error { display:block;padding-left:40%;padding-top:2px;}
+.IOF-A1-V .card-input { margin-bottom:15px;}
+
+/* header */
+
+
+@media screen and (max-width:1024px){
+/*    .IOF-A1-V .main-container { margin:0 auto;max-width:1000px;width:100%;padding:0 40px;}*/
+    .IOF-A1-V .AVT .o-grid__item { display:none !important;}
+/*    .IOF-A1-V #ordercart .continue { padding:20px;}*/
+/*    .IOF-A1-V .right-menu .continue .cont-btn { font-size:20px;margin: 5px 0;}*/
+    .IOF-A1-V .extra-height { min-height:130px;}
+    .IOF-A1-V .my-order { margin-bottom:0;}
+/*    .IOF-A1-V .AVT .custom-header .vt-header .main-container { padding:0;}*/
+    .IOF-A1-V .AVT .log-head-left { width:auto;}
+    .IOF-A1-V .inner-wrap { margin-bottom:40px;}
+    .IOF-A1-V .order-list-section { height:auto;}
+}
+
+@media screen and (max-width:768px){
+.IOF-A1-V .inner-menu .price { padding:0 2px;}
+.IOF-A1-V .price-q { padding-right:12px;}
+.IOF-A1-V .extra-height { min-height:85px;}
+/*.IOF-A1-V .od-items { padding:18px 15px;}*/
+.IOF-A1-V .SOCIAL-MEDIA > li { margin:0 6px 10px;}
+/*.IOF-A1-V .main-container { width:100%;padding:0 25px;}*/
+.IOF-A1-V .inner-wrap { margin-top:100px;}
+.IOF-A1-V .SOCIAL-MEDIA > li { margin:0 8px 8px;}
+/*.IOF-A1-V .right-menu .continue > div { padding:0 15px;}*/
+.IOF-A1-V .right-menu .continue .cont-btn { display:block;margin:0 0 10px;font-size:18px;color:#ffffff;border:none;}
+.IOF-A1-V .price { padding:0 5px;}
+/*.IOF-A1-V .price .price-q { padding-right:0;}*/
+.IOF-A1-V .my-order { margin-bottom:0;}
+
+/*.IOF-A1-V #AdminId .col-lg-2.col-sm-6.col-xs-12,
+.IOF-A1-V #AdminId #UserKeyword { margin:10px 0;}*/
+.IOF-A1-V #AdminId .col-lg-2.col-sm-6.col-xs-12 + .col-lg-4 { width:100%;float:left;}
+.IOF-A1-V .user-detail { font-size:16px;padding:6px 15px;}
+.IOF-A1-V .ostat { display:inline-block;margin-top:10px;}
+.IOF-A1-V .continue #mobile_save { margin:10px 0 0;width: 100%;float: left;}
+.IOF-A1-V .continue #desktop_continue { width:100%;float:left;}
+/*.IOF-A1-V .pay-date .common-input { width:44.5%;}*/
+/*.IOF-A1-V .time-setting label { margin-bottom:5px;}*/
+.IOF-A1-V .main-menu-list > li { margin-bottom:0;padding:7px;}
+.IOF-A1-V .main-menu-list > li a { font-size:16px;}
+.IOF-A1-V .log-head-left { margin-left:18px;}
+}
+
+@media screen and (max-width:480px){
+.IOF-A1-V .inner-wrap.order-type { width:100%;}
+.IOF-A1-V .inner-wrap.order-type .order-detail { padding:55px 25px;}
+.IOF-A1-V .inner-wrap.order-type .order-detail .order-input.hlf-row { width:100%;}
+.IOF-A1-V .inner-wrap.order-type .order-detail .order-bnt button { width:100%;margin-top:10px;}
+.IOF-A1-V .order-input.hlf-row select,
+.IOF-A1-V .time-setting .user-detail { width:100%;}
+}

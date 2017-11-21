@@ -1,0 +1,398 @@
+/* index 
+   1) .theme-bg-1 = For Primary Button Color
+   2) .theme-bg-2 = For Secondary Button Color
+   3) .theme-txt-col-1 = For Primary Text Color
+   4) .theme-txt-col-2 = For Secondary Text Color
+   5) .theme-border-1 = For Primary Border Color
+   6) .theme-border-2 = For Secondary Border Color
+*/
+
+.IOF-THEME-15 { font-family:'Nanum Gothic','Noto Sans', sans-serif !important;background-color:#ffffff;}
+.IOF-THEME-15.IOF-V .custom-header .main-container { padding:0;}
+.IOF-THEME-15 .custom-header .main-container { margin-top:0px;}
+.IOF-THEME-15 div[id^="owl-demo"] .donut-menu-card .card-info { height:60px;padding:6px 0;overflow:hidden;}
+.IOF-THEME-15 div[id^="owl-demo"] .donut-menu-card .img-wrap { height:230px;max-height:230px;display:table-cell;vertical-align:middle;}
+.IOF-THEME-15 div[id^="owl-demo"] .item { height:292px;}
+.IOF-THEME-15 #login-modal .modal-dialog,
+.IOF-THEME-15 #guest-sign-up-modal .modal-dialog { height:325px;}
+.IOF-THEME-15 .my-order .my-order-body,
+.IOF-THEME-15 .my-order .coupon-code { border-left:0;border-right:0;}
+.IOF-THEME-15 .order-link:hover { background-color:rgba(255, 255, 255, 0.9);}
+.IOF-THEME-15 .inner-wrap { margin-top:10px;}
+
+/* home page */
+.IOF-THEME-15 .crm-top .crm-lft { width:60%;float:left;}
+.IOF-THEME-15 .crm-top .crm-rgt { margin-left:60%;}
+.IOF-THEME-15 .crm-top-mid .crm-rgt { float:left;width:40%;}
+.IOF-THEME-15 .crm-top-mid .crm-lft { margin-left:40%;}
+.IOF-THEME-15 .crm-wrap-bottom { height:250px;overflow:hidden;text-align:center;background-color:#98191c;color:#fff;padding:62px;text-align:center;}
+.IOF-THEME-15 .crm-top-mid .crm-wrap-bottom { padding:5px 45px;}
+.IOF-THEME-15 .crm-top-mid .crm-wrap-bottom .time-list li { padding:0;}
+.IOF-THEME-15 .crm-wrap-bottom > h3 { font-size:27px;padding:0 0;margin-bottom:20px;background-color:transparent;}
+.IOF-THEME-15 .crm-wrap-bottom > p { font-size:18px;}
+.IOF-THEME-15 .crm-im-wrap-top { height:284px;overflow:hidden;}
+.IOF-THEME-15 .crm-img-wrap { height:534px;overflow:hidden;}
+.IOF-THEME-15 .crm-img-wrap img,
+.IOF-THEME-15 .crm-im-wrap-top img { width:100%;height:100%;}
+
+/* navigation */
+.IOF-THEME-15.IOF-H .vt-header { left:0;position:absolute;right:0;top:350px;z-index:1000;}
+.IOF-THEME-15.IOF-V .custom-header .black-bg .main-container { overflow:hidden;width:0px;margin-top:0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;transition:all 0.3s;}
+.IOF-THEME-15.IOF-V .custom-header .black-bg.vt-header.open .main-container { width:200px;}
+.IOF-THEME-15.IOF-V .main-menu-list { width:100%;display:block;}
+.IOF-THEME-15.IOF-V .main-menu-list > li { width:auto;float:none;display:block;}
+.IOF-THEME-15.INNER-PAGE .vt-header { top:257px;}
+.IOF-THEME-15.INNER-PAGE.LOGO-RECTANGLE .vt-header { top:224px;}
+.IOF-THEME-15.INNER-PAGE .white-bg.sticky { padding-bottom:50px;}
+.IOF-THEME-15 .main-menu-list { display:table;width:100%;text-align:center;background-color:#000000;}
+.IOF-THEME-15 .main-menu-list > li { display:table-cell;padding:0;}
+.IOF-THEME-15.IOF-V .main-menu-list { background-color:transparent;}
+.IOF-THEME-15.IOF-V .main-menu-list li { padding:3px;display:block;margin-bottom:4px;border-style:solid;border-width:3px;border-color:transparent;background-color:#000000;}
+.IOF-THEME-15 .main-menu-list li a { display:block;padding:14px 15px;}
+.IOF-THEME-15.IOF-V .main-menu-list li a { padding:11px 0;color:#ffffff !important;}
+
+/* header */
+.IOF-THEME-15 .custom-header .main-container { position:relative;}
+.IOF-THEME-15.INNER-PAGE .custom-header { height:308px;background-color:#ffffff;}
+.IOF-THEME-15.INNER-PAGE.LOGO-RECTANGLE .custom-header { height:274px;}
+.IOF-THEME-15 .log-in-header { bottom:0;left:0;position:absolute;}
+.IOF-THEME-15 .main-menu-list li a { color:#ffffff;text-transform:uppercase;}
+.IOF-THEME-15 .arron-white-header { text-align:center;position:relative;padding:14px 0;}
+.IOF-THEME-15.IOF-V .vt-header { background-color: #ffffff !important;box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);left: 0;position: fixed !important;top:230px !important;right:auto !important;z-index:10000 !important;}
+
+/* home page slider */
+.IOF-THEME-15.IOF-V .slider-bg { max-width:1000px;margin:0 auto 10px;}
+.IOF-THEME-15 .carousel-inner,
+.IOF-THEME-15 .carousel-inner > .item { height:100%;}
+.IOF-THEME-15 .carousel-inner > .item > a > img,
+.IOF-THEME-15 .carousel-inner > .item > img { height:100% !important;max-width:inherit !important;}
+.IOF-THEME-15 .carousel-control,
+.IOF-THEME-15 .carousel-indicators { display:none;}
+.IOF-THEME-15 .center-title { bottom:150px;left:0;position:absolute;right:0;text-align:center;}
+.IOF-THEME-15 .contact-info .fa-phone { border:1px solid;border-radius:50%;height:24px;margin-right:5px;padding:3px 0;vertical-align:middle;width:24px;}
+.IOF-THEME-15 .slider-bg .open-mid { padding:30px 20px 15px;}
+.IOF-THEME-15 .slider-bg .open-mid > h3 { font-size:29px;}
+.IOF-THEME-15 .slider-bg .open-mid .time-list li { border-bottom:1px solid #787878;padding:3px 0;}
+.IOF-THEME-15 .slider-bg .open-mid .time-list li span.lft-txt,
+.IOF-THEME-15 .slider-bg .open-mid .time-list li span.rgt-txt { font-size:14px;}
+.IOF-THEME-15 .contact-info { background-color:#3d3e3e;color:#ff5f7e;border-radius:4px;font-size:16px;padding:9px 0;text-align:center;}
+.IOF-THEME-15 .order-link { font-family:'Noto Serif', serif;font-weight:900;border:2px solid #fff;color:#fff;display:inline-block;font-family:'Nanum Gothic','Noto Sans', sans-serif;font-size:19px;padding:10px 0;text-align:center;width:310px;height:50px;}
+.IOF-THEME-15 .slider-bg .open-hours-card { width:325px;}
+.IOF-THEME-15 .slider-bg .open-bottom { padding:0 20px 27px;}
+
+/* home page bottom slider */
+.IOF-THEME-15 .recommend-menu h3 { background-color:transparent;padding:0;margin-bottom:10px;}
+.owl-theme .owl-controls { position: absolute;right: 4px; top: -62px;}
+
+/* profile */
+.IOF-THEME-15 .profile-btn-section { margin:0;}
+
+/* add delivery address */
+.IOF-THEME-15 .profile-btn-section.add-delivery-address { margin:10px 0 0 !important;}
+.IOF-THEME-15 .ps-additional-info .add-check-list > li { font-size:18px !important;width:100%;}
+
+/* delivery information */
+.IOF-THEME-15 .deliver-access { padding:20px;float:left;width:100%;}
+.IOF-THEME-15 .deliver-access a { font-size:18px;padding:12px 20px;}
+
+/* theme 1 */
+.IOF-THEME-15.IOF-COLOR-1 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-1 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-1 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-1 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-1 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-1 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-1 .chole-black-top .account-access a:hover { background-color:#AACDAA !important;}
+.IOF-THEME-15.IOF-COLOR-1 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-1 .theme-bg-2:not(.ext-menu) { background-color:#E05B5E !important;}
+.IOF-THEME-15.IOF-COLOR-1 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-1 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-1 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-1 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-1 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-1 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-1 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-1 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-1 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-1 .deal-info > h3 { color:#AACDAA !important;}
+.IOF-THEME-15.IOF-COLOR-1 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-1 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-1 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-1 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-1 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-1 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-1 .modal-dialog { border-color:#AACDAA !important;}
+
+/* theme 2 */
+.IOF-THEME-15.IOF-COLOR-2 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-2 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-2 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-2 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-2 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-2 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-2 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-2 .chole-black-top .account-access a:hover { background-color:#FF3300 !important;}
+.IOF-THEME-15.IOF-COLOR-2 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-2 .theme-bg-2:not(.ext-menu) { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-15.IOF-COLOR-2 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-2 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-2 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-2 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-2 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-2 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-2 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-2 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-2 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-2 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-2 .deal-info > h3 { color:#FF3300 !important;}
+.IOF-THEME-15.IOF-COLOR-2 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-2 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-2 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-2 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-2 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-2 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-2 .modal-dialog { border-color:#FF3300 !important;}
+
+/* theme 3 */
+.IOF-THEME-15.IOF-COLOR-3 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-3 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-3 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-3 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-3 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-3 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-3 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-3 .chole-black-top .account-access a:hover { background-color:#F99C40 !important;}
+.IOF-THEME-15.IOF-COLOR-3 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-3 .theme-bg-2:not(.ext-menu) { background-color:#F4E1CF !important;}
+.IOF-THEME-15.IOF-COLOR-3 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-3 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-3 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-3 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-3 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-3 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-3 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-3 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-3 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-3 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-3 .deal-info > h3 { color:#F4E1CF !important;}
+.IOF-THEME-15.IOF-COLOR-3 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-3 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-3 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-3 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-3 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-3 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-3 .modal-dialog { border-color:#F99C40 !important;}
+
+/* theme 4 */
+.IOF-THEME-15.IOF-COLOR-4 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-4 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-4 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-4 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-4 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-4 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-4 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-4 .chole-black-top .account-access a:hover { background-color:#5F3711 !important;}
+.IOF-THEME-15.IOF-COLOR-4 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-4 .theme-bg-2:not(.ext-menu) { background-color:#E1D5C1 !important;}
+.IOF-THEME-15.IOF-COLOR-4 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-4 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-4 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-4 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-4 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-4 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-4 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-4 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-4 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-4 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-4 .deal-info > h3 { color:#E1D5C1 !important;}
+.IOF-THEME-15.IOF-COLOR-4 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-4 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-4 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-4 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-4 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-4 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-4 .modal-dialog { border-color:#5F3711 !important;}
+
+/* theme 5 */
+.IOF-THEME-15.IOF-COLOR-5 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-5 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-5 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-5 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-5 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-5 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-5 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-5 .chole-black-top .account-access a:hover { background-color:#FBEBD5 !important;}
+.IOF-THEME-15.IOF-COLOR-5 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-5 .theme-bg-2:not(.ext-menu) { background-color:#DA4D2F !important;}
+.IOF-THEME-15.IOF-COLOR-5 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-5 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-5 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-5 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-5 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-5 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-5 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-5 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-5 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-5 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-5 .deal-info > h3 { color:#DA4D2F !important;}
+.IOF-THEME-15.IOF-COLOR-5 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-5 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-5 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-5 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-5 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-5 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-5 .modal-dialog { border-color:#FBEBD5 !important;}
+
+/* theme 6 */
+.IOF-THEME-15.IOF-COLOR-6 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-6 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-6 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-6 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-6 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-6 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-6 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-6 .chole-black-top .account-access a:hover { background-color:#e8e8e8 !important;}
+.IOF-THEME-15.IOF-COLOR-6 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-6 .theme-bg-2:not(.ext-menu) { background-color:#0c0636 !important;}
+.IOF-THEME-15.IOF-COLOR-6 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-6 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-6 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-6 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-6 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-6 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-6 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-6 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-6 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-6 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-6 .deal-info > h3 { color:#e8e8e8 !important;}
+.IOF-THEME-15.IOF-COLOR-6 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-6 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-6 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-6 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-6 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-6 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-6 .modal-dialog { border-color:#e8e8e8 !important;}
+
+/* theme 7 */
+.IOF-THEME-15.IOF-COLOR-7 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-7 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-7 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-7 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-7 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-7 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-7 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-7 .chole-black-top .account-access a:hover { background-color:#DAA520 !important;}
+.IOF-THEME-15.IOF-COLOR-7 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-7 .theme-bg-2:not(.ext-menu) { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-15.IOF-COLOR-7 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-7 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-7 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-7 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-7 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-7 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-7 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-7 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-7 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-7 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-7 .deal-info > h3 { color:#000000 !important;}
+.IOF-THEME-15.IOF-COLOR-7 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-7 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-7 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-7 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-7 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-7 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-7 .modal-dialog { border-color:#DAA520 !important;}
+
+/* theme 8 */
+.IOF-THEME-15.IOF-COLOR-8 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-8 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-8 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-8 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-8 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-8 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-8 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-8 .chole-black-top .account-access a:hover { background-color:#990100 !important;}
+.IOF-THEME-15.IOF-COLOR-8 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-8 .theme-bg-2:not(.ext-menu) { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-15.IOF-COLOR-8 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-8 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-8 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-8 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-8 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-8 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-8 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-8 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-8 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-8 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-8 .deal-info > h3 { color:#000000 !important;}
+.IOF-THEME-15.IOF-COLOR-8 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-8 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-8 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-8 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-8 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-8 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-8 .modal-dialog { border-color:#990100 !important;}
+
+/* theme 9 */
+.IOF-THEME-15.IOF-COLOR-9 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-9 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-9 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-9 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-9 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-9 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-9 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-9 .chole-black-top .account-access a:hover { background-color:#46382B !important;}
+.IOF-THEME-15.IOF-COLOR-9 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-9 .theme-bg-2:not(.ext-menu) { background-color:#717F3E !important;}
+.IOF-THEME-15.IOF-COLOR-9 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-9 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-9 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-9 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-9 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-9 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-9 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-9 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-9 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-9 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-9 .deal-info > h3 { color:#717F3E !important;}
+.IOF-THEME-15.IOF-COLOR-9 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-9 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-9 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-9 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-9 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-9 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-9 .modal-dialog { border-color:#46382B !important;}
+
+/* theme 10 */
+.IOF-THEME-15.IOF-COLOR-10 .theme-bg-1,
+.IOF-THEME-15.IOF-COLOR-10 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-10 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-10 footer .footer-bottom,
+.IOF-THEME-15.IOF-COLOR-10 .fav-order-history .nav-tabs > li > a::after,
+.IOF-THEME-15.IOF-COLOR-10 .main-menu-list > li.active,
+.IOF-THEME-15.IOF-COLOR-10 .main-menu-list > li:hover,
+.IOF-THEME-15.IOF-COLOR-10 .chole-black-top .account-access a:hover { background-color:#FECE06 !important;}
+.IOF-THEME-15.IOF-COLOR-10 .theme-bg-1:not(.ext-menu):not(.common-title):not(.open-top):not(.vt-header):hover,
+.IOF-THEME-15.IOF-COLOR-10 .theme-bg-2:not(.ext-menu) { background-color:#000000 !important;color:#ffffff;}
+.IOF-THEME-15.IOF-COLOR-10 .theme-txt-col-1,
+.IOF-THEME-15.IOF-COLOR-10 .arrow-down .fa.fa-caret-down,
+.IOF-THEME-15.IOF-COLOR-10 [type="checkbox"]:not(:checked) + label::after,
+.IOF-THEME-15.IOF-COLOR-10 [type="checkbox"]:checked + label::after,
+.IOF-THEME-15.IOF-COLOR-10 .rating-container .rating-stars,
+.IOF-THEME-15.IOF-COLOR-10 .fav-order-history .nav-tabs > li.active > a,
+.IOF-THEME-15.IOF-COLOR-10 .fav-order-history .nav-tabs > li > a:hover,
+.IOF-THEME-15.IOF-COLOR-10 .fav-order-history .reorder i,
+.IOF-THEME-15.IOF-COLOR-10 .ext-menu .ext-menu-title h4,
+.IOF-THEME-15.IOF-COLOR-10 .left-menu .panel-title > a[aria-expanded="true"].item_link,
+.IOF-THEME-15.IOF-COLOR-10 .deal-info > h3 { color:#FECE06 !important;}
+.IOF-THEME-15.IOF-COLOR-10 .main-menu-list > li.active a,
+.IOF-THEME-15.IOF-COLOR-10 .main-menu-list > li:hover a { color:#000000 !important;}
+.IOF-THEME-15.IOF-COLOR-10 .theme-border-1,
+.IOF-THEME-15.IOF-COLOR-10 .s-total li + li,
+.IOF-THEME-15.IOF-COLOR-10 input[type="radio"]:checked + label span,
+.IOF-THEME-15.IOF-COLOR-10 [type="checkbox"]:not(:checked) + label::before,
+.IOF-THEME-15.IOF-COLOR-10 [type="checkbox"]:checked + label::before,
+.IOF-THEME-15.IOF-COLOR-10 .chole-login-popup .link-forgot-password:hover,
+.IOF-THEME-15.IOF-COLOR-10 .modal-dialog { border-color:#FECE06 !important;}
